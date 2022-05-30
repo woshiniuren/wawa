@@ -5,307 +5,1223 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _SG_新加坡, server: 3.0.54.98, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 台湾1-三网优化-强加密, server: 331tw.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 331tw.fans8.xyz}}, udp: true}
-  - {name: _油管：全网最强白嫖_7 3, server: xjpf1.xn--mesv7f5toqlp.club, port: 11114, type: trojan, password: 0eda8c72-2388-4981-980a-b9be087ee8ec, sni: xjpf1.xn--mesv7f5toqlp.club, skip-cert-verify: true, udp: true}
-  - {name: _AU_澳大利亚, server: jgwxn2.gaox.ml, port: 443, type: trojan, password: c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|Netflix_94, server: v2-1.godlight.xyz, port: 250, type: vmess, uuid: 719d4cec-82a8-4a65-ad01-32cf08f2c988, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /j75g1461x, headers: {Host: v2-1.godlight.xyz}}, udp: true}
+  - {name: 日本商宽, server: gz.bgp.rx.naiun.pw, port: 45183, type: ss, cipher: chacha20-ietf-poly1305, password: 180908d0-52c6-4ae6-bb82-149b63854605, udp: true}
+  - {name: 10351 @WangCai_1, server: 117.91.179.134, port: 10351, type: ss, cipher: chacha20-ietf-poly1305, password: 49bd189b-9531-4d21-a3f9-95a099ceaad2, udp: true}
+  - {name: "_油管频道：全网最强白嫖+61\r", server: 14.29.124.168, port: 25231, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: KR01, server: 54.250.61.166, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: TG频道|https://t.me/getv2ray|1号, server: v2.godlight.xyz, port: 250, type: vmess, uuid: 1a059eff-ad8a-42ad-921c-465c5b31f183, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dajdklw231f, headers: {Host: v2.godlight.xyz}}, udp: true}
+  - {name: 10189 @WangCai_1, server: 36.156.219.92, port: 10189, type: ss, cipher: chacha20-ietf-poly1305, password: 49bd189b-9531-4d21-a3f9-95a099ceaad2, udp: true}
+  - {name: Oracle1-TCP-联通, server: mis.vxtrans.com, port: 30503, type: vmess, uuid: ed15ba6e-81f8-4ab3-a575-b9ba4340ef49, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 10353 @WangCai_1, server: 117.91.179.134, port: 10353, type: ss, cipher: chacha20-ietf-poly1305, password: 49bd189b-9531-4d21-a3f9-95a099ceaad2, udp: true}
+  - {name: 10355 @WangCai_1, server: 117.91.179.134, port: 10355, type: ss, cipher: chacha20-ietf-poly1305, password: 49bd189b-9531-4d21-a3f9-95a099ceaad2, udp: true}
+  - {name: "[SS]+14.29.124.174:11033\r", server: 14.29.124.174, port: 11033, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: "_油管频道：全网最强白嫖+66\r", server: 14.29.124.168, port: 25219, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 10191 @WangCai_1, server: 36.156.219.92, port: 10191, type: ss, cipher: chacha20-ietf-poly1305, password: 49bd189b-9531-4d21-a3f9-95a099ceaad2, udp: true}
+  - {name: _油管：全网最强白嫖, server: fwgudlya.nodelist.xyz, port: 1309, type: ssr, cipher: chacha20-ietf, password: MAYING, protocol: auth_aes128_md5, obfs: plain, protocol-param: 4823:qB3E52, obfs-param: "", udp: true}
+  - {name: HK-, server: gz.bgp.rx.naiun.pw, port: 45251, type: ss, cipher: chacha20-ietf-poly1305, password: 180908d0-52c6-4ae6-bb82-149b63854605, udp: true}
+  - {name: 台湾tj-tg频道:@ripaojiedian, server: 331tw9.fans8.xyz, port: 443, type: trojan, password: 4b8f1bc5-9b36-4df8-9e4f-5864b330632f, sni: 331tw9.fans8.xyz, skip-cert-verify: true, udp: true}
+  - {name: LV1 新加坡 - 隧道「1.5x」, server: sg.youzi.win, port: 27773, type: vmess, uuid: 917adf47-008d-4fbf-9582-6736da8da23a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: 台湾_0529001, server: 331tw.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 331tw.fans8.xyz}}, udp: true}
+  - {name: 香港|C|1.5x|钻石|原生IP|, server: CMZS1.baiwu.xyz, port: 948, type: vmess, uuid: 6089bbd2-2bef-3ee3-a329-1b1a4339d7ed, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /TS/recharge/tzUrl.html, headers: {Host: CMZS1.baiwu.xyz}}, udp: true}
+  - {name: _油管频道：全网最强白嫖_14, server: 14.29.124.168, port: 25296, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 欢迎订阅钱科技0529_🇨🇳_CN_中国_44, server: zj.haojiahuo.club, port: 30075, type: vmess, uuid: cf8acaed-8ea7-3caf-b457-3ba13b64d8dd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /videos, headers: {Host: zj.haojiahuo.club}}, udp: true}
+  - {name: 10193 @WangCai_1, server: 36.156.219.92, port: 10193, type: ss, cipher: chacha20-ietf-poly1305, password: 49bd189b-9531-4d21-a3f9-95a099ceaad2, udp: true}
+  - {name: LV1 香港 - 隧道「1.5x」, server: hk.youzi.win, port: 27771, type: vmess, uuid: 917adf47-008d-4fbf-9582-6736da8da23a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: 10199 @WangCai_1, server: 36.156.219.92, port: 10199, type: ss, cipher: chacha20-ietf-poly1305, password: 49bd189b-9531-4d21-a3f9-95a099ceaad2, udp: true}
+  - {name: 日本大阪北 01, server: shcc.hkbgp.wiki, port: 10189, type: ss, cipher: chacha20-ietf-poly1305, password: 49bd189b-9531-4d21-a3f9-95a099ceaad2, udp: true}
+  - {name: 007, server: 13.112.89.177, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: _油管频道：全网最强白嫖_1, server: 14.29.124.168, port: 25266, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 加拿大多倫多 01, server: yza2.hkbgp.wiki, port: 10369, type: ss, cipher: chacha20-ietf-poly1305, password: 49bd189b-9531-4d21-a3f9-95a099ceaad2, udp: true}
+  - {name: 台湾_0528015, server: 331tw.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 331tw.fans8.xyz}}, udp: true}
+  - {name: _561_14.62Mb+|11.76Mb, server: 14.29.124.168, port: 25286, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: YouTube梦歌|Netflix_104, server: yza2.hkbgp.wiki, port: 10345, type: vmess, uuid: 929b1c1e-268b-4993-a83c-56782598a223, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /onefall, headers: {Host: yza2.hkbgp.wiki}}, udp: true}
-  - {name: _NL_荷兰_35, server: 213.183.59.206, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
-  - {name: _NL_荷兰_66, server: 213.183.59.206, port: 9008, type: ss, cipher: aes-256-cfb, password: y9VURyNzJWNRYEGQ, udp: true}
-  - {name: _NL_荷兰_37, server: 213.183.59.206, port: 9061, type: ss, cipher: aes-256-cfb, password: 4R3hUfZ2FHhDmNcP, udp: true}
-  - {name: _NL_荷兰_25, server: 213.183.59.206, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga, udp: true}
-  - {name: _NL_荷兰_26, server: 213.183.59.206, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
-  - {name: 新加坡07白嫖机场群:@BPJC_Group, server: xjpf1.xn--mesv7f5toqlp.club, port: 11111, type: trojan, password: afe99415-8808-46ff-8982-3a25b8c892cc, sni: xjpf1.xn--mesv7f5toqlp.club, skip-cert-verify: true, udp: true}
-  - {name: 美国2：darrenliuwei.com, server: 45.12.110.8, port: 36109, type: vmess, uuid: d7729364-2135-4af5-aa4f-e1f565a5c23e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _NL_荷兰_32, server: 213.183.59.206, port: 9030, type: ss, cipher: aes-256-cfb, password: GeregetR8cvQHzYr, udp: true}
-  - {name: 日本IDC宽频|NF解锁|SS|A01, server: gz.bgp.rx.naiun.pw, port: 45183, type: ss, cipher: chacha20-ietf-poly1305, password: 53ad4e3b-6266-42c3-8df7-8e1b9e5744bc, udp: true}
-  - {name: 台湾家庭宽频|NF解锁|SS|A01, server: gz.bgp.rx.naiun.pw, port: 45392, type: ss, cipher: chacha20-ietf-poly1305, password: 53ad4e3b-6266-42c3-8df7-8e1b9e5744bc, udp: true}
-  - {name: 台湾家庭宽频|NF解锁|SS|B01, server: hz.bgp.rx.naiun.pw, port: 45392, type: ss, cipher: chacha20-ietf-poly1305, password: 53ad4e3b-6266-42c3-8df7-8e1b9e5744bc, udp: true}
-  - {name: gz.bgp.rx.naiun.pw:45394, server: gz.bgp.rx.naiun.pw, port: 45394, type: vmess, uuid: 53ad4e3b-6266-42c3-8df7-8e1b9e5744bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gz.bgp.rx.naiun.pw}}, udp: true}
-  - {name: hz.bgp.rx.naiun.pw:45250, server: hz.bgp.rx.naiun.pw, port: 45250, type: vmess, uuid: 53ad4e3b-6266-42c3-8df7-8e1b9e5744bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hz.bgp.rx.naiun.pw}}, udp: true}
-  - {name: 日本02, server: twsxxnjp.158801.xyz, port: 30912, type: trojan, password: 6cdf39ba-1fff-4437-af26-f94b48b919e4, sni: twsxxnjp.158801.xyz, skip-cert-verify: true, udp: true}
-  - {name: hz.bgp.rx.naiun.pw:45149, server: hz.bgp.rx.naiun.pw, port: 45149, type: vmess, uuid: 53ad4e3b-6266-42c3-8df7-8e1b9e5744bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hz.bgp.rx.naiun.pw}}, udp: true}
-  - {name: US_777, server: 35.77.93.10, port: 62161, type: vmess, uuid: 2b9a17a4-ec71-4629-8564-05fcf9b6e3a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港08@BPJC_Group, server: iwq.xn--mesv7f5toqlp.club, port: 40058, type: trojan, password: afe99415-8808-46ff-8982-3a25b8c892cc, sni: iwq.xn--mesv7f5toqlp.club, skip-cert-verify: true, udp: true}
-  - {name: 香港IDC宽频|NF解锁|SS|B01, server: hz.bgp.rx.naiun.pw, port: 45240, type: ss, cipher: chacha20-ietf-poly1305, password: 53ad4e3b-6266-42c3-8df7-8e1b9e5744bc, udp: true}
-  - {name: 新加坡IDC宽频|NF解锁|SS|B01, server: hz.bgp.rx.naiun.pw, port: 45144, type: ss, cipher: chacha20-ietf-poly1305, password: 53ad4e3b-6266-42c3-8df7-8e1b9e5744bc, udp: true}
-  - {name: 香港06@BPJC_Group, server: iwq.xn--mesv7f5toqlp.club, port: 40056, type: trojan, password: afe99415-8808-46ff-8982-3a25b8c892cc, sni: iwq.xn--mesv7f5toqlp.club, skip-cert-verify: true, udp: true}
-  - {name: _油管：全网最强白嫖_1 8, server: 13.113.164.14, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 欢迎订阅钱科技0529_🇨🇳_CN_中国_15, server: zj.haojiahuo.club, port: 30074, type: vmess, uuid: cf8acaed-8ea7-3caf-b457-3ba13b64d8dd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /videos, headers: {Host: zj.haojiahuo.club}}, udp: true}
+  - {name: 台灣桃園 02 B, server: yza2.hkbgp.wiki, port: 10353, type: ss, cipher: chacha20-ietf-poly1305, password: 49bd189b-9531-4d21-a3f9-95a099ceaad2, udp: true}
+  - {name: JP01, server: 13.215.203.52, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: +(Youtube技术分享室)🇨🇳中国+11, server: 14.29.124.168, port: 25217, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_06, server: 14.29.124.168, port: 25295, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _油管：全网最强白嫖 2, server: fwgudlya.nodelist.xyz, port: 1310, type: ssr, cipher: chacha20-ietf, password: MAYING, protocol: auth_aes128_md5, obfs: plain, protocol-param: 4823:qB3E52, obfs-param: "", udp: true}
+  - {name: 香港_3, server: 1d53eaf6-19a3-4079-9fbc-1356b5ba8e87.1a5aab85-fb9a-4e9f-918a-bcb44418b00e.xn--9kq12xdq7a.com, port: 10004, type: ss, cipher: aes-256-gcm, password: 75c21921-619c-4f86-acd0-fe4c2ae6a737, udp: true}
+  - {name: Oracle1-TCP-电信, server: mic.vxtrans.com, port: 4683, type: vmess, uuid: ed15ba6e-81f8-4ab3-a575-b9ba4340ef49, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "日本👇[建议每3天更新一次订阅]_2", server: 194.156.231.35, port: 80, type: vmess, uuid: 4b5a0665-8936-49ba-9bb7-d1084e35fb79, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /images}, udp: true}
+  - {name: 英國倫敦 01, server: shcc.hkbgp.wiki, port: 10223, type: ss, cipher: chacha20-ietf-poly1305, password: 49bd189b-9531-4d21-a3f9-95a099ceaad2, udp: true}
   - {name: "_油管频道：全网最强白嫖+60\r", server: 14.29.124.168, port: 25233, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 香港05@BPJC_Group, server: iwq.xn--mesv7f5toqlp.club, port: 40055, type: trojan, password: afe99415-8808-46ff-8982-3a25b8c892cc, sni: iwq.xn--mesv7f5toqlp.club, skip-cert-verify: true, udp: true}
-  - {name: hz.bgp.rx.naiun.pw:45194, server: hz.bgp.rx.naiun.pw, port: 45194, type: vmess, uuid: 53ad4e3b-6266-42c3-8df7-8e1b9e5744bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hz.bgp.rx.naiun.pw}}, udp: true}
-  - {name: "_油管频道：全网最强白嫖+62\r", server: 14.29.124.168, port: 25267, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 美国IDC宽频|NF解锁|SS|B01, server: hz.bgp.rx.naiun.pw, port: 45190, type: ss, cipher: chacha20-ietf-poly1305, password: 53ad4e3b-6266-42c3-8df7-8e1b9e5744bc, udp: true}
-  - {name: 一起翻墙_10, server: 54.37.192.112, port: 443, type: vmess, uuid: 9f58234c-355b-4065-ae21-d4a63099aba5, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/120208301422}, udp: true}
+  - {name: _339_22.30Mb+|+7.90Mb, server: 14.29.124.168, port: 25222, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 中国_0529416, server: iplc.myuuusss.com, port: 20848, type: vmess, uuid: b195963c-2631-442d-ab3a-6e78df25d904, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: iplc.myuuusss.com}}, udp: true}
+  - {name: CN_https://1808.ga++Node_113, server: 14.29.124.168, port: 25283, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 欢迎订阅钱科技0528_🇨🇳_CN_中国_299, server: zj.haojiahuo.club, port: 30057, type: vmess, uuid: cf8acaed-8ea7-3caf-b457-3ba13b64d8dd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /videos, headers: {Host: zj.haojiahuo.club}}, udp: true}
+  - {name: 欢迎订阅钱科技0529_🇨🇳_CN_中国_89, server: xzlta.mikikvm.com, port: 40026, type: trojan, password: 6b6842a1-1ea4-407f-bbea-7707b2a78861, sni: hk2.zzk8.me, skip-cert-verify: true, udp: true}
+  - {name: 香港  | C |  1.5x | 钻石 | 原生IP |, server: CMZS1.baiwu.xyz, port: 948, type: vmess, uuid: 6089bbd2-2bef-3ee3-a329-1b1a4339d7ed, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, servername: wap.sc.189.cn, network: ws, ws-opts: {path: /TS/recharge/tzUrl.html, headers: {Host: wap.sc.189.cn}}, udp: true}
+  - {name: _油管：全网最强白嫖 3, server: fwgudlya.nodelist.xyz, port: 1306, type: ssr, cipher: chacha20-ietf, password: MAYING, protocol: auth_aes128_md5, obfs: plain, protocol-param: 4823:qB3E52, obfs-param: "", udp: true}
+  - {name: 台湾2-三网优化-强加密_1, server: 330tw.fans8.xyz, port: 443, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 330tw.fans8.xyz}}, udp: true}
+  - {name: 韩国_0529018, server: crus8.gzfxd.xyz, port: 16616, type: vmess, uuid: 945b6561-8444-4dc0-85ec-65921fac4380, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: crus8.gzfxd.xyz}}, udp: true}
+  - {name: 日本 05, server: yoyoqie.158801.xyz, port: 30915, type: trojan, password: 26467dec-9f2b-4114-9c42-c8cc97493690, skip-cert-verify: true, udp: true}
+  - {name: 欢迎订阅钱科技0529_🇨🇳_CN_中国_50, server: yez.haojiahuo.gq, port: 30073, type: vmess, uuid: cf8acaed-8ea7-3caf-b457-3ba13b64d8dd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /videos, headers: {Host: yez.haojiahuo.gq}}, udp: true}
+  - {name: _油管：全网最强白嫖 4, server: fwgudlya.nodelist.xyz, port: 1307, type: ssr, cipher: chacha20-ietf, password: MAYING, protocol: auth_aes128_md5, obfs: plain, protocol-param: 4823:qB3E52, obfs-param: "", udp: true}
+  - {name: 香港_6, server: 104.208.84.160, port: 12369, type: trojan, password: 75c21921-619c-4f86-acd0-fe4c2ae6a737, sni: pull-hls-l11-source.douyincdn.com, skip-cert-verify: true, udp: true}
+  - {name: 欢迎订阅钱科技0529_🇨🇳_CN_中国_6, server: sxdx2.haojiahuo.cf, port: 30056, type: vmess, uuid: cf8acaed-8ea7-3caf-b457-3ba13b64d8dd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /videos, headers: {Host: sxdx2.haojiahuo.cf}}, udp: true}
+  - {name: _油管：全网最强白嫖 5, server: 3.35.207.65, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: _US_美国, server: au2-4.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, skip-cert-verify: true, udp: true}
+  - {name: 欢迎订阅钱科技0529_🇨🇳_CN_中国_83, server: xzlta.mikikvm.com, port: 40026, type: trojan, password: a100b242-2faa-4702-914a-ca0e0f8a90e0, sni: hk2.zzk8.me, skip-cert-verify: true, udp: true}
+  - {name: 10219 @WangCai_1, server: 36.156.219.92, port: 10219, type: ss, cipher: chacha20-ietf-poly1305, password: 49bd189b-9531-4d21-a3f9-95a099ceaad2, udp: true}
+  - {name: 香港_5, server: 20.24.95.100, port: 12339, type: trojan, password: 75c21921-619c-4f86-acd0-fe4c2ae6a737, sni: pull-hls-l11-source.douyincdn.com, skip-cert-verify: true, udp: true}
+  - {name: 欢迎订阅钱科技0529_🇺🇸_US_美国_117, server: us00.zzk8.me, port: 40077, type: trojan, password: a100b242-2faa-4702-914a-ca0e0f8a90e0, sni: us00.zzk8.me, skip-cert-verify: true, udp: true}
+  - {name: US02, server: 34.215.6.59, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 日本_0529046, server: 51jp1.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 51jp1.fans8.xyz}}, udp: true}
+  - {name: 189-imLam.com-HK, server: 527hk3.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 527hk3.fans8.xyz}}, udp: true}
+  - {name: 香港_7, server: 20.187.119.138, port: 12388, type: trojan, password: 75c21921-619c-4f86-acd0-fe4c2ae6a737, sni: pull-hls-l11-source.douyincdn.com, skip-cert-verify: true, udp: true}
+  - {name: 台湾-, server: gz.bgp.rx.naiun.pw, port: 45392, type: ss, cipher: chacha20-ietf-poly1305, password: 180908d0-52c6-4ae6-bb82-149b63854605, udp: true}
+  - {name: 日本大阪南 02, server: shcc.hkbgp.wiki, port: 10191, type: ss, cipher: chacha20-ietf-poly1305, password: 49bd189b-9531-4d21-a3f9-95a099ceaad2, udp: true}
+  - {name: 香港10, server: twsxxnjp.158801.xyz, port: 30915, type: trojan, password: 4b5a0665-8936-49ba-9bb7-d1084e35fb79, sni: twsxxnjp.158801.xyz, skip-cert-verify: true, udp: true}
+  - {name: 欢迎订阅钱科技0529_🇨🇳_CN_中国_61, server: gddx2.haojiahuo.cf, port: 30025, type: vmess, uuid: cf8acaed-8ea7-3caf-b457-3ba13b64d8dd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /videos, headers: {Host: gddx2.haojiahuo.cf}}, udp: true}
+  - {name: _油管：全网最强白嫖 6, server: fwgudlya.nodelist.xyz, port: 1308, type: ssr, cipher: chacha20-ietf, password: MAYING, protocol: auth_aes128_md5, obfs: plain, protocol-param: 4823:qB3E52, obfs-param: "", udp: true}
+  - {name: _US_美国 2, server: au2-3.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, skip-cert-verify: true, udp: true}
+  - {name: 欢迎订阅钱科技0529_🇺🇸_US_美国_119, server: us.zzk8.me, port: 40666, type: trojan, password: a100b242-2faa-4702-914a-ca0e0f8a90e0, sni: us.zzk8.me, skip-cert-verify: true, udp: true}
+  - {name: 亚马逊3, server: 18.221.139.163, port: 80, type: vmess, uuid: 1bae7fd5-2c33-47ad-a68e-ee6db876b757, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 3, server: au2-1.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, skip-cert-verify: true, udp: true}
+  - {name: 香港-tg频道:@ripaojiedian, server: 20.239.186.178, port: 8313, type: ss, cipher: chacha20-ietf-poly1305, password: ljqdalu13.., udp: true}
+  - {name: "Incheon,+Tj+-+B+Group", server: tj-node-2-b.gfwairport.net, port: 50001, type: trojan, password: 65a8c295-4d18-4d4c-9727-bad785749aa8, sni: TJ-NODE-2-B.GFWAIRPORT.NET, skip-cert-verify: true, udp: true}
+  - {name: 美国(TG频道:@kxswa), server: au2-2.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, sni: au2-2.nigirocloud.com, skip-cert-verify: true, udp: true}
+  - {name: 10223 @WangCai_1, server: 36.156.219.92, port: 10223, type: ss, cipher: chacha20-ietf-poly1305, password: 49bd189b-9531-4d21-a3f9-95a099ceaad2, udp: true}
+  - {name: 欢迎订阅钱科技0529_🇨🇳_CN_中国_144, server: sxdx2.haojiahuo.cf, port: 30047, type: vmess, uuid: cf8acaed-8ea7-3caf-b457-3ba13b64d8dd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /videos, headers: {Host: sxdx2.haojiahuo.cf}}, udp: true}
+  - {name: 欢迎订阅钱科技0529_🇺🇸_US_美国_115, server: us00.zzk8.me, port: 40077, type: trojan, password: 6b6842a1-1ea4-407f-bbea-7707b2a78861, sni: us00.zzk8.me, skip-cert-verify: true, udp: true}
+  - {name: 欢迎订阅钱科技0529_🇨🇳_CN_中国_19, server: yza2.hkbgp.wiki, port: 10345, type: vmess, uuid: 929b1c1e-268b-4993-a83c-56782598a223, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /onefall, headers: {Host: yza2.hkbgp.wiki}}, udp: true}
+  - {name: CN-高速节点推荐：v2cross.com_1, server: gy.moonfree.top, port: 17253, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gy.moonfree.top}}, udp: true}
+  - {name: 欢迎订阅钱科技0528_🇨🇳_CN_中国_259, server: sxdx2.haojiahuo.cf, port: 30056, type: vmess, uuid: cf8acaed-8ea7-3caf-b457-3ba13b64d8dd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /videos, headers: {Host: sxdx2.haojiahuo.cf}}, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君), server: lll.wodaming.cf, port: 443, type: vmess, uuid: 48fd10df-1206-4faf-905e-3f178c7d7585, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: hax.wodaming.cf}}, udp: true}
+  - {name: "_油管频道：全网最强白嫖+55\r", server: 14.29.124.168, port: 25238, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 10369 @WangCai_1, server: 117.91.179.134, port: 10369, type: ss, cipher: chacha20-ietf-poly1305, password: 49bd189b-9531-4d21-a3f9-95a099ceaad2, udp: true}
+  - {name: 日本-4.27MB/s(Youtube:不良林), server: 139.162.124.250, port: 28443, type: trojan, password: fca82897-b178-4824-9c75-abe60c103dda, skip-cert-verify: true, udp: true}
+  - {name: 香港V2ray(05)-3, server: hk-5.netflixssr.com, port: 644, type: vmess, uuid: 3107fc75-f61d-30aa-85b0-2b9861cfd485, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v1/stream, headers: {Host: hk-5.netflixssr.com}}, udp: true}
+  - {name: CN_04, server: 14.29.124.168, port: 25218, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 香港_0528101, server: hkaz4.xmrth-node.xyz, port: 15380, type: vmess, uuid: d3d11dbd-6602-33b7-a8d1-c7999b6f9b88, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: hkaz4.xmrth-node.xyz}}, udp: true}
+  - {name: 欢迎订阅钱科技0528_🇨🇳_CN_中国_328, server: d1.haojiahuo.cf, port: 60047, type: vmess, uuid: cf8acaed-8ea7-3caf-b457-3ba13b64d8dd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /videos, headers: {Host: d1.haojiahuo.cf}}, udp: true}
+  - {name: _油管：全网最强白嫖 7, server: JP-Anycast.yukimo-node.xyz, port: 8001, type: ssr, cipher: aes-256-cfb, password: xzkvpE, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 40:m318a1, obfs-param: SEsyU0NIMTMwMDQ4OWE5NDAud25zLndpbmRvd3MuY29t, udp: true}
+  - {name: "[VMess] 🇬🇧 GB-高速节点推荐：v1.mk/vip", server: 144.24.88.101, port: 16833, type: vmess, uuid: f5425ccf-3946-4fb4-eb24-5393d78a392f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[免流]香港A", server: twsxxnhk.158801.xyz, port: 80, type: vmess, uuid: 4b5a0665-8936-49ba-9bb7-d1084e35fb79, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /images, headers: {Host: twsxxnhk.158801.xyz}}, udp: true}
+  - {name: 美国_0528609, server: inap008.xmrth-node.xyz, port: 12265, type: vmess, uuid: 53ad95b1-8693-34e3-98d7-2010ad24aaf9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: _油管频道：全网最强白嫖_8, server: 14.29.124.168, port: 25256, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 欢迎订阅钱科技0529_🇭🇰_HK_香港_166, server: yyyy.wwwbhjy.com, port: 2443, type: vmess, uuid: dee32eb7-e190-4c6f-dd27-aa9c82cd5490, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /8a76fb13/, headers: {Host: yyyy.wwwbhjy.com}}, udp: true}
+  - {name: 稳定⑥关注公众号：ios黑科技, server: 173.82.219.96, port: 50000, type: ssr, cipher: dummy, password: IOSwgAUHYTiq'&%12afSSR, protocol: auth_chain_a, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
   - {name: "_油管频道：全网最强白嫖+65\r", server: 14.29.124.168, port: 25235, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 日本05, server: twsxxnjp.158801.xyz, port: 30915, type: trojan, password: 6cdf39ba-1fff-4437-af26-f94b48b919e4, sni: twsxxnjp.158801.xyz, skip-cert-verify: true, udp: true}
-  - {name: _油管：全网最强白嫖_26, server: w3.v2mmy.xyz, port: 44817, type: ss, cipher: aes-128-gcm, password: 85f09120-7a89-41f5-b284-6bdcf2e3ed17, udp: true}
-  - {name: _油管：全网最强白嫖_31, server: w2.v2mmy.xyz, port: 44825, type: ss, cipher: aes-128-gcm, password: 85f09120-7a89-41f5-b284-6bdcf2e3ed17, udp: true}
-  - {name: 香港10@BPJC_Group, server: iwq.xn--mesv7f5toqlp.club, port: 40060, type: trojan, password: afe99415-8808-46ff-8982-3a25b8c892cc, sni: iwq.xn--mesv7f5toqlp.club, skip-cert-verify: true, udp: true}
-  - {name: _油管：全网最强白嫖_32, server: w2.v2mmy.xyz, port: 44819, type: ss, cipher: aes-128-gcm, password: 85f09120-7a89-41f5-b284-6bdcf2e3ed17, udp: true}
-  - {name: 香港04@BPJC_Group, server: iwq.xn--mesv7f5toqlp.club, port: 40054, type: trojan, password: afe99415-8808-46ff-8982-3a25b8c892cc, sni: iwq.xn--mesv7f5toqlp.club, skip-cert-verify: true, udp: true}
-  - {name: _油管：全网最强白嫖_28, server: w3.v2mmy.xyz, port: 44816, type: ss, cipher: aes-128-gcm, password: 85f09120-7a89-41f5-b284-6bdcf2e3ed17, udp: true}
-  - {name: "美国(TG频道:@KXSWA)\r 2", server: hk.zzk8.me, port: 51005, type: trojan, password: 72aa6783-8691-4102-af69-02340bed7ca0, sni: hk.zzk8.me, skip-cert-verify: true, udp: true}
-  - {name: 香港03, server: twsxxnhk.158801.xyz, port: 30913, type: trojan, password: 6cdf39ba-1fff-4437-af26-f94b48b919e4, sni: twsxxnhk.158801.xyz, skip-cert-verify: true, udp: true}
-  - {name: 新加坡09白嫖机场群:@BPJC_Group, server: xjpf1.xn--mesv7f5toqlp.club, port: 11113, type: trojan, password: afe99415-8808-46ff-8982-3a25b8c892cc, sni: xjpf1.xn--mesv7f5toqlp.club, skip-cert-verify: true, udp: true}
-  - {name: 香港07@BPJC_Group, server: iwq.xn--mesv7f5toqlp.club, port: 40057, type: trojan, password: afe99415-8808-46ff-8982-3a25b8c892cc, sni: iwq.xn--mesv7f5toqlp.club, skip-cert-verify: true, udp: true}
-  - {name: hz.bgp.rx.naiun.pw:45184, server: hz.bgp.rx.naiun.pw, port: 45184, type: vmess, uuid: 53ad4e3b-6266-42c3-8df7-8e1b9e5744bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hz.bgp.rx.naiun.pw}}, udp: true}
-  - {name: _油管：全网最强白嫖_35, server: w6.v2mmy.xyz, port: 44811, type: ss, cipher: aes-128-gcm, password: 85f09120-7a89-41f5-b284-6bdcf2e3ed17, udp: true}
-  - {name: 日本01, server: twsxxnjp.158801.xyz, port: 30911, type: trojan, password: 6cdf39ba-1fff-4437-af26-f94b48b919e4, sni: twsxxnjp.158801.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港01电报群@BPJC_Group, server: iwq.xn--mesv7f5toqlp.club, port: 40051, type: trojan, password: afe99415-8808-46ff-8982-3a25b8c892cc, sni: iwq.xn--mesv7f5toqlp.club, skip-cert-verify: true, udp: true}
-  - {name: 美国_0528237, server: 45.150.165.97, port: 20083, type: vmess, uuid: 4a28c121-7b5b-41bc-8a66-12f3fa8ce422, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港03@BPJC_Group, server: iwq.xn--mesv7f5toqlp.club, port: 40053, type: trojan, password: afe99415-8808-46ff-8982-3a25b8c892cc, sni: iwq.xn--mesv7f5toqlp.club, skip-cert-verify: true, udp: true}
-  - {name: _油管：全网最强白嫖_33, server: w2.v2mmy.xyz, port: 44814, type: ss, cipher: aes-128-gcm, password: 85f09120-7a89-41f5-b284-6bdcf2e3ed17, udp: true}
-  - {name: 香港09@BPJC_Group, server: iwq.xn--mesv7f5toqlp.club, port: 40059, type: trojan, password: afe99415-8808-46ff-8982-3a25b8c892cc, sni: iwq.xn--mesv7f5toqlp.club, skip-cert-verify: true, udp: true}
-  - {name: 香港05, server: twsxxnhk.158801.xyz, port: 30915, type: trojan, password: 6cdf39ba-1fff-4437-af26-f94b48b919e4, sni: twsxxnhk.158801.xyz, skip-cert-verify: true, udp: true}
-  - {name: _油管：全网最强白嫖_5 2, server: tsgdhymydx.xn--mesv7f5toqlp.club, port: 11114, type: trojan, password: 0eda8c72-2388-4981-980a-b9be087ee8ec, sni: tsgdhymydx.xn--mesv7f5toqlp.club, skip-cert-verify: true, udp: true}
-  - {name: _油管：全网最强白嫖_30, server: w3.v2mmy.xyz, port: 44818, type: ss, cipher: aes-128-gcm, password: 85f09120-7a89-41f5-b284-6bdcf2e3ed17, udp: true}
-  - {name: hz.bgp.rx.naiun.pw:45239, server: hz.bgp.rx.naiun.pw, port: 45239, type: vmess, uuid: 53ad4e3b-6266-42c3-8df7-8e1b9e5744bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hz.bgp.rx.naiun.pw}}, udp: true}
-  - {name: _油管：全网最强白嫖_36, server: w2.v2mmy.xyz, port: 44826, type: ss, cipher: aes-128-gcm, password: 85f09120-7a89-41f5-b284-6bdcf2e3ed17, udp: true}
-  - {name: 英国(TG频道:@KXSWA), server: 45.150.165.97, port: 20083, type: vmess, uuid: 4a28c121-7b5b-41bc-8a66-12f3fa8ce422, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国(TG频道:@KXSWA) 5, server: 138.2.52.84, port: 23140, type: vmess, uuid: e03f030e-87a6-4282-9656-461732cc3b1f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 138.2.52.84}}, udp: true}
-  - {name: 一起翻墙_7, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: sxqxj.cn}}, udp: true}
-  - {name: 香港02有问题请加群, server: iwq.xn--mesv7f5toqlp.club, port: 40052, type: trojan, password: afe99415-8808-46ff-8982-3a25b8c892cc, sni: iwq.xn--mesv7f5toqlp.club, skip-cert-verify: true, udp: true}
-  - {name: "美国(TG频道:@KXSWA)\r 3", server: hk.zzk8.me, port: 51000, type: trojan, password: 72aa6783-8691-4102-af69-02340bed7ca0, sni: hk.zzk8.me, skip-cert-verify: true, udp: true}
-  - {name: hz.bgp.rx.naiun.pw:45394, server: hz.bgp.rx.naiun.pw, port: 45394, type: vmess, uuid: 53ad4e3b-6266-42c3-8df7-8e1b9e5744bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hz.bgp.rx.naiun.pw}}, udp: true}
-  - {name: "韩国(TG频道:@KXSWA)\r", server: zk518.tk, port: 8443, type: trojan, password: zhang1990, sni: zk518.tk, skip-cert-verify: true, udp: true}
-  - {name: _油管：全网最强白嫖_20, server: w7.v2mmy.xyz, port: 44828, type: ss, cipher: aes-128-gcm, password: 85f09120-7a89-41f5-b284-6bdcf2e3ed17, udp: true}
-  - {name: 香港IDC宽频|NF解锁|SS|A01, server: gz.bgp.rx.naiun.pw, port: 45240, type: ss, cipher: chacha20-ietf-poly1305, password: 53ad4e3b-6266-42c3-8df7-8e1b9e5744bc, udp: true}
-  - {name: JP_2386_19.50Mb|66.09Mb, server: jp-01.dingzige.gq, port: 80, type: vmess, uuid: 64561d57-81a0-4a58-bf11-7adb4d1103fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp-01.dingzige.gq}}, udp: true}
-  - {name: 美国(TG频道:@KXSWA) 6, server: u2.anmu.one, port: 16499, type: vmess, uuid: 32b306e1-d5b1-4913-d8d3-56ac23637de7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 英国(TG频道:@KXSWA) 2, server: 45.150.165.97, port: 20083, type: vmess, uuid: 4a28c121-7b5b-41bc-8a66-12f3fa8ce422, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_1222 |62.01Mb, server: 34.215.130.186, port: 10089, type: vmess, uuid: 3608c9dc-1eeb-48b0-b570-43074b4a0c9e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 美国A | 公益 | 0.2x, server: hk.zzk8.me, port: 51009, type: trojan, password: 9b83ab16-77ec-476c-a3db-77da08bdc1fe, sni: us2.zzk8.me, skip-cert-verify: true, udp: true}
+  - {name: 美國洛杉磯 01, server: shcc.hkbgp.wiki, port: 10193, type: ss, cipher: chacha20-ietf-poly1305, password: 49bd189b-9531-4d21-a3f9-95a099ceaad2, udp: true}
+  - {name: "_油管频道：全网最强白嫖+56\r", server: 14.29.124.168, port: 25259, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: V321-0.2x-LasVegas, server: t06.tgfaka.com, port: 18443, type: trojan, password: b654e76e-08e2-4911-bd21-ce251104b963, skip-cert-verify: true, udp: true}
+  - {name: 欢迎订阅钱科技0529_🇺🇸_US_美国_106, server: us2.zzk8.me, port: 40056, type: trojan, password: 6b6842a1-1ea4-407f-bbea-7707b2a78861, sni: us2.zzk8.me, skip-cert-verify: true, udp: true}
+  - {name: _US_美国->🇫🇷_FR_法国, server: fr1t.moonfree.top, port: 8443, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fr1t.moonfree.top}}, udp: true}
+  - {name: _油管频道：全网最强白嫖_10, server: 14.29.124.168, port: 25279, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 香港 | 公益 | 0.2x, server: hk.zzk8.me, port: 51007, type: trojan, password: 9b83ab16-77ec-476c-a3db-77da08bdc1fe, sni: hk01.zzk8.me, skip-cert-verify: true, udp: true}
+  - {name: 日本08IIJ, server: 4f38f6b4-bed0-40e9-aad8-72a2bc218407.zj.node.touhou.place, port: 8204, type: vmess, uuid: 77775b5f-507d-33a3-835b-cb016980d58c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: 4f38f6b4-bed0-40e9-aad8-72a2bc218407.zj.node.touhou.place}}, udp: true}
+  - {name: 日本 | 公益 | 0.2x, server: hk.zzk8.me, port: 51005, type: trojan, password: 9b83ab16-77ec-476c-a3db-77da08bdc1fe, sni: jpli.zzk8.me, skip-cert-verify: true, udp: true}
+  - {name: 新加坡 | 公益 | 0.2x, server: hk.zzk8.me, port: 51008, type: trojan, password: 9b83ab16-77ec-476c-a3db-77da08bdc1fe, sni: sg.zzk8.me, skip-cert-verify: true, udp: true}
+  - {name: 欢迎订阅钱科技0529_🇨🇳_CN_中国_84, server: xzlta.mikikvm.com, port: 40555, type: trojan, password: a100b242-2faa-4702-914a-ca0e0f8a90e0, sni: bl.zzk8.me, skip-cert-verify: true, udp: true}
+  - {name: 欢迎订阅钱科技0529_🇨🇳_CN_中国_40, server: zj.haojiahuo.club, port: 60046, type: vmess, uuid: cf8acaed-8ea7-3caf-b457-3ba13b64d8dd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /videos, headers: {Host: zj.haojiahuo.club}}, udp: true}
+  - {name: 欢迎订阅钱科技0529_🇨🇳_CN_中国_87, server: xzlta.mikikvm.com, port: 40555, type: trojan, password: 6b6842a1-1ea4-407f-bbea-7707b2a78861, sni: bl.zzk8.me, skip-cert-verify: true, udp: true}
+  - {name: 俄罗斯4：darrenliuwei.com, server: ru4.liuwei01.tk, port: 443, type: vmess, uuid: e19c03f6-97b9-4c2b-a42d-19daea18d849, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /liuwei, headers: {Host: ru4.liuwei01.tk}}, udp: true}
+  - {name: 美国(绿头外网集团)(Public), server: xr-4.herokuapp.com, port: 443, type: vmess, uuid: 17af76e1-a5d7-41ab-ae87-b48f185075d1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /17af76e1-a5d7-41ab-ae87-b48f185075d1-vmess, headers: {Host: xr-4.herokuapp.com}}, udp: true}
+  - {name: default_name+16, server: us.z-lr.cf, port: 31516, type: trojan, password: NqMsMI3c1w, skip-cert-verify: true, udp: true}
+  - {name: _CH_瑞士, server: 185.126.116.125, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
+  - {name: "[VMess] 🇦🇺 澳大利亚(TG频道:@kxswa)", server: 152.67.102.225, port: 46360, type: vmess, uuid: 61fe4d4e-8c7e-4f2e-9b9f-49f38991be7d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 8, server: JP-Anycast.yukimo-node.xyz, port: 8002, type: ssr, cipher: aes-256-cfb, password: xzkvpE, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 40:m318a1, obfs-param: SEsyU0NIMTMwMDQ4OWE5NDAud25zLndpbmRvd3MuY29t, udp: true}
+  - {name: 稳定③关注公众号：ios黑科技, server: 173.82.186.25, port: 50000, type: ssr, cipher: dummy, password: IOSwgAUHYTiq'&%12afSSR, protocol: auth_chain_a, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: MCI🇮🇱@AzadNet, server: 77.83.247.20, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: ihtUBnhX69ji, udp: true}
+  - {name: +(Youtube技术分享室)🇨🇳中国+7, server: 14.29.124.168, port: 25247, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 2, server: us.z-lr.cf, port: 20272, type: vmess, uuid: b662264a-ca11-469a-ec55-e2bd8bfd6722, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 亚马逊ec2, server: 3.80.60.45, port: 80, type: vmess, uuid: 7e62f95f-8768-4012-b8f7-365b4b65efb5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: VMESS, server: 46.20.99.59, port: 54871, type: vmess, uuid: 63d1b30b-a612-4f46-9a09-c48ec557102f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: TW_https://1808.gaNode_18, server: 330tw.fans8.xyz, port: 443, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 330tw.fans8.xyz}}, udp: true}
+  - {name: 流媒体解锁SG, server: cdn2.myuuusss.com, port: 32022, type: ss, cipher: aes-128-gcm, password: b195963c-2631-442d-ab3a-6e78df25d904, udp: true}
+  - {name: 香港_0529307, server: hkaz3.xmrth-node.xyz, port: 14389, type: vmess, uuid: ff51ca4a-6050-3e26-a037-88b0dd62d138, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: hkaz3.xmrth-node.xyz}}, udp: true}
+  - {name: 190-imLam.com-HK, server: 527hk1.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 527hk1.fans8.xyz}}, udp: true}
+  - {name: Istanbul-Turkey|Media|1.5x, server: azhk.102498.eu.org, port: 23941, type: vmess, uuid: 427bcba3-b7d4-3d6d-b334-8b684fa57d72, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /helloworld, headers: {Host: azhk.102498.eu.org}}, udp: true}
+  - {name: 香港02, server: twsxxnhk.158801.xyz, port: 30912, type: trojan, password: 26467dec-9f2b-4114-9c42-c8cc97493690, skip-cert-verify: true, udp: true}
+  - {name: 美国_0528005, server: us-03.licom.ga, port: 8080, type: vmess, uuid: f81e990e-1283-48f9-9eff-acacad6fb661, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us-03.licom.ga}}, udp: true}
+  - {name: 香港_2, server: f8ae1437-05f3-40f1-9c09-c9a4149848b5.0afc1309-6c6f-4620-8105-7f8f2befe3ce.xn--9kq12xdq7a.com, port: 10003, type: ss, cipher: aes-256-gcm, password: 75c21921-619c-4f86-acd0-fe4c2ae6a737, udp: true}
+  - {name: 美國舊金山 02, server: shcc.hkbgp.wiki, port: 10199, type: ss, cipher: chacha20-ietf-poly1305, password: 49bd189b-9531-4d21-a3f9-95a099ceaad2, udp: true}
+  - {name: 欢迎订阅钱科技0529_🇨🇳_CN_中国_85, server: xzlta.mikikvm.com, port: 40555, type: trojan, password: 1598c0bb-8ef7-40d1-a6ab-1b8de58c2afb, sni: bl.zzk8.me, skip-cert-verify: true, udp: true}
+  - {name: 高速节点推荐：v1.mk/vip, server: vn06v2.vpnsieure.com, port: 80, type: vmess, uuid: 330efbdb-7171-4fd1-a524-d7b7d8e76732, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vpnsieure, headers: {Host: t.akamaized.net}}, udp: true}
+  - {name: 俄罗斯04CN2IPv6（2.75x）, server: 4f38f6b4-bed0-40e9-aad8-72a2bc218407.zj.node.touhou.place, port: 8703, type: vmess, uuid: 77775b5f-507d-33a3-835b-cb016980d58c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: 4f38f6b4-bed0-40e9-aad8-72a2bc218407.zj.node.touhou.place}}, udp: true}
+  - {name: _油管：全网最强白嫖 9, server: JP-Anycast.yukimo-node.xyz, port: 8007, type: ssr, cipher: aes-256-cfb, password: xzkvpE, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 40:m318a1, obfs-param: SEsyU0NIMTMwMDQ4OWE5NDAud25zLndpbmRvd3MuY29t, udp: true}
+  - {name: _AU_澳大利亚_3, server: jgwxn2.gaox.ml, port: 443, type: trojan, password: c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26, skip-cert-verify: true, udp: true}
+  - {name: 亚马逊ec2 2, server: 3.80.60.45, port: 80, type: vmess, uuid: 7e62f95f-8768-4012-b8f7-365b4b65efb5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US-高速节点购买：v1.mk/vip_1 2, server: 51us.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 51us.fans8.xyz}}, udp: true}
+  - {name: 美国3：darrenliuwei.com, server: 5.183.32.187, port: 22610, type: vmess, uuid: 46a2f46a-c56f-487b-b2c9-b4204bf8021e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 10, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: sxqxj.cn}}, udp: true}
+  - {name: 法国_0528015, server: 54.37.192.112, port: 443, type: vmess, uuid: 9f58234c-355b-4065-ae21-d4a63099aba5, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/120208301422, headers: {Host: www.15738743.xyz}}, udp: true}
+  - {name: 香港节点更新bit.ly/36b6iJh, server: 1d53eaf6-19a3-4079-9fbc-1356b5ba8e87.1a5aab85-fb9a-4e9f-918a-bcb44418b00e.xn--9kq12xdq7a.com, port: 10002, type: ss, cipher: aes-256-gcm, password: 75c21921-619c-4f86-acd0-fe4c2ae6a737, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_79, server: u2.anmu.one, port: 16499, type: vmess, uuid: 32b306e1-d5b1-4913-d8d3-56ac23637de7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 香港_1, server: f8ae1437-05f3-40f1-9c09-c9a4149848b5.0afc1309-6c6f-4620-8105-7f8f2befe3ce.xn--9kq12xdq7a.com, port: 10001, type: ss, cipher: aes-256-gcm, password: 75c21921-619c-4f86-acd0-fe4c2ae6a737, udp: true}
+  - {name: 韩国OracleBBR|No.1-500Mbps, server: 132.145.80.230, port: 80, type: vmess, uuid: 123f036f-ff5e-4ffb-c694-9361dc77c7f8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _KR_韩国 23, server: v2-5.godlight.xyz, port: 250, type: vmess, uuid: 767e55a4-43fa-4301-a9c2-ad30eaa9f61a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /71h4b3s1f53, headers: {Host: v2-5.godlight.xyz}}, udp: true}
+  - {name: 000-imLam.com-CN, server: cdn2.myuuusss.com, port: 32118, type: vmess, uuid: b195963c-2631-442d-ab3a-6e78df25d904, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cdn2.myuuusss.com}}, udp: true}
+  - {name: "[VMess] 🇸🇬 新加坡(TG频道:@kxswa) 2", server: 161.117.224.49, port: 29235, type: vmess, uuid: 71090d6b-ae98-4b7e-8367-bc1c700a75c2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 11, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: sxqxj.cn}}, udp: true}
+  - {name: _油管频道：全网最强白嫖_4, server: 14.29.124.168, port: 25268, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: "[VMess] 🇸🇬 新加坡(TG频道:@kxswa) 32", server: 161.117.224.49, port: 29235, type: vmess, uuid: 71090d6b-ae98-4b7e-8367-bc1c700a75c2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 日本东京 |AS|1G|J1, server: jp1.bpyun.live, port: 443, type: trojan, password: 9b209d34-0f5b-307d-b8d1-a63c8cc47303, sni: jp1.bpyun.live, skip-cert-verify: true, udp: true}
+  - {name: LV1移动优化节点「1x」, server: 02.youzi.win, port: 443, type: trojan, password: 917adf47-008d-4fbf-9582-6736da8da23a, sni: awssg.karyl.cloud, skip-cert-verify: true, udp: true}
+  - {name: 美国 079, server: 34.215.130.186, port: 10089, type: vmess, uuid: 3608c9dc-1eeb-48b0-b570-43074b4a0c9e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君), server: 152.67.102.225, port: 46360, type: vmess, uuid: 61fe4d4e-8c7e-4f2e-9b9f-49f38991be7d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 高速节点推荐：v1.mk/vip 2, server: v6d1.moonfree.top, port: 443, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v6d1.moonfree.top}}, udp: true}
+  - {name: 新加坡 007, server: 161.117.224.49, port: 29235, type: vmess, uuid: 71090d6b-ae98-4b7e-8367-bc1c700a75c2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "_油管频道：全网最强白嫖+64\r", server: 14.29.124.168, port: 25241, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 欢迎订阅钱科技0528_🇺🇸_US_美国_451, server: ruvds.testx.eu.org, port: 443, type: vmess, uuid: 0e7036c1-6de1-4a83-ef4f-e0d56c67fa10, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/vmess-share/?ed=2048", headers: {Host: ruvds.testx.eu.org}}, udp: true}
+  - {name: CN-高速节点推荐：v1.mk/vip, server: cdn2.myuuusss.com, port: 30001, type: ss, cipher: chacha20-ietf-poly1305, password: b195963c-2631-442d-ab3a-6e78df25d904, udp: true}
+  - {name: SG_49_1, server: 129.226.217.6, port: 58599, type: vmess, uuid: db312c19-1116-4656-d5d2-8b3adc21f117, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港原生, server: 43.155.68.143, port: 8080, type: vmess, uuid: 92e6839e-8528-4293-bd60-157e6ac396fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: SG_1706, server: 129.226.94.152, port: 56382, type: vmess, uuid: b14dc53a-1505-4909-8f23-2f9391e30d56, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 日本2-tg频道:@ripaojiedian, server: cdn2.myuuusss.com, port: 20011, type: ss, cipher: aes-128-gcm, password: b195963c-2631-442d-ab3a-6e78df25d904, udp: true}
+  - {name: 193-imLam.com-CN, server: yzyd.01.403w.club, port: 10495, type: ss, cipher: chacha20-ietf-poly1305, password: d92557c5-3088-4555-9505-c9751d6926ba, udp: true}
+  - {name: _油管：全网最强白嫖 12, server: 117.28.242.156, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: sxqxj.cn}}, udp: true}
+  - {name: github.com/freefq-新加坡腾讯云9, server: 129.226.214.101, port: 51332, type: vmess, uuid: 6951282c-94d5-4f5d-cbc5-1e97f90bfe39, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 日本10IIJ, server: 4f38f6b4-bed0-40e9-aad8-72a2bc218407.zj.node.touhou.place, port: 8206, type: vmess, uuid: 77775b5f-507d-33a3-835b-cb016980d58c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: 4f38f6b4-bed0-40e9-aad8-72a2bc218407.zj.node.touhou.place}}, udp: true}
+  - {name: "[VMess] 🇺🇸 US-高速节点推荐：v1.mk/vip 7", server: u2.anmu.one, port: 16161, type: vmess, uuid: 919ac815-1776-47fe-8b54-508ef4f39421, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 一起翻墙_10, server: 54.37.192.112, port: 443, type: vmess, uuid: 9f58234c-355b-4065-ae21-d4a63099aba5, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/120208301422}, udp: true}
+  - {name: 美国(绿头外网集团)(Public) 2, server: jgwdj4.gaox.ml, port: 443, type: trojan, password: c09eb137-bf68-4658-84e0-102d94b74168, sni: jgwdj4.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: "[VMess] 🇸🇬 新加坡(:) 27", server: 129.226.94.134, port: 31149, type: vmess, uuid: 883557f2-88c9-4963-bd0e-2083353f7901, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国-213.0KB/s(Youtube:不良林), server: 45.61.173.125, port: 31224, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 194-imLam.com-CN, server: dglt.01.403w.club, port: 10747, type: ss, cipher: chacha20-ietf-poly1305, password: d92557c5-3088-4555-9505-c9751d6926ba, udp: true}
+  - {name: 187-imLam.com-HK, server: 511hk.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 511hk.fans8.xyz}}, udp: true}
+  - {name: "[VMess] 🇯🇵 Tokyo-M247-nf", server: 109.166.38.54, port: 31243, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 香港_4, server: 20.187.95.105, port: 12377, type: trojan, password: 75c21921-619c-4f86-acd0-fe4c2ae6a737, sni: pull-hls-l11-source.douyincdn.com, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|Netflix_115, server: byjq1.haojiahuo.gq, port: 30069, type: vmess, uuid: cf8acaed-8ea7-3caf-b457-3ba13b64d8dd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /videos, headers: {Host: byjq1.haojiahuo.gq}}, udp: true}
+  - {name: github.com/freefq - 新加坡腾讯云 17, server: 129.226.217.6, port: 58599, type: vmess, uuid: db312c19-1116-4656-d5d2-8b3adc21f117, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 欢迎订阅钱科技0529_🇸🇬_SG_新加坡_270, server: 129.226.214.101, port: 51332, type: vmess, uuid: 6951282c-94d5-4f5d-cbc5-1e97f90bfe39, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 新加坡(TG频道:@KXSWA) 47, server: 129.226.94.27, port: 23785, type: vmess, uuid: d0771055-cccc-4b79-c4db-d2942f8c9e62, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 亚马逊2, server: 3.220.230.245, port: 80, type: vmess, uuid: 12fe88a3-6011-44ec-a8ae-3dfd3c678ca7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[VMess] 🇯🇵 Tokyo-M247-nf 3 2", server: 194.156.230.198, port: 31242, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 191-imLam.com-CN, server: yzyd.01.403w.club, port: 10493, type: ss, cipher: chacha20-ietf-poly1305, password: d92557c5-3088-4555-9505-c9751d6926ba, udp: true}
+  - {name: 195-imLam.com-CN, server: gzyd.01.403w.club, port: 20013, type: ss, cipher: chacha20-ietf-poly1305, password: d92557c5-3088-4555-9505-c9751d6926ba, udp: true}
+  - {name: Sydney-Oracle, server: 152.67.102.225, port: 46360, type: vmess, uuid: 61fe4d4e-8c7e-4f2e-9b9f-49f38991be7d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[VMess] 🇨🇦 Montreal-RicaWeb-dip", server: 162.250.191.136, port: 31250, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: US-高速节点推荐：v1.mk/vip, server: kr05.wangxd.life, port: 3052, type: trojan, password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e, skip-cert-verify: true, udp: true}
+  - {name: "[VMess] 🇯🇵 Tokyo-M247-nf 2", server: 109.166.38.54, port: 31243, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Singapore-Tencent, server: 129.226.215.211, port: 49981, type: vmess, uuid: 876631b4-3f5c-4289-f266-3c7afa5b9e70, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 印度(TG频道:@kxswa), server: 172.104.206.42, port: 31221, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 美国(nodefree.org免费分享)_1, server: u2.anmu.one, port: 16499, type: vmess, uuid: 32b306e1-d5b1-4913-d8d3-56ac23637de7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: SG_90, server: 129.226.217.42, port: 47383, type: vmess, uuid: 555d823c-e15f-4638-8963-c17eb9d45eea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: SG_1687, server: 129.226.214.28, port: 15430, type: vmess, uuid: 6e9a4ae9-e60b-4cea-af9f-9de18d37404e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 新加坡(欢迎订阅Youtube破解资源君), server: 129.226.217.6, port: 58599, type: vmess, uuid: db312c19-1116-4656-d5d2-8b3adc21f117, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 油管：全网最强白嫖, server: 146.19.196.125, port: 31244, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Mumbai-Linode, server: 172.104.206.42, port: 31221, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 印度(TG频道:@kxswa) 2, server: 172.104.206.42, port: 31221, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 美国_0528003, server: 45.61.174.36, port: 31325, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: https://github.com/Alvin9999/new-pac/wiki洛杉矶1SSR, server: ssrfree3.free4444.xyz, port: 20022, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: v2cross.com - 美国  73, server: 45.61.173.125, port: 31224, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 油管：全网最强白嫖 2, server: 146.19.196.125, port: 31244, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 新加坡腾讯云 61, server: 129.226.217.168, port: 15322, type: vmess, uuid: 7676a524-3603-473e-de41-2bc6273d52fc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[VMess] 🇩🇪 德国 002", server: 213.226.71.209, port: 31251, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 131-imLam.com-SG, server: 129.226.216.124, port: 14728, type: vmess, uuid: eea3d090-e068-4b74-8039-91fd79218d1a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: YouTube频道阿伟科技5.29, server: 129.226.217.101, port: 19660, type: vmess, uuid: 0d47b5c9-24ce-4774-c300-58e79b77a9eb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[VMess] 🇯🇵 Tokyo-M247-nf 3", server: 194.156.230.198, port: 31242, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: "[VMess] 🇨🇦 加拿大 001 2", server: 162.250.191.136, port: 31250, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: US-高速节点推荐：v1.mk/vip_18, server: u2.anmu.one, port: 16499, type: vmess, uuid: 32b306e1-d5b1-4913-d8d3-56ac23637de7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 094-imLam.com-SG, server: 129.226.216.4, port: 35562, type: vmess, uuid: 48409bbd-a9ee-4d9e-f725-4c81cc0d5009, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 巴西_0528003, server: 138.118.175.28, port: 31320, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 日本16IIJ, server: 4f38f6b4-bed0-40e9-aad8-72a2bc218407.zj.node.touhou.place, port: 8212, type: vmess, uuid: 77775b5f-507d-33a3-835b-cb016980d58c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: 4f38f6b4-bed0-40e9-aad8-72a2bc218407.zj.node.touhou.place}}, udp: true}
+  - {name: "[VMess] 🇨🇦 加拿大 003", server: 162.250.191.136, port: 31250, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: "[VMess] _1485_ 3.69Mb  5.42Mb", server: 138.118.175.28, port: 31320, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 113-imLam.com-SG, server: 129.226.94.27, port: 23785, type: vmess, uuid: d0771055-cccc-4b79-c4db-d2942f8c9e62, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 英国_0528001, server: 45.61.173.125, port: 31224, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: "[VMess] 🇧🇷 巴西(TG频道:@kxswa)", server: 138.118.175.28, port: 31320, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 香港Scloud-dip, server: 146.19.196.125, port: 31244, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 新加坡_0529110, server: 129.226.214.28, port: 15430, type: vmess, uuid: 6e9a4ae9-e60b-4cea-af9f-9de18d37404e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 2, server: 23.19.26.204, port: 55212, type: vmess, uuid: bb8a118d-dd20-4146-a989-2e24f1576b15, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /r76ofJah/, headers: {Host: 23.19.26.204}}, udp: true}
+  - {name: 新加坡(TG频道:@KXSWA) 22, server: 129.226.217.42, port: 47383, type: vmess, uuid: 555d823c-e15f-4638-8963-c17eb9d45eea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[VMess] _1438_ 4.80Mb | 5.47Mb 2", server: 162.250.191.136, port: 31250, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: github.com/v2rayfree-新加坡腾讯云25, server: 129.226.216.160, port: 49056, type: vmess, uuid: 89d7f316-c0d4-47f2-c6d3-fd9f37c11c7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 巴西_0528004, server: 138.118.175.28, port: 31320, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 新加坡_0529402, server: 129.226.217.101, port: 19660, type: vmess, uuid: 0d47b5c9-24ce-4774-c300-58e79b77a9eb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[VMess] 🇸🇬 SG-高速节点推荐：v1.mk/vip 49", server: 129.226.217.6, port: 58599, type: vmess, uuid: db312c19-1116-4656-d5d2-8b3adc21f117, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 英国_0528044, server: 45.61.173.125, port: 31224, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: "[VMess] _1438_ 4.80Mb | 5.47Mb", server: 162.250.191.136, port: 31250, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 新加坡_0528104, server: 129.226.213.241, port: 24824, type: vmess, uuid: 8c1e17cf-c378-403f-862c-62897510116c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 白嫖分享 网站2220.it, server: 172.64.84.233, port: 443, type: vmess, uuid: a6458eee-549a-3d60-b559-0bf0a4fbf65b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /xxX5, headers: {Host: sg.wweblog.pw}}, udp: true}
+  - {name: FR-高速节点购买：v1.mk/vip, server: rackedgeuk510.moonfree.top, port: 443, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: rackedgeuk510.moonfree.top}}, udp: true}
+  - {name: v2cross.com - 新加坡腾讯云 49, server: 129.226.94.152, port: 56382, type: vmess, uuid: b14dc53a-1505-4909-8f23-2f9391e30d56, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_6 11, server: 45.61.173.125, port: 31224, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: "[VMess] 🇧🇷 巴西 001", server: 138.118.175.28, port: 31320, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 澳大利亚01NTTIPv6, server: 98d033b8-6928-4e27-99ab-142ed34f9491.zj.node.touhou.place, port: 8602, type: vmess, uuid: 77775b5f-507d-33a3-835b-cb016980d58c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: 98d033b8-6928-4e27-99ab-142ed34f9491.zj.node.touhou.place}}, udp: true}
+  - {name: 美国05GIACN2（1.3x）, server: 98d033b8-6928-4e27-99ab-142ed34f9491.zj.node.touhou.place, port: 8105, type: vmess, uuid: 77775b5f-507d-33a3-835b-cb016980d58c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: 98d033b8-6928-4e27-99ab-142ed34f9491.zj.node.touhou.place}}, udp: true}
+  - {name: "[VMess] SG_37", server: 129.226.217.153, port: 15184, type: vmess, uuid: bb02fa5b-1d15-46f4-fa47-053c6db61e39, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "github.com/freefq - 新加坡腾讯云\n42", server: 129.226.215.95, port: 43613, type: vmess, uuid: 9e1be3ad-911d-4dcc-822f-f8f8e79f62e2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 099-imLam.com-SG, server: 129.226.94.145, port: 51848, type: vmess, uuid: ad4757f1-e28c-47b8-970c-51b232c653d8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 新加坡_0528048, server: 129.226.216.124, port: 14728, type: vmess, uuid: eea3d090-e068-4b74-8039-91fd79218d1a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国_0528803, server: 45.61.174.36, port: 31325, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: SG_67, server: 129.226.94.31, port: 21509, type: vmess, uuid: fbeb626c-8095-4e3b-aaf6-5a57971955b0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_53, server: 45.61.173.125, port: 31224, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: "[VMess] SG_1703 2", server: 129.226.94.247, port: 15301, type: vmess, uuid: 16844453-6154-4808-bdda-a26741ebe677, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/v2rayfree - 新加坡腾讯云 50, server: 129.226.95.188, port: 20792, type: vmess, uuid: b7335dae-b946-46ae-f341-acbf8df21c86, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[VMess] SG_69", server: 129.226.95.143, port: 45381, type: vmess, uuid: cd2a260c-f244-4e12-83c3-8a259cf29fc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 13, server: 129.226.94.152, port: 56382, type: vmess, uuid: b14dc53a-1505-4909-8f23-2f9391e30d56, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[VMess] _：_2 2", server: 51.210.179.47, port: 31318, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 台湾1-tg频道:@ripaojiedian, server: 0319tw05.fans8.xyz, port: 443, type: trojan, password: cd3d48cb-6641-4183-aff1-f8f6789fecce, sni: 0319tw05.fans8.xyz, skip-cert-verify: true, udp: true}
+  - {name: 法国(TG频道:@KXSWA) 2, server: 51.210.179.47, port: 31225, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 新加坡_0528073, server: 129.226.93.161, port: 40236, type: vmess, uuid: 931416fe-98f2-4098-c8e7-3634e27ce6f4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: SG_1696, server: 129.226.94.27, port: 23785, type: vmess, uuid: d0771055-cccc-4b79-c4db-d2942f8c9e62, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 新加坡_0528054, server: 129.226.93.47, port: 54592, type: vmess, uuid: 5b1e77bf-a73c-4756-e64a-4f02ac35ed43, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 日本18IIJ, server: 4f38f6b4-bed0-40e9-aad8-72a2bc218407.zj.node.touhou.place, port: 8214, type: vmess, uuid: 77775b5f-507d-33a3-835b-cb016980d58c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: 4f38f6b4-bed0-40e9-aad8-72a2bc218407.zj.node.touhou.place}}, udp: true}
+  - {name: SG-高速节点推荐：v1.mk/vip_3 2, server: 129.226.217.42, port: 47383, type: vmess, uuid: 555d823c-e15f-4638-8963-c17eb9d45eea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: SG_648, server: 129.226.217.101, port: 19660, type: vmess, uuid: 0d47b5c9-24ce-4774-c300-58e79b77a9eb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[VMess] 🇸🇬 SG-高速节点推荐：v1.mk/vip 13", server: 129.226.95.188, port: 20792, type: vmess, uuid: b7335dae-b946-46ae-f341-acbf8df21c86, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 14, server: 172.64.147.71, port: 443, type: vmess, uuid: 80e098a1-f768-3dfb-b97f-6c3a5d34bcd8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /xxX8, headers: {Host: sg.wweblog.pw}}, udp: true}
+  - {name: 新加坡(nodefree.org免费分享)_4, server: 129.226.93.47, port: 54592, type: vmess, uuid: 5b1e77bf-a73c-4756-e64a-4f02ac35ed43, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: +新加坡0777, server: 3.0.54.98, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 英国_0528010, server: 45.61.173.125, port: 31224, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: "[VMess] 油管：全网最强白嫖_7 2", server: 146.19.196.125, port: 31244, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: "[VMess] 油管：全网最强白嫖_7", server: 146.19.196.125, port: 31244, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: "[VMess] BR中速0524", server: 138.118.175.28, port: 31320, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: _1441_3.38Mb|3.62Mb, server: 138.118.175.28, port: 31320, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: SG-高速节点推荐：v1.mk/vip, server: 129.226.214.156, port: 27734, type: vmess, uuid: 8f4cd612-6593-4826-bb55-09bed5215aed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 003-imLam.com-HK, server: 20.205.102.56, port: 20207, type: vmess, uuid: 5a26cc45-3e1a-4d33-8d1a-e19a5e6058b8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: general/hk/T0VJeVF6WXpORVkxTkRRME1EY3dRekEzT0VNeE9EQTJOVVk1TXprMk5qUkJRMFpDT0RRMVFqb3hPVGd3TkRZNU9UYzVNelUzTXpnME56QTBPakUyTlRNNE9UQXlOVGt3TURBNk1UWTFNemd3TXpnNE5EVTJNVHBzVEhac1BVdzJMSEJzWVhROVNFSXNaRWxrUFRFd0xVdENNakF3TUMwd1pERXpPVEl4T1RKak5EWmtPVGRsTVdNNVltRXlZekZpTVRGak9XVXlaQT09, headers: {Host: 20.205.102.56}}, udp: true}
+  - {name: "[VMess] _1459_ 4.93Mb | 2.08Mb", server: 162.250.191.136, port: 31250, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: "[VMess] 🇮🇳 Mumbai-", server: 172.104.206.42, port: 31221, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: "[VMess] 🇺🇸 Relay🇺🇸US中速0524", server: 162.250.191.136, port: 31250, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 巴西_0529006, server: 138.118.175.28, port: 31320, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 巴西_0529001, server: 138.118.175.28, port: 31320, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 新加坡_0528057, server: 129.226.95.12, port: 14597, type: vmess, uuid: 4d346473-716f-404a-819c-e56fc07b0234, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 032-imLam.com-SG, server: 129.226.213.241, port: 24824, type: vmess, uuid: 8c1e17cf-c378-403f-862c-62897510116c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 加拿大_0528041, server: 162.250.191.136, port: 31250, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 英国_0528044 2, server: 45.61.173.125, port: 31224, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: "[VMess] Gravelines-OVH-torrent", server: 51.210.179.47, port: 31318, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: "[VMess] Gravelines-OVH", server: 51.210.179.47, port: 31225, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 日本22NTT, server: 98d033b8-6928-4e27-99ab-142ed34f9491.zj.node.touhou.place, port: 8218, type: vmess, uuid: 77775b5f-507d-33a3-835b-cb016980d58c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: 98d033b8-6928-4e27-99ab-142ed34f9491.zj.node.touhou.place}}, udp: true}
+  - {name: _NL_荷兰_2, server: 213.183.59.214, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, udp: true}
+  - {name: 香港04电信/深港专线（2.5x）, server: f3d3ab72-4d0e-4b94-9649-b35f6921ab6f.hk.node.touhou.place, port: 563, type: vmess, uuid: 77775b5f-507d-33a3-835b-cb016980d58c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: f3d3ab72-4d0e-4b94-9649-b35f6921ab6f.hk.node.touhou.place}}, udp: true}
+  - {name: v2cross.com - 亚太地区  75, server: 103.172.116.87, port: 31244, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: SG-高速节点推荐：v1.mk/vip_25, server: 129.226.217.6, port: 58599, type: vmess, uuid: db312c19-1116-4656-d5d2-8b3adc21f117, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: SG-高速节点推荐：v2cross.com_3, server: 129.226.215.186, port: 27431, type: vmess, uuid: 6448f537-fa29-4582-c51a-e9defe6e3f89, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[SS]+_13.61Mb+|65.15Mb\r", server: 14.29.124.174, port: 11003, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _US_美国 24, server: 45.61.173.125, port: 31224, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: CN_266 【tg@freevpn8】10.25Mb, server: 14.29.124.174, port: 11009, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: SG_682, server: 129.226.216.124, port: 14728, type: vmess, uuid: eea3d090-e068-4b74-8039-91fd79218d1a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 新加坡(欢迎订阅Youtube破解资源君) 2, server: 129.226.213.241, port: 24824, type: vmess, uuid: 8c1e17cf-c378-403f-862c-62897510116c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[VMess] 🇸🇬 SG-高速节点推荐：v1.mk/vip 21 2", server: 129.226.217.42, port: 47383, type: vmess, uuid: 555d823c-e15f-4638-8963-c17eb9d45eea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_CN-HK_198, server: 14.29.124.174, port: 11010, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_340|4.36Mb, server: 14.29.124.174, port: 11048, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 欢迎订阅钱科技0529_🇨🇳_CN_中国_278, server: 14.29.124.174, port: 11005, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 日本20IIJ, server: 4f38f6b4-bed0-40e9-aad8-72a2bc218407.zj.node.touhou.place, port: 8216, type: vmess, uuid: 77775b5f-507d-33a3-835b-cb016980d58c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: 4f38f6b4-bed0-40e9-aad8-72a2bc218407.zj.node.touhou.place}}, udp: true}
+  - {name: _1397_2.59Mb|2.39Mb, server: 162.250.191.136, port: 31250, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 134-imLam.com-SG, server: 129.226.216.150, port: 16984, type: vmess, uuid: 5a964737-0f49-4a42-9a70-b273207ecf5e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 法国_0528010, server: 51.210.179.47, port: 31318, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _SG_新加坡
-      - 台湾1-三网优化-强加密
-      - _油管：全网最强白嫖_7 3
-      - _AU_澳大利亚
-      - YouTube梦歌|Netflix_94
+      - 日本商宽
+      - 10351 @WangCai_1
+      - "_油管频道：全网最强白嫖+61\r"
+      - KR01
+      - TG频道|https://t.me/getv2ray|1号
+      - 10189 @WangCai_1
+      - Oracle1-TCP-联通
+      - 10353 @WangCai_1
+      - 10355 @WangCai_1
+      - "[SS]+14.29.124.174:11033\r"
+      - "_油管频道：全网最强白嫖+66\r"
+      - 10191 @WangCai_1
+      - _油管：全网最强白嫖
+      - HK-
+      - 台湾tj-tg频道:@ripaojiedian
+      - LV1 新加坡 - 隧道「1.5x」
+      - 台湾_0529001
+      - 香港|C|1.5x|钻石|原生IP|
+      - _油管频道：全网最强白嫖_14
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_44
+      - 10193 @WangCai_1
+      - LV1 香港 - 隧道「1.5x」
+      - 10199 @WangCai_1
+      - 日本大阪北 01
+      - 007
+      - _油管频道：全网最强白嫖_1
+      - 加拿大多倫多 01
+      - 台湾_0528015
+      - _561_14.62Mb+|11.76Mb
       - YouTube梦歌|Netflix_104
-      - _NL_荷兰_35
-      - _NL_荷兰_66
-      - _NL_荷兰_37
-      - _NL_荷兰_25
-      - _NL_荷兰_26
-      - 新加坡07白嫖机场群:@BPJC_Group
-      - 美国2：darrenliuwei.com
-      - _NL_荷兰_32
-      - 日本IDC宽频|NF解锁|SS|A01
-      - 台湾家庭宽频|NF解锁|SS|A01
-      - 台湾家庭宽频|NF解锁|SS|B01
-      - gz.bgp.rx.naiun.pw:45394
-      - hz.bgp.rx.naiun.pw:45250
-      - 日本02
-      - hz.bgp.rx.naiun.pw:45149
-      - US_777
-      - 香港08@BPJC_Group
-      - 香港IDC宽频|NF解锁|SS|B01
-      - 新加坡IDC宽频|NF解锁|SS|B01
-      - 香港06@BPJC_Group
-      - _油管：全网最强白嫖_1 8
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_15
+      - 台灣桃園 02 B
+      - JP01
+      - +(Youtube技术分享室)🇨🇳中国+11
+      - CN_06
+      - _油管：全网最强白嫖 2
+      - 香港_3
+      - Oracle1-TCP-电信
+      - 日本👇[建议每3天更新一次订阅]_2
+      - 英國倫敦 01
       - "_油管频道：全网最强白嫖+60\r"
-      - 香港05@BPJC_Group
-      - hz.bgp.rx.naiun.pw:45194
-      - "_油管频道：全网最强白嫖+62\r"
-      - 美国IDC宽频|NF解锁|SS|B01
-      - 一起翻墙_10
+      - _339_22.30Mb+|+7.90Mb
+      - 中国_0529416
+      - CN_https://1808.ga++Node_113
+      - 欢迎订阅钱科技0528_🇨🇳_CN_中国_299
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_89
+      - 香港  | C |  1.5x | 钻石 | 原生IP |
+      - _油管：全网最强白嫖 3
+      - 台湾2-三网优化-强加密_1
+      - 韩国_0529018
+      - 日本 05
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_50
+      - _油管：全网最强白嫖 4
+      - 香港_6
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_6
+      - _油管：全网最强白嫖 5
+      - _US_美国
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_83
+      - 10219 @WangCai_1
+      - 香港_5
+      - 欢迎订阅钱科技0529_🇺🇸_US_美国_117
+      - US02
+      - 日本_0529046
+      - 189-imLam.com-HK
+      - 香港_7
+      - 台湾-
+      - 日本大阪南 02
+      - 香港10
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_61
+      - _油管：全网最强白嫖 6
+      - _US_美国 2
+      - 欢迎订阅钱科技0529_🇺🇸_US_美国_119
+      - 亚马逊3
+      - _US_美国 3
+      - 香港-tg频道:@ripaojiedian
+      - Incheon,+Tj+-+B+Group
+      - 美国(TG频道:@kxswa)
+      - 10223 @WangCai_1
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_144
+      - 欢迎订阅钱科技0529_🇺🇸_US_美国_115
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_19
+      - CN-高速节点推荐：v2cross.com_1
+      - 欢迎订阅钱科技0528_🇨🇳_CN_中国_259
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - "_油管频道：全网最强白嫖+55\r"
+      - 10369 @WangCai_1
+      - 日本-4.27MB/s(Youtube:不良林)
+      - 香港V2ray(05)-3
+      - CN_04
+      - 香港_0528101
+      - 欢迎订阅钱科技0528_🇨🇳_CN_中国_328
+      - _油管：全网最强白嫖 7
+      - "[VMess] 🇬🇧 GB-高速节点推荐：v1.mk/vip"
+      - "[免流]香港A"
+      - 美国_0528609
+      - _油管频道：全网最强白嫖_8
+      - 欢迎订阅钱科技0529_🇭🇰_HK_香港_166
+      - 稳定⑥关注公众号：ios黑科技
       - "_油管频道：全网最强白嫖+65\r"
-      - 日本05
-      - _油管：全网最强白嫖_26
-      - _油管：全网最强白嫖_31
-      - 香港10@BPJC_Group
-      - _油管：全网最强白嫖_32
-      - 香港04@BPJC_Group
-      - _油管：全网最强白嫖_28
-      - "美国(TG频道:@KXSWA)\r 2"
-      - 香港03
-      - 新加坡09白嫖机场群:@BPJC_Group
-      - 香港07@BPJC_Group
-      - hz.bgp.rx.naiun.pw:45184
-      - _油管：全网最强白嫖_35
-      - 日本01
-      - 香港01电报群@BPJC_Group
-      - 美国_0528237
-      - 香港03@BPJC_Group
-      - _油管：全网最强白嫖_33
-      - 香港09@BPJC_Group
-      - 香港05
-      - _油管：全网最强白嫖_5 2
-      - _油管：全网最强白嫖_30
-      - hz.bgp.rx.naiun.pw:45239
-      - _油管：全网最强白嫖_36
-      - 英国(TG频道:@KXSWA)
-      - 美国(TG频道:@KXSWA) 5
-      - 一起翻墙_7
-      - 香港02有问题请加群
-      - "美国(TG频道:@KXSWA)\r 3"
-      - hz.bgp.rx.naiun.pw:45394
-      - "韩国(TG频道:@KXSWA)\r"
-      - _油管：全网最强白嫖_20
-      - 香港IDC宽频|NF解锁|SS|A01
-      - JP_2386_19.50Mb|66.09Mb
-      - 美国(TG频道:@KXSWA) 6
-      - 英国(TG频道:@KXSWA) 2
-      - US_1222 |62.01Mb
+      - 美国A | 公益 | 0.2x
+      - 美國洛杉磯 01
+      - "_油管频道：全网最强白嫖+56\r"
+      - V321-0.2x-LasVegas
+      - 欢迎订阅钱科技0529_🇺🇸_US_美国_106
+      - _US_美国->🇫🇷_FR_法国
+      - _油管频道：全网最强白嫖_10
+      - 香港 | 公益 | 0.2x
+      - 日本08IIJ
+      - 日本 | 公益 | 0.2x
+      - 新加坡 | 公益 | 0.2x
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_84
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_40
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_87
+      - 俄罗斯4：darrenliuwei.com
+      - 美国(绿头外网集团)(Public)
+      - default_name+16
+      - _CH_瑞士
+      - "[VMess] 🇦🇺 澳大利亚(TG频道:@kxswa)"
+      - _油管：全网最强白嫖 8
+      - 稳定③关注公众号：ios黑科技
+      - MCI🇮🇱@AzadNet
+      - +(Youtube技术分享室)🇨🇳中国+7
+      - 2
+      - 亚马逊ec2
+      - VMESS
+      - TW_https://1808.gaNode_18
+      - 流媒体解锁SG
+      - 香港_0529307
+      - 190-imLam.com-HK
+      - Istanbul-Turkey|Media|1.5x
+      - 香港02
+      - 美国_0528005
+      - 香港_2
+      - 美國舊金山 02
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_85
+      - 高速节点推荐：v1.mk/vip
+      - 俄罗斯04CN2IPv6（2.75x）
+      - _油管：全网最强白嫖 9
+      - _AU_澳大利亚_3
+      - 亚马逊ec2 2
+      - US-高速节点购买：v1.mk/vip_1 2
+      - 美国3：darrenliuwei.com
+      - _油管：全网最强白嫖 10
+      - 法国_0528015
+      - 香港节点更新bit.ly/36b6iJh
+      - Relay_🇺🇸US-🇺🇸US_79
+      - 香港_1
+      - 韩国OracleBBR|No.1-500Mbps
+      - _KR_韩国 23
+      - 000-imLam.com-CN
+      - "[VMess] 🇸🇬 新加坡(TG频道:@kxswa) 2"
+      - _油管：全网最强白嫖 11
+      - _油管频道：全网最强白嫖_4
+      - "[VMess] 🇸🇬 新加坡(TG频道:@kxswa) 32"
+      - 日本东京 |AS|1G|J1
+      - LV1移动优化节点「1x」
+      - 美国 079
+      - 美国(欢迎订阅Youtube破解资源君)
+      - 高速节点推荐：v1.mk/vip 2
+      - 新加坡 007
+      - "_油管频道：全网最强白嫖+64\r"
+      - 欢迎订阅钱科技0528_🇺🇸_US_美国_451
+      - CN-高速节点推荐：v1.mk/vip
+      - SG_49_1
+      - 香港原生
+      - SG_1706
+      - 日本2-tg频道:@ripaojiedian
+      - 193-imLam.com-CN
+      - _油管：全网最强白嫖 12
+      - github.com/freefq-新加坡腾讯云9
+      - 日本10IIJ
+      - "[VMess] 🇺🇸 US-高速节点推荐：v1.mk/vip 7"
+      - 一起翻墙_10
+      - 美国(绿头外网集团)(Public) 2
+      - "[VMess] 🇸🇬 新加坡(:) 27"
+      - 美国-213.0KB/s(Youtube:不良林)
+      - 194-imLam.com-CN
+      - 187-imLam.com-HK
+      - "[VMess] 🇯🇵 Tokyo-M247-nf"
+      - 香港_4
+      - YouTube梦歌|Netflix_115
+      - github.com/freefq - 新加坡腾讯云 17
+      - 欢迎订阅钱科技0529_🇸🇬_SG_新加坡_270
+      - 新加坡(TG频道:@KXSWA) 47
+      - 亚马逊2
+      - "[VMess] 🇯🇵 Tokyo-M247-nf 3 2"
+      - 191-imLam.com-CN
+      - 195-imLam.com-CN
+      - Sydney-Oracle
+      - "[VMess] 🇨🇦 Montreal-RicaWeb-dip"
+      - US-高速节点推荐：v1.mk/vip
+      - "[VMess] 🇯🇵 Tokyo-M247-nf 2"
+      - Singapore-Tencent
+      - 印度(TG频道:@kxswa)
+      - 美国(nodefree.org免费分享)_1
+      - SG_90
+      - SG_1687
+      - 新加坡(欢迎订阅Youtube破解资源君)
+      - 油管：全网最强白嫖
+      - Mumbai-Linode
+      - 印度(TG频道:@kxswa) 2
+      - 美国_0528003
+      - https://github.com/Alvin9999/new-pac/wiki洛杉矶1SSR
+      - v2cross.com - 美国  73
+      - 油管：全网最强白嫖 2
+      - github.com/freefq - 新加坡腾讯云 61
+      - "[VMess] 🇩🇪 德国 002"
+      - 131-imLam.com-SG
+      - YouTube频道阿伟科技5.29
+      - "[VMess] 🇯🇵 Tokyo-M247-nf 3"
+      - "[VMess] 🇨🇦 加拿大 001 2"
+      - US-高速节点推荐：v1.mk/vip_18
+      - 094-imLam.com-SG
+      - 巴西_0528003
+      - 日本16IIJ
+      - "[VMess] 🇨🇦 加拿大 003"
+      - "[VMess] _1485_ 3.69Mb  5.42Mb"
+      - 113-imLam.com-SG
+      - 英国_0528001
+      - "[VMess] 🇧🇷 巴西(TG频道:@kxswa)"
+      - 香港Scloud-dip
+      - 新加坡_0529110
+      - 美国(欢迎订阅Youtube破解资源君) 2
+      - 新加坡(TG频道:@KXSWA) 22
+      - "[VMess] _1438_ 4.80Mb | 5.47Mb 2"
+      - github.com/v2rayfree-新加坡腾讯云25
+      - 巴西_0528004
+      - 新加坡_0529402
+      - "[VMess] 🇸🇬 SG-高速节点推荐：v1.mk/vip 49"
+      - 英国_0528044
+      - "[VMess] _1438_ 4.80Mb | 5.47Mb"
+      - 新加坡_0528104
+      - 白嫖分享 网站2220.it
+      - FR-高速节点购买：v1.mk/vip
+      - v2cross.com - 新加坡腾讯云 49
+      - _US_美国_6 11
+      - "[VMess] 🇧🇷 巴西 001"
+      - 澳大利亚01NTTIPv6
+      - 美国05GIACN2（1.3x）
+      - "[VMess] SG_37"
+      - "github.com/freefq - 新加坡腾讯云\n42"
+      - 099-imLam.com-SG
+      - 新加坡_0528048
+      - 美国_0528803
+      - SG_67
+      - US_53
+      - "[VMess] SG_1703 2"
+      - github.com/v2rayfree - 新加坡腾讯云 50
+      - "[VMess] SG_69"
+      - _油管：全网最强白嫖 13
+      - "[VMess] _：_2 2"
+      - 台湾1-tg频道:@ripaojiedian
+      - 法国(TG频道:@KXSWA) 2
+      - 新加坡_0528073
+      - SG_1696
+      - 新加坡_0528054
+      - 日本18IIJ
+      - SG-高速节点推荐：v1.mk/vip_3 2
+      - SG_648
+      - "[VMess] 🇸🇬 SG-高速节点推荐：v1.mk/vip 13"
+      - _油管：全网最强白嫖 14
+      - 新加坡(nodefree.org免费分享)_4
+      - +新加坡0777
+      - 英国_0528010
+      - "[VMess] 油管：全网最强白嫖_7 2"
+      - "[VMess] 油管：全网最强白嫖_7"
+      - "[VMess] BR中速0524"
+      - _1441_3.38Mb|3.62Mb
+      - SG-高速节点推荐：v1.mk/vip
+      - 003-imLam.com-HK
+      - "[VMess] _1459_ 4.93Mb | 2.08Mb"
+      - "[VMess] 🇮🇳 Mumbai-"
+      - "[VMess] 🇺🇸 Relay🇺🇸US中速0524"
+      - 巴西_0529006
+      - 巴西_0529001
+      - 新加坡_0528057
+      - 032-imLam.com-SG
+      - 加拿大_0528041
+      - 英国_0528044 2
+      - "[VMess] Gravelines-OVH-torrent"
+      - "[VMess] Gravelines-OVH"
+      - 日本22NTT
+      - _NL_荷兰_2
+      - 香港04电信/深港专线（2.5x）
+      - v2cross.com - 亚太地区  75
+      - SG-高速节点推荐：v1.mk/vip_25
+      - SG-高速节点推荐：v2cross.com_3
+      - "[SS]+_13.61Mb+|65.15Mb\r"
+      - _US_美国 24
+      - CN_266 【tg@freevpn8】10.25Mb
+      - SG_682
+      - 新加坡(欢迎订阅Youtube破解资源君) 2
+      - "[VMess] 🇸🇬 SG-高速节点推荐：v1.mk/vip 21 2"
+      - Relay_CN-HK_198
+      - CN_340|4.36Mb
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_278
+      - 日本20IIJ
+      - _1397_2.59Mb|2.39Mb
+      - 134-imLam.com-SG
+      - 法国_0528010
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - _SG_新加坡
-      - 台湾1-三网优化-强加密
-      - _油管：全网最强白嫖_7 3
-      - _AU_澳大利亚
-      - YouTube梦歌|Netflix_94
+      - 日本商宽
+      - 10351 @WangCai_1
+      - "_油管频道：全网最强白嫖+61\r"
+      - KR01
+      - TG频道|https://t.me/getv2ray|1号
+      - 10189 @WangCai_1
+      - Oracle1-TCP-联通
+      - 10353 @WangCai_1
+      - 10355 @WangCai_1
+      - "[SS]+14.29.124.174:11033\r"
+      - "_油管频道：全网最强白嫖+66\r"
+      - 10191 @WangCai_1
+      - _油管：全网最强白嫖
+      - HK-
+      - 台湾tj-tg频道:@ripaojiedian
+      - LV1 新加坡 - 隧道「1.5x」
+      - 台湾_0529001
+      - 香港|C|1.5x|钻石|原生IP|
+      - _油管频道：全网最强白嫖_14
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_44
+      - 10193 @WangCai_1
+      - LV1 香港 - 隧道「1.5x」
+      - 10199 @WangCai_1
+      - 日本大阪北 01
+      - 007
+      - _油管频道：全网最强白嫖_1
+      - 加拿大多倫多 01
+      - 台湾_0528015
+      - _561_14.62Mb+|11.76Mb
       - YouTube梦歌|Netflix_104
-      - _NL_荷兰_35
-      - _NL_荷兰_66
-      - _NL_荷兰_37
-      - _NL_荷兰_25
-      - _NL_荷兰_26
-      - 新加坡07白嫖机场群:@BPJC_Group
-      - 美国2：darrenliuwei.com
-      - _NL_荷兰_32
-      - 日本IDC宽频|NF解锁|SS|A01
-      - 台湾家庭宽频|NF解锁|SS|A01
-      - 台湾家庭宽频|NF解锁|SS|B01
-      - gz.bgp.rx.naiun.pw:45394
-      - hz.bgp.rx.naiun.pw:45250
-      - 日本02
-      - hz.bgp.rx.naiun.pw:45149
-      - US_777
-      - 香港08@BPJC_Group
-      - 香港IDC宽频|NF解锁|SS|B01
-      - 新加坡IDC宽频|NF解锁|SS|B01
-      - 香港06@BPJC_Group
-      - _油管：全网最强白嫖_1 8
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_15
+      - 台灣桃園 02 B
+      - JP01
+      - +(Youtube技术分享室)🇨🇳中国+11
+      - CN_06
+      - _油管：全网最强白嫖 2
+      - 香港_3
+      - Oracle1-TCP-电信
+      - 日本👇[建议每3天更新一次订阅]_2
+      - 英國倫敦 01
       - "_油管频道：全网最强白嫖+60\r"
-      - 香港05@BPJC_Group
-      - hz.bgp.rx.naiun.pw:45194
-      - "_油管频道：全网最强白嫖+62\r"
-      - 美国IDC宽频|NF解锁|SS|B01
-      - 一起翻墙_10
+      - _339_22.30Mb+|+7.90Mb
+      - 中国_0529416
+      - CN_https://1808.ga++Node_113
+      - 欢迎订阅钱科技0528_🇨🇳_CN_中国_299
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_89
+      - 香港  | C |  1.5x | 钻石 | 原生IP |
+      - _油管：全网最强白嫖 3
+      - 台湾2-三网优化-强加密_1
+      - 韩国_0529018
+      - 日本 05
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_50
+      - _油管：全网最强白嫖 4
+      - 香港_6
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_6
+      - _油管：全网最强白嫖 5
+      - _US_美国
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_83
+      - 10219 @WangCai_1
+      - 香港_5
+      - 欢迎订阅钱科技0529_🇺🇸_US_美国_117
+      - US02
+      - 日本_0529046
+      - 189-imLam.com-HK
+      - 香港_7
+      - 台湾-
+      - 日本大阪南 02
+      - 香港10
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_61
+      - _油管：全网最强白嫖 6
+      - _US_美国 2
+      - 欢迎订阅钱科技0529_🇺🇸_US_美国_119
+      - 亚马逊3
+      - _US_美国 3
+      - 香港-tg频道:@ripaojiedian
+      - Incheon,+Tj+-+B+Group
+      - 美国(TG频道:@kxswa)
+      - 10223 @WangCai_1
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_144
+      - 欢迎订阅钱科技0529_🇺🇸_US_美国_115
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_19
+      - CN-高速节点推荐：v2cross.com_1
+      - 欢迎订阅钱科技0528_🇨🇳_CN_中国_259
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - "_油管频道：全网最强白嫖+55\r"
+      - 10369 @WangCai_1
+      - 日本-4.27MB/s(Youtube:不良林)
+      - 香港V2ray(05)-3
+      - CN_04
+      - 香港_0528101
+      - 欢迎订阅钱科技0528_🇨🇳_CN_中国_328
+      - _油管：全网最强白嫖 7
+      - "[VMess] 🇬🇧 GB-高速节点推荐：v1.mk/vip"
+      - "[免流]香港A"
+      - 美国_0528609
+      - _油管频道：全网最强白嫖_8
+      - 欢迎订阅钱科技0529_🇭🇰_HK_香港_166
+      - 稳定⑥关注公众号：ios黑科技
       - "_油管频道：全网最强白嫖+65\r"
-      - 日本05
-      - _油管：全网最强白嫖_26
-      - _油管：全网最强白嫖_31
-      - 香港10@BPJC_Group
-      - _油管：全网最强白嫖_32
-      - 香港04@BPJC_Group
-      - _油管：全网最强白嫖_28
-      - "美国(TG频道:@KXSWA)\r 2"
-      - 香港03
-      - 新加坡09白嫖机场群:@BPJC_Group
-      - 香港07@BPJC_Group
-      - hz.bgp.rx.naiun.pw:45184
-      - _油管：全网最强白嫖_35
-      - 日本01
-      - 香港01电报群@BPJC_Group
-      - 美国_0528237
-      - 香港03@BPJC_Group
-      - _油管：全网最强白嫖_33
-      - 香港09@BPJC_Group
-      - 香港05
-      - _油管：全网最强白嫖_5 2
-      - _油管：全网最强白嫖_30
-      - hz.bgp.rx.naiun.pw:45239
-      - _油管：全网最强白嫖_36
-      - 英国(TG频道:@KXSWA)
-      - 美国(TG频道:@KXSWA) 5
-      - 一起翻墙_7
-      - 香港02有问题请加群
-      - "美国(TG频道:@KXSWA)\r 3"
-      - hz.bgp.rx.naiun.pw:45394
-      - "韩国(TG频道:@KXSWA)\r"
-      - _油管：全网最强白嫖_20
-      - 香港IDC宽频|NF解锁|SS|A01
-      - JP_2386_19.50Mb|66.09Mb
-      - 美国(TG频道:@KXSWA) 6
-      - 英国(TG频道:@KXSWA) 2
-      - US_1222 |62.01Mb
+      - 美国A | 公益 | 0.2x
+      - 美國洛杉磯 01
+      - "_油管频道：全网最强白嫖+56\r"
+      - V321-0.2x-LasVegas
+      - 欢迎订阅钱科技0529_🇺🇸_US_美国_106
+      - _US_美国->🇫🇷_FR_法国
+      - _油管频道：全网最强白嫖_10
+      - 香港 | 公益 | 0.2x
+      - 日本08IIJ
+      - 日本 | 公益 | 0.2x
+      - 新加坡 | 公益 | 0.2x
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_84
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_40
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_87
+      - 俄罗斯4：darrenliuwei.com
+      - 美国(绿头外网集团)(Public)
+      - default_name+16
+      - _CH_瑞士
+      - "[VMess] 🇦🇺 澳大利亚(TG频道:@kxswa)"
+      - _油管：全网最强白嫖 8
+      - 稳定③关注公众号：ios黑科技
+      - MCI🇮🇱@AzadNet
+      - +(Youtube技术分享室)🇨🇳中国+7
+      - 2
+      - 亚马逊ec2
+      - VMESS
+      - TW_https://1808.gaNode_18
+      - 流媒体解锁SG
+      - 香港_0529307
+      - 190-imLam.com-HK
+      - Istanbul-Turkey|Media|1.5x
+      - 香港02
+      - 美国_0528005
+      - 香港_2
+      - 美國舊金山 02
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_85
+      - 高速节点推荐：v1.mk/vip
+      - 俄罗斯04CN2IPv6（2.75x）
+      - _油管：全网最强白嫖 9
+      - _AU_澳大利亚_3
+      - 亚马逊ec2 2
+      - US-高速节点购买：v1.mk/vip_1 2
+      - 美国3：darrenliuwei.com
+      - _油管：全网最强白嫖 10
+      - 法国_0528015
+      - 香港节点更新bit.ly/36b6iJh
+      - Relay_🇺🇸US-🇺🇸US_79
+      - 香港_1
+      - 韩国OracleBBR|No.1-500Mbps
+      - _KR_韩国 23
+      - 000-imLam.com-CN
+      - "[VMess] 🇸🇬 新加坡(TG频道:@kxswa) 2"
+      - _油管：全网最强白嫖 11
+      - _油管频道：全网最强白嫖_4
+      - "[VMess] 🇸🇬 新加坡(TG频道:@kxswa) 32"
+      - 日本东京 |AS|1G|J1
+      - LV1移动优化节点「1x」
+      - 美国 079
+      - 美国(欢迎订阅Youtube破解资源君)
+      - 高速节点推荐：v1.mk/vip 2
+      - 新加坡 007
+      - "_油管频道：全网最强白嫖+64\r"
+      - 欢迎订阅钱科技0528_🇺🇸_US_美国_451
+      - CN-高速节点推荐：v1.mk/vip
+      - SG_49_1
+      - 香港原生
+      - SG_1706
+      - 日本2-tg频道:@ripaojiedian
+      - 193-imLam.com-CN
+      - _油管：全网最强白嫖 12
+      - github.com/freefq-新加坡腾讯云9
+      - 日本10IIJ
+      - "[VMess] 🇺🇸 US-高速节点推荐：v1.mk/vip 7"
+      - 一起翻墙_10
+      - 美国(绿头外网集团)(Public) 2
+      - "[VMess] 🇸🇬 新加坡(:) 27"
+      - 美国-213.0KB/s(Youtube:不良林)
+      - 194-imLam.com-CN
+      - 187-imLam.com-HK
+      - "[VMess] 🇯🇵 Tokyo-M247-nf"
+      - 香港_4
+      - YouTube梦歌|Netflix_115
+      - github.com/freefq - 新加坡腾讯云 17
+      - 欢迎订阅钱科技0529_🇸🇬_SG_新加坡_270
+      - 新加坡(TG频道:@KXSWA) 47
+      - 亚马逊2
+      - "[VMess] 🇯🇵 Tokyo-M247-nf 3 2"
+      - 191-imLam.com-CN
+      - 195-imLam.com-CN
+      - Sydney-Oracle
+      - "[VMess] 🇨🇦 Montreal-RicaWeb-dip"
+      - US-高速节点推荐：v1.mk/vip
+      - "[VMess] 🇯🇵 Tokyo-M247-nf 2"
+      - Singapore-Tencent
+      - 印度(TG频道:@kxswa)
+      - 美国(nodefree.org免费分享)_1
+      - SG_90
+      - SG_1687
+      - 新加坡(欢迎订阅Youtube破解资源君)
+      - 油管：全网最强白嫖
+      - Mumbai-Linode
+      - 印度(TG频道:@kxswa) 2
+      - 美国_0528003
+      - https://github.com/Alvin9999/new-pac/wiki洛杉矶1SSR
+      - v2cross.com - 美国  73
+      - 油管：全网最强白嫖 2
+      - github.com/freefq - 新加坡腾讯云 61
+      - "[VMess] 🇩🇪 德国 002"
+      - 131-imLam.com-SG
+      - YouTube频道阿伟科技5.29
+      - "[VMess] 🇯🇵 Tokyo-M247-nf 3"
+      - "[VMess] 🇨🇦 加拿大 001 2"
+      - US-高速节点推荐：v1.mk/vip_18
+      - 094-imLam.com-SG
+      - 巴西_0528003
+      - 日本16IIJ
+      - "[VMess] 🇨🇦 加拿大 003"
+      - "[VMess] _1485_ 3.69Mb  5.42Mb"
+      - 113-imLam.com-SG
+      - 英国_0528001
+      - "[VMess] 🇧🇷 巴西(TG频道:@kxswa)"
+      - 香港Scloud-dip
+      - 新加坡_0529110
+      - 美国(欢迎订阅Youtube破解资源君) 2
+      - 新加坡(TG频道:@KXSWA) 22
+      - "[VMess] _1438_ 4.80Mb | 5.47Mb 2"
+      - github.com/v2rayfree-新加坡腾讯云25
+      - 巴西_0528004
+      - 新加坡_0529402
+      - "[VMess] 🇸🇬 SG-高速节点推荐：v1.mk/vip 49"
+      - 英国_0528044
+      - "[VMess] _1438_ 4.80Mb | 5.47Mb"
+      - 新加坡_0528104
+      - 白嫖分享 网站2220.it
+      - FR-高速节点购买：v1.mk/vip
+      - v2cross.com - 新加坡腾讯云 49
+      - _US_美国_6 11
+      - "[VMess] 🇧🇷 巴西 001"
+      - 澳大利亚01NTTIPv6
+      - 美国05GIACN2（1.3x）
+      - "[VMess] SG_37"
+      - "github.com/freefq - 新加坡腾讯云\n42"
+      - 099-imLam.com-SG
+      - 新加坡_0528048
+      - 美国_0528803
+      - SG_67
+      - US_53
+      - "[VMess] SG_1703 2"
+      - github.com/v2rayfree - 新加坡腾讯云 50
+      - "[VMess] SG_69"
+      - _油管：全网最强白嫖 13
+      - "[VMess] _：_2 2"
+      - 台湾1-tg频道:@ripaojiedian
+      - 法国(TG频道:@KXSWA) 2
+      - 新加坡_0528073
+      - SG_1696
+      - 新加坡_0528054
+      - 日本18IIJ
+      - SG-高速节点推荐：v1.mk/vip_3 2
+      - SG_648
+      - "[VMess] 🇸🇬 SG-高速节点推荐：v1.mk/vip 13"
+      - _油管：全网最强白嫖 14
+      - 新加坡(nodefree.org免费分享)_4
+      - +新加坡0777
+      - 英国_0528010
+      - "[VMess] 油管：全网最强白嫖_7 2"
+      - "[VMess] 油管：全网最强白嫖_7"
+      - "[VMess] BR中速0524"
+      - _1441_3.38Mb|3.62Mb
+      - SG-高速节点推荐：v1.mk/vip
+      - 003-imLam.com-HK
+      - "[VMess] _1459_ 4.93Mb | 2.08Mb"
+      - "[VMess] 🇮🇳 Mumbai-"
+      - "[VMess] 🇺🇸 Relay🇺🇸US中速0524"
+      - 巴西_0529006
+      - 巴西_0529001
+      - 新加坡_0528057
+      - 032-imLam.com-SG
+      - 加拿大_0528041
+      - 英国_0528044 2
+      - "[VMess] Gravelines-OVH-torrent"
+      - "[VMess] Gravelines-OVH"
+      - 日本22NTT
+      - _NL_荷兰_2
+      - 香港04电信/深港专线（2.5x）
+      - v2cross.com - 亚太地区  75
+      - SG-高速节点推荐：v1.mk/vip_25
+      - SG-高速节点推荐：v2cross.com_3
+      - "[SS]+_13.61Mb+|65.15Mb\r"
+      - _US_美国 24
+      - CN_266 【tg@freevpn8】10.25Mb
+      - SG_682
+      - 新加坡(欢迎订阅Youtube破解资源君) 2
+      - "[VMess] 🇸🇬 SG-高速节点推荐：v1.mk/vip 21 2"
+      - Relay_CN-HK_198
+      - CN_340|4.36Mb
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_278
+      - 日本20IIJ
+      - _1397_2.59Mb|2.39Mb
+      - 134-imLam.com-SG
+      - 法国_0528010
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _SG_新加坡
-      - 台湾1-三网优化-强加密
-      - _油管：全网最强白嫖_7 3
-      - _AU_澳大利亚
-      - YouTube梦歌|Netflix_94
+      - 日本商宽
+      - 10351 @WangCai_1
+      - "_油管频道：全网最强白嫖+61\r"
+      - KR01
+      - TG频道|https://t.me/getv2ray|1号
+      - 10189 @WangCai_1
+      - Oracle1-TCP-联通
+      - 10353 @WangCai_1
+      - 10355 @WangCai_1
+      - "[SS]+14.29.124.174:11033\r"
+      - "_油管频道：全网最强白嫖+66\r"
+      - 10191 @WangCai_1
+      - _油管：全网最强白嫖
+      - HK-
+      - 台湾tj-tg频道:@ripaojiedian
+      - LV1 新加坡 - 隧道「1.5x」
+      - 台湾_0529001
+      - 香港|C|1.5x|钻石|原生IP|
+      - _油管频道：全网最强白嫖_14
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_44
+      - 10193 @WangCai_1
+      - LV1 香港 - 隧道「1.5x」
+      - 10199 @WangCai_1
+      - 日本大阪北 01
+      - 007
+      - _油管频道：全网最强白嫖_1
+      - 加拿大多倫多 01
+      - 台湾_0528015
+      - _561_14.62Mb+|11.76Mb
       - YouTube梦歌|Netflix_104
-      - _NL_荷兰_35
-      - _NL_荷兰_66
-      - _NL_荷兰_37
-      - _NL_荷兰_25
-      - _NL_荷兰_26
-      - 新加坡07白嫖机场群:@BPJC_Group
-      - 美国2：darrenliuwei.com
-      - _NL_荷兰_32
-      - 日本IDC宽频|NF解锁|SS|A01
-      - 台湾家庭宽频|NF解锁|SS|A01
-      - 台湾家庭宽频|NF解锁|SS|B01
-      - gz.bgp.rx.naiun.pw:45394
-      - hz.bgp.rx.naiun.pw:45250
-      - 日本02
-      - hz.bgp.rx.naiun.pw:45149
-      - US_777
-      - 香港08@BPJC_Group
-      - 香港IDC宽频|NF解锁|SS|B01
-      - 新加坡IDC宽频|NF解锁|SS|B01
-      - 香港06@BPJC_Group
-      - _油管：全网最强白嫖_1 8
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_15
+      - 台灣桃園 02 B
+      - JP01
+      - +(Youtube技术分享室)🇨🇳中国+11
+      - CN_06
+      - _油管：全网最强白嫖 2
+      - 香港_3
+      - Oracle1-TCP-电信
+      - 日本👇[建议每3天更新一次订阅]_2
+      - 英國倫敦 01
       - "_油管频道：全网最强白嫖+60\r"
-      - 香港05@BPJC_Group
-      - hz.bgp.rx.naiun.pw:45194
-      - "_油管频道：全网最强白嫖+62\r"
-      - 美国IDC宽频|NF解锁|SS|B01
-      - 一起翻墙_10
+      - _339_22.30Mb+|+7.90Mb
+      - 中国_0529416
+      - CN_https://1808.ga++Node_113
+      - 欢迎订阅钱科技0528_🇨🇳_CN_中国_299
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_89
+      - 香港  | C |  1.5x | 钻石 | 原生IP |
+      - _油管：全网最强白嫖 3
+      - 台湾2-三网优化-强加密_1
+      - 韩国_0529018
+      - 日本 05
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_50
+      - _油管：全网最强白嫖 4
+      - 香港_6
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_6
+      - _油管：全网最强白嫖 5
+      - _US_美国
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_83
+      - 10219 @WangCai_1
+      - 香港_5
+      - 欢迎订阅钱科技0529_🇺🇸_US_美国_117
+      - US02
+      - 日本_0529046
+      - 189-imLam.com-HK
+      - 香港_7
+      - 台湾-
+      - 日本大阪南 02
+      - 香港10
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_61
+      - _油管：全网最强白嫖 6
+      - _US_美国 2
+      - 欢迎订阅钱科技0529_🇺🇸_US_美国_119
+      - 亚马逊3
+      - _US_美国 3
+      - 香港-tg频道:@ripaojiedian
+      - Incheon,+Tj+-+B+Group
+      - 美国(TG频道:@kxswa)
+      - 10223 @WangCai_1
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_144
+      - 欢迎订阅钱科技0529_🇺🇸_US_美国_115
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_19
+      - CN-高速节点推荐：v2cross.com_1
+      - 欢迎订阅钱科技0528_🇨🇳_CN_中国_259
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - "_油管频道：全网最强白嫖+55\r"
+      - 10369 @WangCai_1
+      - 日本-4.27MB/s(Youtube:不良林)
+      - 香港V2ray(05)-3
+      - CN_04
+      - 香港_0528101
+      - 欢迎订阅钱科技0528_🇨🇳_CN_中国_328
+      - _油管：全网最强白嫖 7
+      - "[VMess] 🇬🇧 GB-高速节点推荐：v1.mk/vip"
+      - "[免流]香港A"
+      - 美国_0528609
+      - _油管频道：全网最强白嫖_8
+      - 欢迎订阅钱科技0529_🇭🇰_HK_香港_166
+      - 稳定⑥关注公众号：ios黑科技
       - "_油管频道：全网最强白嫖+65\r"
-      - 日本05
-      - _油管：全网最强白嫖_26
-      - _油管：全网最强白嫖_31
-      - 香港10@BPJC_Group
-      - _油管：全网最强白嫖_32
-      - 香港04@BPJC_Group
-      - _油管：全网最强白嫖_28
-      - "美国(TG频道:@KXSWA)\r 2"
-      - 香港03
-      - 新加坡09白嫖机场群:@BPJC_Group
-      - 香港07@BPJC_Group
-      - hz.bgp.rx.naiun.pw:45184
-      - _油管：全网最强白嫖_35
-      - 日本01
-      - 香港01电报群@BPJC_Group
-      - 美国_0528237
-      - 香港03@BPJC_Group
-      - _油管：全网最强白嫖_33
-      - 香港09@BPJC_Group
-      - 香港05
-      - _油管：全网最强白嫖_5 2
-      - _油管：全网最强白嫖_30
-      - hz.bgp.rx.naiun.pw:45239
-      - _油管：全网最强白嫖_36
-      - 英国(TG频道:@KXSWA)
-      - 美国(TG频道:@KXSWA) 5
-      - 一起翻墙_7
-      - 香港02有问题请加群
-      - "美国(TG频道:@KXSWA)\r 3"
-      - hz.bgp.rx.naiun.pw:45394
-      - "韩国(TG频道:@KXSWA)\r"
-      - _油管：全网最强白嫖_20
-      - 香港IDC宽频|NF解锁|SS|A01
-      - JP_2386_19.50Mb|66.09Mb
-      - 美国(TG频道:@KXSWA) 6
-      - 英国(TG频道:@KXSWA) 2
-      - US_1222 |62.01Mb
+      - 美国A | 公益 | 0.2x
+      - 美國洛杉磯 01
+      - "_油管频道：全网最强白嫖+56\r"
+      - V321-0.2x-LasVegas
+      - 欢迎订阅钱科技0529_🇺🇸_US_美国_106
+      - _US_美国->🇫🇷_FR_法国
+      - _油管频道：全网最强白嫖_10
+      - 香港 | 公益 | 0.2x
+      - 日本08IIJ
+      - 日本 | 公益 | 0.2x
+      - 新加坡 | 公益 | 0.2x
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_84
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_40
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_87
+      - 俄罗斯4：darrenliuwei.com
+      - 美国(绿头外网集团)(Public)
+      - default_name+16
+      - _CH_瑞士
+      - "[VMess] 🇦🇺 澳大利亚(TG频道:@kxswa)"
+      - _油管：全网最强白嫖 8
+      - 稳定③关注公众号：ios黑科技
+      - MCI🇮🇱@AzadNet
+      - +(Youtube技术分享室)🇨🇳中国+7
+      - 2
+      - 亚马逊ec2
+      - VMESS
+      - TW_https://1808.gaNode_18
+      - 流媒体解锁SG
+      - 香港_0529307
+      - 190-imLam.com-HK
+      - Istanbul-Turkey|Media|1.5x
+      - 香港02
+      - 美国_0528005
+      - 香港_2
+      - 美國舊金山 02
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_85
+      - 高速节点推荐：v1.mk/vip
+      - 俄罗斯04CN2IPv6（2.75x）
+      - _油管：全网最强白嫖 9
+      - _AU_澳大利亚_3
+      - 亚马逊ec2 2
+      - US-高速节点购买：v1.mk/vip_1 2
+      - 美国3：darrenliuwei.com
+      - _油管：全网最强白嫖 10
+      - 法国_0528015
+      - 香港节点更新bit.ly/36b6iJh
+      - Relay_🇺🇸US-🇺🇸US_79
+      - 香港_1
+      - 韩国OracleBBR|No.1-500Mbps
+      - _KR_韩国 23
+      - 000-imLam.com-CN
+      - "[VMess] 🇸🇬 新加坡(TG频道:@kxswa) 2"
+      - _油管：全网最强白嫖 11
+      - _油管频道：全网最强白嫖_4
+      - "[VMess] 🇸🇬 新加坡(TG频道:@kxswa) 32"
+      - 日本东京 |AS|1G|J1
+      - LV1移动优化节点「1x」
+      - 美国 079
+      - 美国(欢迎订阅Youtube破解资源君)
+      - 高速节点推荐：v1.mk/vip 2
+      - 新加坡 007
+      - "_油管频道：全网最强白嫖+64\r"
+      - 欢迎订阅钱科技0528_🇺🇸_US_美国_451
+      - CN-高速节点推荐：v1.mk/vip
+      - SG_49_1
+      - 香港原生
+      - SG_1706
+      - 日本2-tg频道:@ripaojiedian
+      - 193-imLam.com-CN
+      - _油管：全网最强白嫖 12
+      - github.com/freefq-新加坡腾讯云9
+      - 日本10IIJ
+      - "[VMess] 🇺🇸 US-高速节点推荐：v1.mk/vip 7"
+      - 一起翻墙_10
+      - 美国(绿头外网集团)(Public) 2
+      - "[VMess] 🇸🇬 新加坡(:) 27"
+      - 美国-213.0KB/s(Youtube:不良林)
+      - 194-imLam.com-CN
+      - 187-imLam.com-HK
+      - "[VMess] 🇯🇵 Tokyo-M247-nf"
+      - 香港_4
+      - YouTube梦歌|Netflix_115
+      - github.com/freefq - 新加坡腾讯云 17
+      - 欢迎订阅钱科技0529_🇸🇬_SG_新加坡_270
+      - 新加坡(TG频道:@KXSWA) 47
+      - 亚马逊2
+      - "[VMess] 🇯🇵 Tokyo-M247-nf 3 2"
+      - 191-imLam.com-CN
+      - 195-imLam.com-CN
+      - Sydney-Oracle
+      - "[VMess] 🇨🇦 Montreal-RicaWeb-dip"
+      - US-高速节点推荐：v1.mk/vip
+      - "[VMess] 🇯🇵 Tokyo-M247-nf 2"
+      - Singapore-Tencent
+      - 印度(TG频道:@kxswa)
+      - 美国(nodefree.org免费分享)_1
+      - SG_90
+      - SG_1687
+      - 新加坡(欢迎订阅Youtube破解资源君)
+      - 油管：全网最强白嫖
+      - Mumbai-Linode
+      - 印度(TG频道:@kxswa) 2
+      - 美国_0528003
+      - https://github.com/Alvin9999/new-pac/wiki洛杉矶1SSR
+      - v2cross.com - 美国  73
+      - 油管：全网最强白嫖 2
+      - github.com/freefq - 新加坡腾讯云 61
+      - "[VMess] 🇩🇪 德国 002"
+      - 131-imLam.com-SG
+      - YouTube频道阿伟科技5.29
+      - "[VMess] 🇯🇵 Tokyo-M247-nf 3"
+      - "[VMess] 🇨🇦 加拿大 001 2"
+      - US-高速节点推荐：v1.mk/vip_18
+      - 094-imLam.com-SG
+      - 巴西_0528003
+      - 日本16IIJ
+      - "[VMess] 🇨🇦 加拿大 003"
+      - "[VMess] _1485_ 3.69Mb  5.42Mb"
+      - 113-imLam.com-SG
+      - 英国_0528001
+      - "[VMess] 🇧🇷 巴西(TG频道:@kxswa)"
+      - 香港Scloud-dip
+      - 新加坡_0529110
+      - 美国(欢迎订阅Youtube破解资源君) 2
+      - 新加坡(TG频道:@KXSWA) 22
+      - "[VMess] _1438_ 4.80Mb | 5.47Mb 2"
+      - github.com/v2rayfree-新加坡腾讯云25
+      - 巴西_0528004
+      - 新加坡_0529402
+      - "[VMess] 🇸🇬 SG-高速节点推荐：v1.mk/vip 49"
+      - 英国_0528044
+      - "[VMess] _1438_ 4.80Mb | 5.47Mb"
+      - 新加坡_0528104
+      - 白嫖分享 网站2220.it
+      - FR-高速节点购买：v1.mk/vip
+      - v2cross.com - 新加坡腾讯云 49
+      - _US_美国_6 11
+      - "[VMess] 🇧🇷 巴西 001"
+      - 澳大利亚01NTTIPv6
+      - 美国05GIACN2（1.3x）
+      - "[VMess] SG_37"
+      - "github.com/freefq - 新加坡腾讯云\n42"
+      - 099-imLam.com-SG
+      - 新加坡_0528048
+      - 美国_0528803
+      - SG_67
+      - US_53
+      - "[VMess] SG_1703 2"
+      - github.com/v2rayfree - 新加坡腾讯云 50
+      - "[VMess] SG_69"
+      - _油管：全网最强白嫖 13
+      - "[VMess] _：_2 2"
+      - 台湾1-tg频道:@ripaojiedian
+      - 法国(TG频道:@KXSWA) 2
+      - 新加坡_0528073
+      - SG_1696
+      - 新加坡_0528054
+      - 日本18IIJ
+      - SG-高速节点推荐：v1.mk/vip_3 2
+      - SG_648
+      - "[VMess] 🇸🇬 SG-高速节点推荐：v1.mk/vip 13"
+      - _油管：全网最强白嫖 14
+      - 新加坡(nodefree.org免费分享)_4
+      - +新加坡0777
+      - 英国_0528010
+      - "[VMess] 油管：全网最强白嫖_7 2"
+      - "[VMess] 油管：全网最强白嫖_7"
+      - "[VMess] BR中速0524"
+      - _1441_3.38Mb|3.62Mb
+      - SG-高速节点推荐：v1.mk/vip
+      - 003-imLam.com-HK
+      - "[VMess] _1459_ 4.93Mb | 2.08Mb"
+      - "[VMess] 🇮🇳 Mumbai-"
+      - "[VMess] 🇺🇸 Relay🇺🇸US中速0524"
+      - 巴西_0529006
+      - 巴西_0529001
+      - 新加坡_0528057
+      - 032-imLam.com-SG
+      - 加拿大_0528041
+      - 英国_0528044 2
+      - "[VMess] Gravelines-OVH-torrent"
+      - "[VMess] Gravelines-OVH"
+      - 日本22NTT
+      - _NL_荷兰_2
+      - 香港04电信/深港专线（2.5x）
+      - v2cross.com - 亚太地区  75
+      - SG-高速节点推荐：v1.mk/vip_25
+      - SG-高速节点推荐：v2cross.com_3
+      - "[SS]+_13.61Mb+|65.15Mb\r"
+      - _US_美国 24
+      - CN_266 【tg@freevpn8】10.25Mb
+      - SG_682
+      - 新加坡(欢迎订阅Youtube破解资源君) 2
+      - "[VMess] 🇸🇬 SG-高速节点推荐：v1.mk/vip 21 2"
+      - Relay_CN-HK_198
+      - CN_340|4.36Mb
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_278
+      - 日本20IIJ
+      - _1397_2.59Mb|2.39Mb
+      - 134-imLam.com-SG
+      - 法国_0528010
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -324,328 +1240,1257 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _SG_新加坡
-      - 台湾1-三网优化-强加密
-      - _油管：全网最强白嫖_7 3
-      - _AU_澳大利亚
-      - YouTube梦歌|Netflix_94
+      - 日本商宽
+      - 10351 @WangCai_1
+      - "_油管频道：全网最强白嫖+61\r"
+      - KR01
+      - TG频道|https://t.me/getv2ray|1号
+      - 10189 @WangCai_1
+      - Oracle1-TCP-联通
+      - 10353 @WangCai_1
+      - 10355 @WangCai_1
+      - "[SS]+14.29.124.174:11033\r"
+      - "_油管频道：全网最强白嫖+66\r"
+      - 10191 @WangCai_1
+      - _油管：全网最强白嫖
+      - HK-
+      - 台湾tj-tg频道:@ripaojiedian
+      - LV1 新加坡 - 隧道「1.5x」
+      - 台湾_0529001
+      - 香港|C|1.5x|钻石|原生IP|
+      - _油管频道：全网最强白嫖_14
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_44
+      - 10193 @WangCai_1
+      - LV1 香港 - 隧道「1.5x」
+      - 10199 @WangCai_1
+      - 日本大阪北 01
+      - 007
+      - _油管频道：全网最强白嫖_1
+      - 加拿大多倫多 01
+      - 台湾_0528015
+      - _561_14.62Mb+|11.76Mb
       - YouTube梦歌|Netflix_104
-      - _NL_荷兰_35
-      - _NL_荷兰_66
-      - _NL_荷兰_37
-      - _NL_荷兰_25
-      - _NL_荷兰_26
-      - 新加坡07白嫖机场群:@BPJC_Group
-      - 美国2：darrenliuwei.com
-      - _NL_荷兰_32
-      - 日本IDC宽频|NF解锁|SS|A01
-      - 台湾家庭宽频|NF解锁|SS|A01
-      - 台湾家庭宽频|NF解锁|SS|B01
-      - gz.bgp.rx.naiun.pw:45394
-      - hz.bgp.rx.naiun.pw:45250
-      - 日本02
-      - hz.bgp.rx.naiun.pw:45149
-      - US_777
-      - 香港08@BPJC_Group
-      - 香港IDC宽频|NF解锁|SS|B01
-      - 新加坡IDC宽频|NF解锁|SS|B01
-      - 香港06@BPJC_Group
-      - _油管：全网最强白嫖_1 8
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_15
+      - 台灣桃園 02 B
+      - JP01
+      - +(Youtube技术分享室)🇨🇳中国+11
+      - CN_06
+      - _油管：全网最强白嫖 2
+      - 香港_3
+      - Oracle1-TCP-电信
+      - 日本👇[建议每3天更新一次订阅]_2
+      - 英國倫敦 01
       - "_油管频道：全网最强白嫖+60\r"
-      - 香港05@BPJC_Group
-      - hz.bgp.rx.naiun.pw:45194
-      - "_油管频道：全网最强白嫖+62\r"
-      - 美国IDC宽频|NF解锁|SS|B01
-      - 一起翻墙_10
+      - _339_22.30Mb+|+7.90Mb
+      - 中国_0529416
+      - CN_https://1808.ga++Node_113
+      - 欢迎订阅钱科技0528_🇨🇳_CN_中国_299
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_89
+      - 香港  | C |  1.5x | 钻石 | 原生IP |
+      - _油管：全网最强白嫖 3
+      - 台湾2-三网优化-强加密_1
+      - 韩国_0529018
+      - 日本 05
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_50
+      - _油管：全网最强白嫖 4
+      - 香港_6
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_6
+      - _油管：全网最强白嫖 5
+      - _US_美国
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_83
+      - 10219 @WangCai_1
+      - 香港_5
+      - 欢迎订阅钱科技0529_🇺🇸_US_美国_117
+      - US02
+      - 日本_0529046
+      - 189-imLam.com-HK
+      - 香港_7
+      - 台湾-
+      - 日本大阪南 02
+      - 香港10
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_61
+      - _油管：全网最强白嫖 6
+      - _US_美国 2
+      - 欢迎订阅钱科技0529_🇺🇸_US_美国_119
+      - 亚马逊3
+      - _US_美国 3
+      - 香港-tg频道:@ripaojiedian
+      - Incheon,+Tj+-+B+Group
+      - 美国(TG频道:@kxswa)
+      - 10223 @WangCai_1
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_144
+      - 欢迎订阅钱科技0529_🇺🇸_US_美国_115
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_19
+      - CN-高速节点推荐：v2cross.com_1
+      - 欢迎订阅钱科技0528_🇨🇳_CN_中国_259
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - "_油管频道：全网最强白嫖+55\r"
+      - 10369 @WangCai_1
+      - 日本-4.27MB/s(Youtube:不良林)
+      - 香港V2ray(05)-3
+      - CN_04
+      - 香港_0528101
+      - 欢迎订阅钱科技0528_🇨🇳_CN_中国_328
+      - _油管：全网最强白嫖 7
+      - "[VMess] 🇬🇧 GB-高速节点推荐：v1.mk/vip"
+      - "[免流]香港A"
+      - 美国_0528609
+      - _油管频道：全网最强白嫖_8
+      - 欢迎订阅钱科技0529_🇭🇰_HK_香港_166
+      - 稳定⑥关注公众号：ios黑科技
       - "_油管频道：全网最强白嫖+65\r"
-      - 日本05
-      - _油管：全网最强白嫖_26
-      - _油管：全网最强白嫖_31
-      - 香港10@BPJC_Group
-      - _油管：全网最强白嫖_32
-      - 香港04@BPJC_Group
-      - _油管：全网最强白嫖_28
-      - "美国(TG频道:@KXSWA)\r 2"
-      - 香港03
-      - 新加坡09白嫖机场群:@BPJC_Group
-      - 香港07@BPJC_Group
-      - hz.bgp.rx.naiun.pw:45184
-      - _油管：全网最强白嫖_35
-      - 日本01
-      - 香港01电报群@BPJC_Group
-      - 美国_0528237
-      - 香港03@BPJC_Group
-      - _油管：全网最强白嫖_33
-      - 香港09@BPJC_Group
-      - 香港05
-      - _油管：全网最强白嫖_5 2
-      - _油管：全网最强白嫖_30
-      - hz.bgp.rx.naiun.pw:45239
-      - _油管：全网最强白嫖_36
-      - 英国(TG频道:@KXSWA)
-      - 美国(TG频道:@KXSWA) 5
-      - 一起翻墙_7
-      - 香港02有问题请加群
-      - "美国(TG频道:@KXSWA)\r 3"
-      - hz.bgp.rx.naiun.pw:45394
-      - "韩国(TG频道:@KXSWA)\r"
-      - _油管：全网最强白嫖_20
-      - 香港IDC宽频|NF解锁|SS|A01
-      - JP_2386_19.50Mb|66.09Mb
-      - 美国(TG频道:@KXSWA) 6
-      - 英国(TG频道:@KXSWA) 2
-      - US_1222 |62.01Mb
+      - 美国A | 公益 | 0.2x
+      - 美國洛杉磯 01
+      - "_油管频道：全网最强白嫖+56\r"
+      - V321-0.2x-LasVegas
+      - 欢迎订阅钱科技0529_🇺🇸_US_美国_106
+      - _US_美国->🇫🇷_FR_法国
+      - _油管频道：全网最强白嫖_10
+      - 香港 | 公益 | 0.2x
+      - 日本08IIJ
+      - 日本 | 公益 | 0.2x
+      - 新加坡 | 公益 | 0.2x
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_84
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_40
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_87
+      - 俄罗斯4：darrenliuwei.com
+      - 美国(绿头外网集团)(Public)
+      - default_name+16
+      - _CH_瑞士
+      - "[VMess] 🇦🇺 澳大利亚(TG频道:@kxswa)"
+      - _油管：全网最强白嫖 8
+      - 稳定③关注公众号：ios黑科技
+      - MCI🇮🇱@AzadNet
+      - +(Youtube技术分享室)🇨🇳中国+7
+      - 2
+      - 亚马逊ec2
+      - VMESS
+      - TW_https://1808.gaNode_18
+      - 流媒体解锁SG
+      - 香港_0529307
+      - 190-imLam.com-HK
+      - Istanbul-Turkey|Media|1.5x
+      - 香港02
+      - 美国_0528005
+      - 香港_2
+      - 美國舊金山 02
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_85
+      - 高速节点推荐：v1.mk/vip
+      - 俄罗斯04CN2IPv6（2.75x）
+      - _油管：全网最强白嫖 9
+      - _AU_澳大利亚_3
+      - 亚马逊ec2 2
+      - US-高速节点购买：v1.mk/vip_1 2
+      - 美国3：darrenliuwei.com
+      - _油管：全网最强白嫖 10
+      - 法国_0528015
+      - 香港节点更新bit.ly/36b6iJh
+      - Relay_🇺🇸US-🇺🇸US_79
+      - 香港_1
+      - 韩国OracleBBR|No.1-500Mbps
+      - _KR_韩国 23
+      - 000-imLam.com-CN
+      - "[VMess] 🇸🇬 新加坡(TG频道:@kxswa) 2"
+      - _油管：全网最强白嫖 11
+      - _油管频道：全网最强白嫖_4
+      - "[VMess] 🇸🇬 新加坡(TG频道:@kxswa) 32"
+      - 日本东京 |AS|1G|J1
+      - LV1移动优化节点「1x」
+      - 美国 079
+      - 美国(欢迎订阅Youtube破解资源君)
+      - 高速节点推荐：v1.mk/vip 2
+      - 新加坡 007
+      - "_油管频道：全网最强白嫖+64\r"
+      - 欢迎订阅钱科技0528_🇺🇸_US_美国_451
+      - CN-高速节点推荐：v1.mk/vip
+      - SG_49_1
+      - 香港原生
+      - SG_1706
+      - 日本2-tg频道:@ripaojiedian
+      - 193-imLam.com-CN
+      - _油管：全网最强白嫖 12
+      - github.com/freefq-新加坡腾讯云9
+      - 日本10IIJ
+      - "[VMess] 🇺🇸 US-高速节点推荐：v1.mk/vip 7"
+      - 一起翻墙_10
+      - 美国(绿头外网集团)(Public) 2
+      - "[VMess] 🇸🇬 新加坡(:) 27"
+      - 美国-213.0KB/s(Youtube:不良林)
+      - 194-imLam.com-CN
+      - 187-imLam.com-HK
+      - "[VMess] 🇯🇵 Tokyo-M247-nf"
+      - 香港_4
+      - YouTube梦歌|Netflix_115
+      - github.com/freefq - 新加坡腾讯云 17
+      - 欢迎订阅钱科技0529_🇸🇬_SG_新加坡_270
+      - 新加坡(TG频道:@KXSWA) 47
+      - 亚马逊2
+      - "[VMess] 🇯🇵 Tokyo-M247-nf 3 2"
+      - 191-imLam.com-CN
+      - 195-imLam.com-CN
+      - Sydney-Oracle
+      - "[VMess] 🇨🇦 Montreal-RicaWeb-dip"
+      - US-高速节点推荐：v1.mk/vip
+      - "[VMess] 🇯🇵 Tokyo-M247-nf 2"
+      - Singapore-Tencent
+      - 印度(TG频道:@kxswa)
+      - 美国(nodefree.org免费分享)_1
+      - SG_90
+      - SG_1687
+      - 新加坡(欢迎订阅Youtube破解资源君)
+      - 油管：全网最强白嫖
+      - Mumbai-Linode
+      - 印度(TG频道:@kxswa) 2
+      - 美国_0528003
+      - https://github.com/Alvin9999/new-pac/wiki洛杉矶1SSR
+      - v2cross.com - 美国  73
+      - 油管：全网最强白嫖 2
+      - github.com/freefq - 新加坡腾讯云 61
+      - "[VMess] 🇩🇪 德国 002"
+      - 131-imLam.com-SG
+      - YouTube频道阿伟科技5.29
+      - "[VMess] 🇯🇵 Tokyo-M247-nf 3"
+      - "[VMess] 🇨🇦 加拿大 001 2"
+      - US-高速节点推荐：v1.mk/vip_18
+      - 094-imLam.com-SG
+      - 巴西_0528003
+      - 日本16IIJ
+      - "[VMess] 🇨🇦 加拿大 003"
+      - "[VMess] _1485_ 3.69Mb  5.42Mb"
+      - 113-imLam.com-SG
+      - 英国_0528001
+      - "[VMess] 🇧🇷 巴西(TG频道:@kxswa)"
+      - 香港Scloud-dip
+      - 新加坡_0529110
+      - 美国(欢迎订阅Youtube破解资源君) 2
+      - 新加坡(TG频道:@KXSWA) 22
+      - "[VMess] _1438_ 4.80Mb | 5.47Mb 2"
+      - github.com/v2rayfree-新加坡腾讯云25
+      - 巴西_0528004
+      - 新加坡_0529402
+      - "[VMess] 🇸🇬 SG-高速节点推荐：v1.mk/vip 49"
+      - 英国_0528044
+      - "[VMess] _1438_ 4.80Mb | 5.47Mb"
+      - 新加坡_0528104
+      - 白嫖分享 网站2220.it
+      - FR-高速节点购买：v1.mk/vip
+      - v2cross.com - 新加坡腾讯云 49
+      - _US_美国_6 11
+      - "[VMess] 🇧🇷 巴西 001"
+      - 澳大利亚01NTTIPv6
+      - 美国05GIACN2（1.3x）
+      - "[VMess] SG_37"
+      - "github.com/freefq - 新加坡腾讯云\n42"
+      - 099-imLam.com-SG
+      - 新加坡_0528048
+      - 美国_0528803
+      - SG_67
+      - US_53
+      - "[VMess] SG_1703 2"
+      - github.com/v2rayfree - 新加坡腾讯云 50
+      - "[VMess] SG_69"
+      - _油管：全网最强白嫖 13
+      - "[VMess] _：_2 2"
+      - 台湾1-tg频道:@ripaojiedian
+      - 法国(TG频道:@KXSWA) 2
+      - 新加坡_0528073
+      - SG_1696
+      - 新加坡_0528054
+      - 日本18IIJ
+      - SG-高速节点推荐：v1.mk/vip_3 2
+      - SG_648
+      - "[VMess] 🇸🇬 SG-高速节点推荐：v1.mk/vip 13"
+      - _油管：全网最强白嫖 14
+      - 新加坡(nodefree.org免费分享)_4
+      - +新加坡0777
+      - 英国_0528010
+      - "[VMess] 油管：全网最强白嫖_7 2"
+      - "[VMess] 油管：全网最强白嫖_7"
+      - "[VMess] BR中速0524"
+      - _1441_3.38Mb|3.62Mb
+      - SG-高速节点推荐：v1.mk/vip
+      - 003-imLam.com-HK
+      - "[VMess] _1459_ 4.93Mb | 2.08Mb"
+      - "[VMess] 🇮🇳 Mumbai-"
+      - "[VMess] 🇺🇸 Relay🇺🇸US中速0524"
+      - 巴西_0529006
+      - 巴西_0529001
+      - 新加坡_0528057
+      - 032-imLam.com-SG
+      - 加拿大_0528041
+      - 英国_0528044 2
+      - "[VMess] Gravelines-OVH-torrent"
+      - "[VMess] Gravelines-OVH"
+      - 日本22NTT
+      - _NL_荷兰_2
+      - 香港04电信/深港专线（2.5x）
+      - v2cross.com - 亚太地区  75
+      - SG-高速节点推荐：v1.mk/vip_25
+      - SG-高速节点推荐：v2cross.com_3
+      - "[SS]+_13.61Mb+|65.15Mb\r"
+      - _US_美国 24
+      - CN_266 【tg@freevpn8】10.25Mb
+      - SG_682
+      - 新加坡(欢迎订阅Youtube破解资源君) 2
+      - "[VMess] 🇸🇬 SG-高速节点推荐：v1.mk/vip 21 2"
+      - Relay_CN-HK_198
+      - CN_340|4.36Mb
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_278
+      - 日本20IIJ
+      - _1397_2.59Mb|2.39Mb
+      - 134-imLam.com-SG
+      - 法国_0528010
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 台湾1-三网优化-强加密
-      - 台湾家庭宽频|NF解锁|SS|A01
-      - 台湾家庭宽频|NF解锁|SS|B01
-      - 香港08@BPJC_Group
-      - 香港IDC宽频|NF解锁|SS|B01
-      - 香港06@BPJC_Group
-      - 香港05@BPJC_Group
-      - 香港10@BPJC_Group
-      - 香港04@BPJC_Group
-      - 香港03
-      - 香港07@BPJC_Group
-      - 香港01电报群@BPJC_Group
-      - 香港03@BPJC_Group
-      - 香港09@BPJC_Group
-      - 香港05
-      - 香港02有问题请加群
-      - 香港IDC宽频|NF解锁|SS|A01
+      - 台湾tj-tg频道:@ripaojiedian
+      - 台湾_0529001
+      - 香港|C|1.5x|钻石|原生IP|
+      - LV1 香港 - 隧道「1.5x」
+      - 台湾_0528015
+      - 台灣桃園 02 B
+      - 香港_3
+      - 香港  | C |  1.5x | 钻石 | 原生IP |
+      - 台湾2-三网优化-强加密_1
+      - 香港_6
+      - 香港_5
+      - 香港_7
+      - 台湾-
+      - 香港10
+      - 香港-tg频道:@ripaojiedian
+      - 香港V2ray(05)-3
+      - 香港_0528101
+      - "[免流]香港A"
+      - 欢迎订阅钱科技0529_🇭🇰_HK_香港_166
+      - 香港 | 公益 | 0.2x
+      - 香港_0529307
+      - 香港02
+      - 香港_2
+      - 香港节点更新bit.ly/36b6iJh
+      - 香港_1
+      - 香港原生
+      - 香港_4
+      - 香港Scloud-dip
+      - 台湾1-tg频道:@ripaojiedian
+      - 香港04电信/深港专线（2.5x）
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - _SG_新加坡
-      - 台湾1-三网优化-强加密
-      - _油管：全网最强白嫖_7 3
-      - _AU_澳大利亚
-      - YouTube梦歌|Netflix_94
+      - 日本商宽
+      - 10351 @WangCai_1
+      - "_油管频道：全网最强白嫖+61\r"
+      - KR01
+      - TG频道|https://t.me/getv2ray|1号
+      - 10189 @WangCai_1
+      - Oracle1-TCP-联通
+      - 10353 @WangCai_1
+      - 10355 @WangCai_1
+      - "[SS]+14.29.124.174:11033\r"
+      - "_油管频道：全网最强白嫖+66\r"
+      - 10191 @WangCai_1
+      - _油管：全网最强白嫖
+      - HK-
+      - 台湾tj-tg频道:@ripaojiedian
+      - LV1 新加坡 - 隧道「1.5x」
+      - 台湾_0529001
+      - 香港|C|1.5x|钻石|原生IP|
+      - _油管频道：全网最强白嫖_14
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_44
+      - 10193 @WangCai_1
+      - LV1 香港 - 隧道「1.5x」
+      - 10199 @WangCai_1
+      - 日本大阪北 01
+      - 007
+      - _油管频道：全网最强白嫖_1
+      - 加拿大多倫多 01
+      - 台湾_0528015
+      - _561_14.62Mb+|11.76Mb
       - YouTube梦歌|Netflix_104
-      - _NL_荷兰_35
-      - _NL_荷兰_66
-      - _NL_荷兰_37
-      - _NL_荷兰_25
-      - _NL_荷兰_26
-      - 新加坡07白嫖机场群:@BPJC_Group
-      - 美国2：darrenliuwei.com
-      - _NL_荷兰_32
-      - 日本IDC宽频|NF解锁|SS|A01
-      - 台湾家庭宽频|NF解锁|SS|A01
-      - 台湾家庭宽频|NF解锁|SS|B01
-      - gz.bgp.rx.naiun.pw:45394
-      - hz.bgp.rx.naiun.pw:45250
-      - 日本02
-      - hz.bgp.rx.naiun.pw:45149
-      - US_777
-      - 香港08@BPJC_Group
-      - 香港IDC宽频|NF解锁|SS|B01
-      - 新加坡IDC宽频|NF解锁|SS|B01
-      - 香港06@BPJC_Group
-      - _油管：全网最强白嫖_1 8
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_15
+      - 台灣桃園 02 B
+      - JP01
+      - +(Youtube技术分享室)🇨🇳中国+11
+      - CN_06
+      - _油管：全网最强白嫖 2
+      - 香港_3
+      - Oracle1-TCP-电信
+      - 日本👇[建议每3天更新一次订阅]_2
+      - 英國倫敦 01
       - "_油管频道：全网最强白嫖+60\r"
-      - 香港05@BPJC_Group
-      - hz.bgp.rx.naiun.pw:45194
-      - "_油管频道：全网最强白嫖+62\r"
-      - 美国IDC宽频|NF解锁|SS|B01
-      - 一起翻墙_10
+      - _339_22.30Mb+|+7.90Mb
+      - 中国_0529416
+      - CN_https://1808.ga++Node_113
+      - 欢迎订阅钱科技0528_🇨🇳_CN_中国_299
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_89
+      - 香港  | C |  1.5x | 钻石 | 原生IP |
+      - _油管：全网最强白嫖 3
+      - 台湾2-三网优化-强加密_1
+      - 韩国_0529018
+      - 日本 05
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_50
+      - _油管：全网最强白嫖 4
+      - 香港_6
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_6
+      - _油管：全网最强白嫖 5
+      - _US_美国
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_83
+      - 10219 @WangCai_1
+      - 香港_5
+      - 欢迎订阅钱科技0529_🇺🇸_US_美国_117
+      - US02
+      - 日本_0529046
+      - 189-imLam.com-HK
+      - 香港_7
+      - 台湾-
+      - 日本大阪南 02
+      - 香港10
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_61
+      - _油管：全网最强白嫖 6
+      - _US_美国 2
+      - 欢迎订阅钱科技0529_🇺🇸_US_美国_119
+      - 亚马逊3
+      - _US_美国 3
+      - 香港-tg频道:@ripaojiedian
+      - Incheon,+Tj+-+B+Group
+      - 美国(TG频道:@kxswa)
+      - 10223 @WangCai_1
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_144
+      - 欢迎订阅钱科技0529_🇺🇸_US_美国_115
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_19
+      - CN-高速节点推荐：v2cross.com_1
+      - 欢迎订阅钱科技0528_🇨🇳_CN_中国_259
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - "_油管频道：全网最强白嫖+55\r"
+      - 10369 @WangCai_1
+      - 日本-4.27MB/s(Youtube:不良林)
+      - 香港V2ray(05)-3
+      - CN_04
+      - 香港_0528101
+      - 欢迎订阅钱科技0528_🇨🇳_CN_中国_328
+      - _油管：全网最强白嫖 7
+      - "[VMess] 🇬🇧 GB-高速节点推荐：v1.mk/vip"
+      - "[免流]香港A"
+      - 美国_0528609
+      - _油管频道：全网最强白嫖_8
+      - 欢迎订阅钱科技0529_🇭🇰_HK_香港_166
+      - 稳定⑥关注公众号：ios黑科技
       - "_油管频道：全网最强白嫖+65\r"
-      - 日本05
-      - _油管：全网最强白嫖_26
-      - _油管：全网最强白嫖_31
-      - 香港10@BPJC_Group
-      - _油管：全网最强白嫖_32
-      - 香港04@BPJC_Group
-      - _油管：全网最强白嫖_28
-      - "美国(TG频道:@KXSWA)\r 2"
-      - 香港03
-      - 新加坡09白嫖机场群:@BPJC_Group
-      - 香港07@BPJC_Group
-      - hz.bgp.rx.naiun.pw:45184
-      - _油管：全网最强白嫖_35
-      - 日本01
-      - 香港01电报群@BPJC_Group
-      - 美国_0528237
-      - 香港03@BPJC_Group
-      - _油管：全网最强白嫖_33
-      - 香港09@BPJC_Group
-      - 香港05
-      - _油管：全网最强白嫖_5 2
-      - _油管：全网最强白嫖_30
-      - hz.bgp.rx.naiun.pw:45239
-      - _油管：全网最强白嫖_36
-      - 英国(TG频道:@KXSWA)
-      - 美国(TG频道:@KXSWA) 5
-      - 一起翻墙_7
-      - 香港02有问题请加群
-      - "美国(TG频道:@KXSWA)\r 3"
-      - hz.bgp.rx.naiun.pw:45394
-      - "韩国(TG频道:@KXSWA)\r"
-      - _油管：全网最强白嫖_20
-      - 香港IDC宽频|NF解锁|SS|A01
-      - JP_2386_19.50Mb|66.09Mb
-      - 美国(TG频道:@KXSWA) 6
-      - 英国(TG频道:@KXSWA) 2
-      - US_1222 |62.01Mb
+      - 美国A | 公益 | 0.2x
+      - 美國洛杉磯 01
+      - "_油管频道：全网最强白嫖+56\r"
+      - V321-0.2x-LasVegas
+      - 欢迎订阅钱科技0529_🇺🇸_US_美国_106
+      - _US_美国->🇫🇷_FR_法国
+      - _油管频道：全网最强白嫖_10
+      - 香港 | 公益 | 0.2x
+      - 日本08IIJ
+      - 日本 | 公益 | 0.2x
+      - 新加坡 | 公益 | 0.2x
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_84
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_40
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_87
+      - 俄罗斯4：darrenliuwei.com
+      - 美国(绿头外网集团)(Public)
+      - default_name+16
+      - _CH_瑞士
+      - "[VMess] 🇦🇺 澳大利亚(TG频道:@kxswa)"
+      - _油管：全网最强白嫖 8
+      - 稳定③关注公众号：ios黑科技
+      - MCI🇮🇱@AzadNet
+      - +(Youtube技术分享室)🇨🇳中国+7
+      - 2
+      - 亚马逊ec2
+      - VMESS
+      - TW_https://1808.gaNode_18
+      - 流媒体解锁SG
+      - 香港_0529307
+      - 190-imLam.com-HK
+      - Istanbul-Turkey|Media|1.5x
+      - 香港02
+      - 美国_0528005
+      - 香港_2
+      - 美國舊金山 02
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_85
+      - 高速节点推荐：v1.mk/vip
+      - 俄罗斯04CN2IPv6（2.75x）
+      - _油管：全网最强白嫖 9
+      - _AU_澳大利亚_3
+      - 亚马逊ec2 2
+      - US-高速节点购买：v1.mk/vip_1 2
+      - 美国3：darrenliuwei.com
+      - _油管：全网最强白嫖 10
+      - 法国_0528015
+      - 香港节点更新bit.ly/36b6iJh
+      - Relay_🇺🇸US-🇺🇸US_79
+      - 香港_1
+      - 韩国OracleBBR|No.1-500Mbps
+      - _KR_韩国 23
+      - 000-imLam.com-CN
+      - "[VMess] 🇸🇬 新加坡(TG频道:@kxswa) 2"
+      - _油管：全网最强白嫖 11
+      - _油管频道：全网最强白嫖_4
+      - "[VMess] 🇸🇬 新加坡(TG频道:@kxswa) 32"
+      - 日本东京 |AS|1G|J1
+      - LV1移动优化节点「1x」
+      - 美国 079
+      - 美国(欢迎订阅Youtube破解资源君)
+      - 高速节点推荐：v1.mk/vip 2
+      - 新加坡 007
+      - "_油管频道：全网最强白嫖+64\r"
+      - 欢迎订阅钱科技0528_🇺🇸_US_美国_451
+      - CN-高速节点推荐：v1.mk/vip
+      - SG_49_1
+      - 香港原生
+      - SG_1706
+      - 日本2-tg频道:@ripaojiedian
+      - 193-imLam.com-CN
+      - _油管：全网最强白嫖 12
+      - github.com/freefq-新加坡腾讯云9
+      - 日本10IIJ
+      - "[VMess] 🇺🇸 US-高速节点推荐：v1.mk/vip 7"
+      - 一起翻墙_10
+      - 美国(绿头外网集团)(Public) 2
+      - "[VMess] 🇸🇬 新加坡(:) 27"
+      - 美国-213.0KB/s(Youtube:不良林)
+      - 194-imLam.com-CN
+      - 187-imLam.com-HK
+      - "[VMess] 🇯🇵 Tokyo-M247-nf"
+      - 香港_4
+      - YouTube梦歌|Netflix_115
+      - github.com/freefq - 新加坡腾讯云 17
+      - 欢迎订阅钱科技0529_🇸🇬_SG_新加坡_270
+      - 新加坡(TG频道:@KXSWA) 47
+      - 亚马逊2
+      - "[VMess] 🇯🇵 Tokyo-M247-nf 3 2"
+      - 191-imLam.com-CN
+      - 195-imLam.com-CN
+      - Sydney-Oracle
+      - "[VMess] 🇨🇦 Montreal-RicaWeb-dip"
+      - US-高速节点推荐：v1.mk/vip
+      - "[VMess] 🇯🇵 Tokyo-M247-nf 2"
+      - Singapore-Tencent
+      - 印度(TG频道:@kxswa)
+      - 美国(nodefree.org免费分享)_1
+      - SG_90
+      - SG_1687
+      - 新加坡(欢迎订阅Youtube破解资源君)
+      - 油管：全网最强白嫖
+      - Mumbai-Linode
+      - 印度(TG频道:@kxswa) 2
+      - 美国_0528003
+      - https://github.com/Alvin9999/new-pac/wiki洛杉矶1SSR
+      - v2cross.com - 美国  73
+      - 油管：全网最强白嫖 2
+      - github.com/freefq - 新加坡腾讯云 61
+      - "[VMess] 🇩🇪 德国 002"
+      - 131-imLam.com-SG
+      - YouTube频道阿伟科技5.29
+      - "[VMess] 🇯🇵 Tokyo-M247-nf 3"
+      - "[VMess] 🇨🇦 加拿大 001 2"
+      - US-高速节点推荐：v1.mk/vip_18
+      - 094-imLam.com-SG
+      - 巴西_0528003
+      - 日本16IIJ
+      - "[VMess] 🇨🇦 加拿大 003"
+      - "[VMess] _1485_ 3.69Mb  5.42Mb"
+      - 113-imLam.com-SG
+      - 英国_0528001
+      - "[VMess] 🇧🇷 巴西(TG频道:@kxswa)"
+      - 香港Scloud-dip
+      - 新加坡_0529110
+      - 美国(欢迎订阅Youtube破解资源君) 2
+      - 新加坡(TG频道:@KXSWA) 22
+      - "[VMess] _1438_ 4.80Mb | 5.47Mb 2"
+      - github.com/v2rayfree-新加坡腾讯云25
+      - 巴西_0528004
+      - 新加坡_0529402
+      - "[VMess] 🇸🇬 SG-高速节点推荐：v1.mk/vip 49"
+      - 英国_0528044
+      - "[VMess] _1438_ 4.80Mb | 5.47Mb"
+      - 新加坡_0528104
+      - 白嫖分享 网站2220.it
+      - FR-高速节点购买：v1.mk/vip
+      - v2cross.com - 新加坡腾讯云 49
+      - _US_美国_6 11
+      - "[VMess] 🇧🇷 巴西 001"
+      - 澳大利亚01NTTIPv6
+      - 美国05GIACN2（1.3x）
+      - "[VMess] SG_37"
+      - "github.com/freefq - 新加坡腾讯云\n42"
+      - 099-imLam.com-SG
+      - 新加坡_0528048
+      - 美国_0528803
+      - SG_67
+      - US_53
+      - "[VMess] SG_1703 2"
+      - github.com/v2rayfree - 新加坡腾讯云 50
+      - "[VMess] SG_69"
+      - _油管：全网最强白嫖 13
+      - "[VMess] _：_2 2"
+      - 台湾1-tg频道:@ripaojiedian
+      - 法国(TG频道:@KXSWA) 2
+      - 新加坡_0528073
+      - SG_1696
+      - 新加坡_0528054
+      - 日本18IIJ
+      - SG-高速节点推荐：v1.mk/vip_3 2
+      - SG_648
+      - "[VMess] 🇸🇬 SG-高速节点推荐：v1.mk/vip 13"
+      - _油管：全网最强白嫖 14
+      - 新加坡(nodefree.org免费分享)_4
+      - +新加坡0777
+      - 英国_0528010
+      - "[VMess] 油管：全网最强白嫖_7 2"
+      - "[VMess] 油管：全网最强白嫖_7"
+      - "[VMess] BR中速0524"
+      - _1441_3.38Mb|3.62Mb
+      - SG-高速节点推荐：v1.mk/vip
+      - 003-imLam.com-HK
+      - "[VMess] _1459_ 4.93Mb | 2.08Mb"
+      - "[VMess] 🇮🇳 Mumbai-"
+      - "[VMess] 🇺🇸 Relay🇺🇸US中速0524"
+      - 巴西_0529006
+      - 巴西_0529001
+      - 新加坡_0528057
+      - 032-imLam.com-SG
+      - 加拿大_0528041
+      - 英国_0528044 2
+      - "[VMess] Gravelines-OVH-torrent"
+      - "[VMess] Gravelines-OVH"
+      - 日本22NTT
+      - _NL_荷兰_2
+      - 香港04电信/深港专线（2.5x）
+      - v2cross.com - 亚太地区  75
+      - SG-高速节点推荐：v1.mk/vip_25
+      - SG-高速节点推荐：v2cross.com_3
+      - "[SS]+_13.61Mb+|65.15Mb\r"
+      - _US_美国 24
+      - CN_266 【tg@freevpn8】10.25Mb
+      - SG_682
+      - 新加坡(欢迎订阅Youtube破解资源君) 2
+      - "[VMess] 🇸🇬 SG-高速节点推荐：v1.mk/vip 21 2"
+      - Relay_CN-HK_198
+      - CN_340|4.36Mb
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_278
+      - 日本20IIJ
+      - _1397_2.59Mb|2.39Mb
+      - 134-imLam.com-SG
+      - 法国_0528010
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - _SG_新加坡
-      - 台湾1-三网优化-强加密
-      - _油管：全网最强白嫖_7 3
-      - _AU_澳大利亚
-      - YouTube梦歌|Netflix_94
+      - 日本商宽
+      - 10351 @WangCai_1
+      - "_油管频道：全网最强白嫖+61\r"
+      - KR01
+      - TG频道|https://t.me/getv2ray|1号
+      - 10189 @WangCai_1
+      - Oracle1-TCP-联通
+      - 10353 @WangCai_1
+      - 10355 @WangCai_1
+      - "[SS]+14.29.124.174:11033\r"
+      - "_油管频道：全网最强白嫖+66\r"
+      - 10191 @WangCai_1
+      - _油管：全网最强白嫖
+      - HK-
+      - 台湾tj-tg频道:@ripaojiedian
+      - LV1 新加坡 - 隧道「1.5x」
+      - 台湾_0529001
+      - 香港|C|1.5x|钻石|原生IP|
+      - _油管频道：全网最强白嫖_14
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_44
+      - 10193 @WangCai_1
+      - LV1 香港 - 隧道「1.5x」
+      - 10199 @WangCai_1
+      - 日本大阪北 01
+      - 007
+      - _油管频道：全网最强白嫖_1
+      - 加拿大多倫多 01
+      - 台湾_0528015
+      - _561_14.62Mb+|11.76Mb
       - YouTube梦歌|Netflix_104
-      - _NL_荷兰_35
-      - _NL_荷兰_66
-      - _NL_荷兰_37
-      - _NL_荷兰_25
-      - _NL_荷兰_26
-      - 新加坡07白嫖机场群:@BPJC_Group
-      - 美国2：darrenliuwei.com
-      - _NL_荷兰_32
-      - 日本IDC宽频|NF解锁|SS|A01
-      - 台湾家庭宽频|NF解锁|SS|A01
-      - 台湾家庭宽频|NF解锁|SS|B01
-      - gz.bgp.rx.naiun.pw:45394
-      - hz.bgp.rx.naiun.pw:45250
-      - 日本02
-      - hz.bgp.rx.naiun.pw:45149
-      - US_777
-      - 香港08@BPJC_Group
-      - 香港IDC宽频|NF解锁|SS|B01
-      - 新加坡IDC宽频|NF解锁|SS|B01
-      - 香港06@BPJC_Group
-      - _油管：全网最强白嫖_1 8
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_15
+      - 台灣桃園 02 B
+      - JP01
+      - +(Youtube技术分享室)🇨🇳中国+11
+      - CN_06
+      - _油管：全网最强白嫖 2
+      - 香港_3
+      - Oracle1-TCP-电信
+      - 日本👇[建议每3天更新一次订阅]_2
+      - 英國倫敦 01
       - "_油管频道：全网最强白嫖+60\r"
-      - 香港05@BPJC_Group
-      - hz.bgp.rx.naiun.pw:45194
-      - "_油管频道：全网最强白嫖+62\r"
-      - 美国IDC宽频|NF解锁|SS|B01
-      - 一起翻墙_10
+      - _339_22.30Mb+|+7.90Mb
+      - 中国_0529416
+      - CN_https://1808.ga++Node_113
+      - 欢迎订阅钱科技0528_🇨🇳_CN_中国_299
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_89
+      - 香港  | C |  1.5x | 钻石 | 原生IP |
+      - _油管：全网最强白嫖 3
+      - 台湾2-三网优化-强加密_1
+      - 韩国_0529018
+      - 日本 05
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_50
+      - _油管：全网最强白嫖 4
+      - 香港_6
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_6
+      - _油管：全网最强白嫖 5
+      - _US_美国
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_83
+      - 10219 @WangCai_1
+      - 香港_5
+      - 欢迎订阅钱科技0529_🇺🇸_US_美国_117
+      - US02
+      - 日本_0529046
+      - 189-imLam.com-HK
+      - 香港_7
+      - 台湾-
+      - 日本大阪南 02
+      - 香港10
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_61
+      - _油管：全网最强白嫖 6
+      - _US_美国 2
+      - 欢迎订阅钱科技0529_🇺🇸_US_美国_119
+      - 亚马逊3
+      - _US_美国 3
+      - 香港-tg频道:@ripaojiedian
+      - Incheon,+Tj+-+B+Group
+      - 美国(TG频道:@kxswa)
+      - 10223 @WangCai_1
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_144
+      - 欢迎订阅钱科技0529_🇺🇸_US_美国_115
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_19
+      - CN-高速节点推荐：v2cross.com_1
+      - 欢迎订阅钱科技0528_🇨🇳_CN_中国_259
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - "_油管频道：全网最强白嫖+55\r"
+      - 10369 @WangCai_1
+      - 日本-4.27MB/s(Youtube:不良林)
+      - 香港V2ray(05)-3
+      - CN_04
+      - 香港_0528101
+      - 欢迎订阅钱科技0528_🇨🇳_CN_中国_328
+      - _油管：全网最强白嫖 7
+      - "[VMess] 🇬🇧 GB-高速节点推荐：v1.mk/vip"
+      - "[免流]香港A"
+      - 美国_0528609
+      - _油管频道：全网最强白嫖_8
+      - 欢迎订阅钱科技0529_🇭🇰_HK_香港_166
+      - 稳定⑥关注公众号：ios黑科技
       - "_油管频道：全网最强白嫖+65\r"
-      - 日本05
-      - _油管：全网最强白嫖_26
-      - _油管：全网最强白嫖_31
-      - 香港10@BPJC_Group
-      - _油管：全网最强白嫖_32
-      - 香港04@BPJC_Group
-      - _油管：全网最强白嫖_28
-      - "美国(TG频道:@KXSWA)\r 2"
-      - 香港03
-      - 新加坡09白嫖机场群:@BPJC_Group
-      - 香港07@BPJC_Group
-      - hz.bgp.rx.naiun.pw:45184
-      - _油管：全网最强白嫖_35
-      - 日本01
-      - 香港01电报群@BPJC_Group
-      - 美国_0528237
-      - 香港03@BPJC_Group
-      - _油管：全网最强白嫖_33
-      - 香港09@BPJC_Group
-      - 香港05
-      - _油管：全网最强白嫖_5 2
-      - _油管：全网最强白嫖_30
-      - hz.bgp.rx.naiun.pw:45239
-      - _油管：全网最强白嫖_36
-      - 英国(TG频道:@KXSWA)
-      - 美国(TG频道:@KXSWA) 5
-      - 一起翻墙_7
-      - 香港02有问题请加群
-      - "美国(TG频道:@KXSWA)\r 3"
-      - hz.bgp.rx.naiun.pw:45394
-      - "韩国(TG频道:@KXSWA)\r"
-      - _油管：全网最强白嫖_20
-      - 香港IDC宽频|NF解锁|SS|A01
-      - JP_2386_19.50Mb|66.09Mb
-      - 美国(TG频道:@KXSWA) 6
-      - 英国(TG频道:@KXSWA) 2
-      - US_1222 |62.01Mb
+      - 美国A | 公益 | 0.2x
+      - 美國洛杉磯 01
+      - "_油管频道：全网最强白嫖+56\r"
+      - V321-0.2x-LasVegas
+      - 欢迎订阅钱科技0529_🇺🇸_US_美国_106
+      - _US_美国->🇫🇷_FR_法国
+      - _油管频道：全网最强白嫖_10
+      - 香港 | 公益 | 0.2x
+      - 日本08IIJ
+      - 日本 | 公益 | 0.2x
+      - 新加坡 | 公益 | 0.2x
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_84
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_40
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_87
+      - 俄罗斯4：darrenliuwei.com
+      - 美国(绿头外网集团)(Public)
+      - default_name+16
+      - _CH_瑞士
+      - "[VMess] 🇦🇺 澳大利亚(TG频道:@kxswa)"
+      - _油管：全网最强白嫖 8
+      - 稳定③关注公众号：ios黑科技
+      - MCI🇮🇱@AzadNet
+      - +(Youtube技术分享室)🇨🇳中国+7
+      - 2
+      - 亚马逊ec2
+      - VMESS
+      - TW_https://1808.gaNode_18
+      - 流媒体解锁SG
+      - 香港_0529307
+      - 190-imLam.com-HK
+      - Istanbul-Turkey|Media|1.5x
+      - 香港02
+      - 美国_0528005
+      - 香港_2
+      - 美國舊金山 02
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_85
+      - 高速节点推荐：v1.mk/vip
+      - 俄罗斯04CN2IPv6（2.75x）
+      - _油管：全网最强白嫖 9
+      - _AU_澳大利亚_3
+      - 亚马逊ec2 2
+      - US-高速节点购买：v1.mk/vip_1 2
+      - 美国3：darrenliuwei.com
+      - _油管：全网最强白嫖 10
+      - 法国_0528015
+      - 香港节点更新bit.ly/36b6iJh
+      - Relay_🇺🇸US-🇺🇸US_79
+      - 香港_1
+      - 韩国OracleBBR|No.1-500Mbps
+      - _KR_韩国 23
+      - 000-imLam.com-CN
+      - "[VMess] 🇸🇬 新加坡(TG频道:@kxswa) 2"
+      - _油管：全网最强白嫖 11
+      - _油管频道：全网最强白嫖_4
+      - "[VMess] 🇸🇬 新加坡(TG频道:@kxswa) 32"
+      - 日本东京 |AS|1G|J1
+      - LV1移动优化节点「1x」
+      - 美国 079
+      - 美国(欢迎订阅Youtube破解资源君)
+      - 高速节点推荐：v1.mk/vip 2
+      - 新加坡 007
+      - "_油管频道：全网最强白嫖+64\r"
+      - 欢迎订阅钱科技0528_🇺🇸_US_美国_451
+      - CN-高速节点推荐：v1.mk/vip
+      - SG_49_1
+      - 香港原生
+      - SG_1706
+      - 日本2-tg频道:@ripaojiedian
+      - 193-imLam.com-CN
+      - _油管：全网最强白嫖 12
+      - github.com/freefq-新加坡腾讯云9
+      - 日本10IIJ
+      - "[VMess] 🇺🇸 US-高速节点推荐：v1.mk/vip 7"
+      - 一起翻墙_10
+      - 美国(绿头外网集团)(Public) 2
+      - "[VMess] 🇸🇬 新加坡(:) 27"
+      - 美国-213.0KB/s(Youtube:不良林)
+      - 194-imLam.com-CN
+      - 187-imLam.com-HK
+      - "[VMess] 🇯🇵 Tokyo-M247-nf"
+      - 香港_4
+      - YouTube梦歌|Netflix_115
+      - github.com/freefq - 新加坡腾讯云 17
+      - 欢迎订阅钱科技0529_🇸🇬_SG_新加坡_270
+      - 新加坡(TG频道:@KXSWA) 47
+      - 亚马逊2
+      - "[VMess] 🇯🇵 Tokyo-M247-nf 3 2"
+      - 191-imLam.com-CN
+      - 195-imLam.com-CN
+      - Sydney-Oracle
+      - "[VMess] 🇨🇦 Montreal-RicaWeb-dip"
+      - US-高速节点推荐：v1.mk/vip
+      - "[VMess] 🇯🇵 Tokyo-M247-nf 2"
+      - Singapore-Tencent
+      - 印度(TG频道:@kxswa)
+      - 美国(nodefree.org免费分享)_1
+      - SG_90
+      - SG_1687
+      - 新加坡(欢迎订阅Youtube破解资源君)
+      - 油管：全网最强白嫖
+      - Mumbai-Linode
+      - 印度(TG频道:@kxswa) 2
+      - 美国_0528003
+      - https://github.com/Alvin9999/new-pac/wiki洛杉矶1SSR
+      - v2cross.com - 美国  73
+      - 油管：全网最强白嫖 2
+      - github.com/freefq - 新加坡腾讯云 61
+      - "[VMess] 🇩🇪 德国 002"
+      - 131-imLam.com-SG
+      - YouTube频道阿伟科技5.29
+      - "[VMess] 🇯🇵 Tokyo-M247-nf 3"
+      - "[VMess] 🇨🇦 加拿大 001 2"
+      - US-高速节点推荐：v1.mk/vip_18
+      - 094-imLam.com-SG
+      - 巴西_0528003
+      - 日本16IIJ
+      - "[VMess] 🇨🇦 加拿大 003"
+      - "[VMess] _1485_ 3.69Mb  5.42Mb"
+      - 113-imLam.com-SG
+      - 英国_0528001
+      - "[VMess] 🇧🇷 巴西(TG频道:@kxswa)"
+      - 香港Scloud-dip
+      - 新加坡_0529110
+      - 美国(欢迎订阅Youtube破解资源君) 2
+      - 新加坡(TG频道:@KXSWA) 22
+      - "[VMess] _1438_ 4.80Mb | 5.47Mb 2"
+      - github.com/v2rayfree-新加坡腾讯云25
+      - 巴西_0528004
+      - 新加坡_0529402
+      - "[VMess] 🇸🇬 SG-高速节点推荐：v1.mk/vip 49"
+      - 英国_0528044
+      - "[VMess] _1438_ 4.80Mb | 5.47Mb"
+      - 新加坡_0528104
+      - 白嫖分享 网站2220.it
+      - FR-高速节点购买：v1.mk/vip
+      - v2cross.com - 新加坡腾讯云 49
+      - _US_美国_6 11
+      - "[VMess] 🇧🇷 巴西 001"
+      - 澳大利亚01NTTIPv6
+      - 美国05GIACN2（1.3x）
+      - "[VMess] SG_37"
+      - "github.com/freefq - 新加坡腾讯云\n42"
+      - 099-imLam.com-SG
+      - 新加坡_0528048
+      - 美国_0528803
+      - SG_67
+      - US_53
+      - "[VMess] SG_1703 2"
+      - github.com/v2rayfree - 新加坡腾讯云 50
+      - "[VMess] SG_69"
+      - _油管：全网最强白嫖 13
+      - "[VMess] _：_2 2"
+      - 台湾1-tg频道:@ripaojiedian
+      - 法国(TG频道:@KXSWA) 2
+      - 新加坡_0528073
+      - SG_1696
+      - 新加坡_0528054
+      - 日本18IIJ
+      - SG-高速节点推荐：v1.mk/vip_3 2
+      - SG_648
+      - "[VMess] 🇸🇬 SG-高速节点推荐：v1.mk/vip 13"
+      - _油管：全网最强白嫖 14
+      - 新加坡(nodefree.org免费分享)_4
+      - +新加坡0777
+      - 英国_0528010
+      - "[VMess] 油管：全网最强白嫖_7 2"
+      - "[VMess] 油管：全网最强白嫖_7"
+      - "[VMess] BR中速0524"
+      - _1441_3.38Mb|3.62Mb
+      - SG-高速节点推荐：v1.mk/vip
+      - 003-imLam.com-HK
+      - "[VMess] _1459_ 4.93Mb | 2.08Mb"
+      - "[VMess] 🇮🇳 Mumbai-"
+      - "[VMess] 🇺🇸 Relay🇺🇸US中速0524"
+      - 巴西_0529006
+      - 巴西_0529001
+      - 新加坡_0528057
+      - 032-imLam.com-SG
+      - 加拿大_0528041
+      - 英国_0528044 2
+      - "[VMess] Gravelines-OVH-torrent"
+      - "[VMess] Gravelines-OVH"
+      - 日本22NTT
+      - _NL_荷兰_2
+      - 香港04电信/深港专线（2.5x）
+      - v2cross.com - 亚太地区  75
+      - SG-高速节点推荐：v1.mk/vip_25
+      - SG-高速节点推荐：v2cross.com_3
+      - "[SS]+_13.61Mb+|65.15Mb\r"
+      - _US_美国 24
+      - CN_266 【tg@freevpn8】10.25Mb
+      - SG_682
+      - 新加坡(欢迎订阅Youtube破解资源君) 2
+      - "[VMess] 🇸🇬 SG-高速节点推荐：v1.mk/vip 21 2"
+      - Relay_CN-HK_198
+      - CN_340|4.36Mb
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_278
+      - 日本20IIJ
+      - _1397_2.59Mb|2.39Mb
+      - 134-imLam.com-SG
+      - 法国_0528010
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _SG_新加坡
-      - 台湾1-三网优化-强加密
-      - _油管：全网最强白嫖_7 3
-      - _AU_澳大利亚
-      - YouTube梦歌|Netflix_94
+      - 日本商宽
+      - 10351 @WangCai_1
+      - "_油管频道：全网最强白嫖+61\r"
+      - KR01
+      - TG频道|https://t.me/getv2ray|1号
+      - 10189 @WangCai_1
+      - Oracle1-TCP-联通
+      - 10353 @WangCai_1
+      - 10355 @WangCai_1
+      - "[SS]+14.29.124.174:11033\r"
+      - "_油管频道：全网最强白嫖+66\r"
+      - 10191 @WangCai_1
+      - _油管：全网最强白嫖
+      - HK-
+      - 台湾tj-tg频道:@ripaojiedian
+      - LV1 新加坡 - 隧道「1.5x」
+      - 台湾_0529001
+      - 香港|C|1.5x|钻石|原生IP|
+      - _油管频道：全网最强白嫖_14
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_44
+      - 10193 @WangCai_1
+      - LV1 香港 - 隧道「1.5x」
+      - 10199 @WangCai_1
+      - 日本大阪北 01
+      - 007
+      - _油管频道：全网最强白嫖_1
+      - 加拿大多倫多 01
+      - 台湾_0528015
+      - _561_14.62Mb+|11.76Mb
       - YouTube梦歌|Netflix_104
-      - _NL_荷兰_35
-      - _NL_荷兰_66
-      - _NL_荷兰_37
-      - _NL_荷兰_25
-      - _NL_荷兰_26
-      - 新加坡07白嫖机场群:@BPJC_Group
-      - 美国2：darrenliuwei.com
-      - _NL_荷兰_32
-      - 日本IDC宽频|NF解锁|SS|A01
-      - 台湾家庭宽频|NF解锁|SS|A01
-      - 台湾家庭宽频|NF解锁|SS|B01
-      - gz.bgp.rx.naiun.pw:45394
-      - hz.bgp.rx.naiun.pw:45250
-      - 日本02
-      - hz.bgp.rx.naiun.pw:45149
-      - US_777
-      - 香港08@BPJC_Group
-      - 香港IDC宽频|NF解锁|SS|B01
-      - 新加坡IDC宽频|NF解锁|SS|B01
-      - 香港06@BPJC_Group
-      - _油管：全网最强白嫖_1 8
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_15
+      - 台灣桃園 02 B
+      - JP01
+      - +(Youtube技术分享室)🇨🇳中国+11
+      - CN_06
+      - _油管：全网最强白嫖 2
+      - 香港_3
+      - Oracle1-TCP-电信
+      - 日本👇[建议每3天更新一次订阅]_2
+      - 英國倫敦 01
       - "_油管频道：全网最强白嫖+60\r"
-      - 香港05@BPJC_Group
-      - hz.bgp.rx.naiun.pw:45194
-      - "_油管频道：全网最强白嫖+62\r"
-      - 美国IDC宽频|NF解锁|SS|B01
-      - 一起翻墙_10
+      - _339_22.30Mb+|+7.90Mb
+      - 中国_0529416
+      - CN_https://1808.ga++Node_113
+      - 欢迎订阅钱科技0528_🇨🇳_CN_中国_299
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_89
+      - 香港  | C |  1.5x | 钻石 | 原生IP |
+      - _油管：全网最强白嫖 3
+      - 台湾2-三网优化-强加密_1
+      - 韩国_0529018
+      - 日本 05
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_50
+      - _油管：全网最强白嫖 4
+      - 香港_6
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_6
+      - _油管：全网最强白嫖 5
+      - _US_美国
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_83
+      - 10219 @WangCai_1
+      - 香港_5
+      - 欢迎订阅钱科技0529_🇺🇸_US_美国_117
+      - US02
+      - 日本_0529046
+      - 189-imLam.com-HK
+      - 香港_7
+      - 台湾-
+      - 日本大阪南 02
+      - 香港10
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_61
+      - _油管：全网最强白嫖 6
+      - _US_美国 2
+      - 欢迎订阅钱科技0529_🇺🇸_US_美国_119
+      - 亚马逊3
+      - _US_美国 3
+      - 香港-tg频道:@ripaojiedian
+      - Incheon,+Tj+-+B+Group
+      - 美国(TG频道:@kxswa)
+      - 10223 @WangCai_1
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_144
+      - 欢迎订阅钱科技0529_🇺🇸_US_美国_115
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_19
+      - CN-高速节点推荐：v2cross.com_1
+      - 欢迎订阅钱科技0528_🇨🇳_CN_中国_259
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - "_油管频道：全网最强白嫖+55\r"
+      - 10369 @WangCai_1
+      - 日本-4.27MB/s(Youtube:不良林)
+      - 香港V2ray(05)-3
+      - CN_04
+      - 香港_0528101
+      - 欢迎订阅钱科技0528_🇨🇳_CN_中国_328
+      - _油管：全网最强白嫖 7
+      - "[VMess] 🇬🇧 GB-高速节点推荐：v1.mk/vip"
+      - "[免流]香港A"
+      - 美国_0528609
+      - _油管频道：全网最强白嫖_8
+      - 欢迎订阅钱科技0529_🇭🇰_HK_香港_166
+      - 稳定⑥关注公众号：ios黑科技
       - "_油管频道：全网最强白嫖+65\r"
-      - 日本05
-      - _油管：全网最强白嫖_26
-      - _油管：全网最强白嫖_31
-      - 香港10@BPJC_Group
-      - _油管：全网最强白嫖_32
-      - 香港04@BPJC_Group
-      - _油管：全网最强白嫖_28
-      - "美国(TG频道:@KXSWA)\r 2"
-      - 香港03
-      - 新加坡09白嫖机场群:@BPJC_Group
-      - 香港07@BPJC_Group
-      - hz.bgp.rx.naiun.pw:45184
-      - _油管：全网最强白嫖_35
-      - 日本01
-      - 香港01电报群@BPJC_Group
-      - 美国_0528237
-      - 香港03@BPJC_Group
-      - _油管：全网最强白嫖_33
-      - 香港09@BPJC_Group
-      - 香港05
-      - _油管：全网最强白嫖_5 2
-      - _油管：全网最强白嫖_30
-      - hz.bgp.rx.naiun.pw:45239
-      - _油管：全网最强白嫖_36
-      - 英国(TG频道:@KXSWA)
-      - 美国(TG频道:@KXSWA) 5
-      - 一起翻墙_7
-      - 香港02有问题请加群
-      - "美国(TG频道:@KXSWA)\r 3"
-      - hz.bgp.rx.naiun.pw:45394
-      - "韩国(TG频道:@KXSWA)\r"
-      - _油管：全网最强白嫖_20
-      - 香港IDC宽频|NF解锁|SS|A01
-      - JP_2386_19.50Mb|66.09Mb
-      - 美国(TG频道:@KXSWA) 6
-      - 英国(TG频道:@KXSWA) 2
-      - US_1222 |62.01Mb
+      - 美国A | 公益 | 0.2x
+      - 美國洛杉磯 01
+      - "_油管频道：全网最强白嫖+56\r"
+      - V321-0.2x-LasVegas
+      - 欢迎订阅钱科技0529_🇺🇸_US_美国_106
+      - _US_美国->🇫🇷_FR_法国
+      - _油管频道：全网最强白嫖_10
+      - 香港 | 公益 | 0.2x
+      - 日本08IIJ
+      - 日本 | 公益 | 0.2x
+      - 新加坡 | 公益 | 0.2x
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_84
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_40
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_87
+      - 俄罗斯4：darrenliuwei.com
+      - 美国(绿头外网集团)(Public)
+      - default_name+16
+      - _CH_瑞士
+      - "[VMess] 🇦🇺 澳大利亚(TG频道:@kxswa)"
+      - _油管：全网最强白嫖 8
+      - 稳定③关注公众号：ios黑科技
+      - MCI🇮🇱@AzadNet
+      - +(Youtube技术分享室)🇨🇳中国+7
+      - 2
+      - 亚马逊ec2
+      - VMESS
+      - TW_https://1808.gaNode_18
+      - 流媒体解锁SG
+      - 香港_0529307
+      - 190-imLam.com-HK
+      - Istanbul-Turkey|Media|1.5x
+      - 香港02
+      - 美国_0528005
+      - 香港_2
+      - 美國舊金山 02
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_85
+      - 高速节点推荐：v1.mk/vip
+      - 俄罗斯04CN2IPv6（2.75x）
+      - _油管：全网最强白嫖 9
+      - _AU_澳大利亚_3
+      - 亚马逊ec2 2
+      - US-高速节点购买：v1.mk/vip_1 2
+      - 美国3：darrenliuwei.com
+      - _油管：全网最强白嫖 10
+      - 法国_0528015
+      - 香港节点更新bit.ly/36b6iJh
+      - Relay_🇺🇸US-🇺🇸US_79
+      - 香港_1
+      - 韩国OracleBBR|No.1-500Mbps
+      - _KR_韩国 23
+      - 000-imLam.com-CN
+      - "[VMess] 🇸🇬 新加坡(TG频道:@kxswa) 2"
+      - _油管：全网最强白嫖 11
+      - _油管频道：全网最强白嫖_4
+      - "[VMess] 🇸🇬 新加坡(TG频道:@kxswa) 32"
+      - 日本东京 |AS|1G|J1
+      - LV1移动优化节点「1x」
+      - 美国 079
+      - 美国(欢迎订阅Youtube破解资源君)
+      - 高速节点推荐：v1.mk/vip 2
+      - 新加坡 007
+      - "_油管频道：全网最强白嫖+64\r"
+      - 欢迎订阅钱科技0528_🇺🇸_US_美国_451
+      - CN-高速节点推荐：v1.mk/vip
+      - SG_49_1
+      - 香港原生
+      - SG_1706
+      - 日本2-tg频道:@ripaojiedian
+      - 193-imLam.com-CN
+      - _油管：全网最强白嫖 12
+      - github.com/freefq-新加坡腾讯云9
+      - 日本10IIJ
+      - "[VMess] 🇺🇸 US-高速节点推荐：v1.mk/vip 7"
+      - 一起翻墙_10
+      - 美国(绿头外网集团)(Public) 2
+      - "[VMess] 🇸🇬 新加坡(:) 27"
+      - 美国-213.0KB/s(Youtube:不良林)
+      - 194-imLam.com-CN
+      - 187-imLam.com-HK
+      - "[VMess] 🇯🇵 Tokyo-M247-nf"
+      - 香港_4
+      - YouTube梦歌|Netflix_115
+      - github.com/freefq - 新加坡腾讯云 17
+      - 欢迎订阅钱科技0529_🇸🇬_SG_新加坡_270
+      - 新加坡(TG频道:@KXSWA) 47
+      - 亚马逊2
+      - "[VMess] 🇯🇵 Tokyo-M247-nf 3 2"
+      - 191-imLam.com-CN
+      - 195-imLam.com-CN
+      - Sydney-Oracle
+      - "[VMess] 🇨🇦 Montreal-RicaWeb-dip"
+      - US-高速节点推荐：v1.mk/vip
+      - "[VMess] 🇯🇵 Tokyo-M247-nf 2"
+      - Singapore-Tencent
+      - 印度(TG频道:@kxswa)
+      - 美国(nodefree.org免费分享)_1
+      - SG_90
+      - SG_1687
+      - 新加坡(欢迎订阅Youtube破解资源君)
+      - 油管：全网最强白嫖
+      - Mumbai-Linode
+      - 印度(TG频道:@kxswa) 2
+      - 美国_0528003
+      - https://github.com/Alvin9999/new-pac/wiki洛杉矶1SSR
+      - v2cross.com - 美国  73
+      - 油管：全网最强白嫖 2
+      - github.com/freefq - 新加坡腾讯云 61
+      - "[VMess] 🇩🇪 德国 002"
+      - 131-imLam.com-SG
+      - YouTube频道阿伟科技5.29
+      - "[VMess] 🇯🇵 Tokyo-M247-nf 3"
+      - "[VMess] 🇨🇦 加拿大 001 2"
+      - US-高速节点推荐：v1.mk/vip_18
+      - 094-imLam.com-SG
+      - 巴西_0528003
+      - 日本16IIJ
+      - "[VMess] 🇨🇦 加拿大 003"
+      - "[VMess] _1485_ 3.69Mb  5.42Mb"
+      - 113-imLam.com-SG
+      - 英国_0528001
+      - "[VMess] 🇧🇷 巴西(TG频道:@kxswa)"
+      - 香港Scloud-dip
+      - 新加坡_0529110
+      - 美国(欢迎订阅Youtube破解资源君) 2
+      - 新加坡(TG频道:@KXSWA) 22
+      - "[VMess] _1438_ 4.80Mb | 5.47Mb 2"
+      - github.com/v2rayfree-新加坡腾讯云25
+      - 巴西_0528004
+      - 新加坡_0529402
+      - "[VMess] 🇸🇬 SG-高速节点推荐：v1.mk/vip 49"
+      - 英国_0528044
+      - "[VMess] _1438_ 4.80Mb | 5.47Mb"
+      - 新加坡_0528104
+      - 白嫖分享 网站2220.it
+      - FR-高速节点购买：v1.mk/vip
+      - v2cross.com - 新加坡腾讯云 49
+      - _US_美国_6 11
+      - "[VMess] 🇧🇷 巴西 001"
+      - 澳大利亚01NTTIPv6
+      - 美国05GIACN2（1.3x）
+      - "[VMess] SG_37"
+      - "github.com/freefq - 新加坡腾讯云\n42"
+      - 099-imLam.com-SG
+      - 新加坡_0528048
+      - 美国_0528803
+      - SG_67
+      - US_53
+      - "[VMess] SG_1703 2"
+      - github.com/v2rayfree - 新加坡腾讯云 50
+      - "[VMess] SG_69"
+      - _油管：全网最强白嫖 13
+      - "[VMess] _：_2 2"
+      - 台湾1-tg频道:@ripaojiedian
+      - 法国(TG频道:@KXSWA) 2
+      - 新加坡_0528073
+      - SG_1696
+      - 新加坡_0528054
+      - 日本18IIJ
+      - SG-高速节点推荐：v1.mk/vip_3 2
+      - SG_648
+      - "[VMess] 🇸🇬 SG-高速节点推荐：v1.mk/vip 13"
+      - _油管：全网最强白嫖 14
+      - 新加坡(nodefree.org免费分享)_4
+      - +新加坡0777
+      - 英国_0528010
+      - "[VMess] 油管：全网最强白嫖_7 2"
+      - "[VMess] 油管：全网最强白嫖_7"
+      - "[VMess] BR中速0524"
+      - _1441_3.38Mb|3.62Mb
+      - SG-高速节点推荐：v1.mk/vip
+      - 003-imLam.com-HK
+      - "[VMess] _1459_ 4.93Mb | 2.08Mb"
+      - "[VMess] 🇮🇳 Mumbai-"
+      - "[VMess] 🇺🇸 Relay🇺🇸US中速0524"
+      - 巴西_0529006
+      - 巴西_0529001
+      - 新加坡_0528057
+      - 032-imLam.com-SG
+      - 加拿大_0528041
+      - 英国_0528044 2
+      - "[VMess] Gravelines-OVH-torrent"
+      - "[VMess] Gravelines-OVH"
+      - 日本22NTT
+      - _NL_荷兰_2
+      - 香港04电信/深港专线（2.5x）
+      - v2cross.com - 亚太地区  75
+      - SG-高速节点推荐：v1.mk/vip_25
+      - SG-高速节点推荐：v2cross.com_3
+      - "[SS]+_13.61Mb+|65.15Mb\r"
+      - _US_美国 24
+      - CN_266 【tg@freevpn8】10.25Mb
+      - SG_682
+      - 新加坡(欢迎订阅Youtube破解资源君) 2
+      - "[VMess] 🇸🇬 SG-高速节点推荐：v1.mk/vip 21 2"
+      - Relay_CN-HK_198
+      - CN_340|4.36Mb
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_278
+      - 日本20IIJ
+      - _1397_2.59Mb|2.39Mb
+      - 134-imLam.com-SG
+      - 法国_0528010
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -661,77 +2506,306 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _SG_新加坡
-      - 台湾1-三网优化-强加密
-      - _油管：全网最强白嫖_7 3
-      - _AU_澳大利亚
-      - YouTube梦歌|Netflix_94
+      - 日本商宽
+      - 10351 @WangCai_1
+      - "_油管频道：全网最强白嫖+61\r"
+      - KR01
+      - TG频道|https://t.me/getv2ray|1号
+      - 10189 @WangCai_1
+      - Oracle1-TCP-联通
+      - 10353 @WangCai_1
+      - 10355 @WangCai_1
+      - "[SS]+14.29.124.174:11033\r"
+      - "_油管频道：全网最强白嫖+66\r"
+      - 10191 @WangCai_1
+      - _油管：全网最强白嫖
+      - HK-
+      - 台湾tj-tg频道:@ripaojiedian
+      - LV1 新加坡 - 隧道「1.5x」
+      - 台湾_0529001
+      - 香港|C|1.5x|钻石|原生IP|
+      - _油管频道：全网最强白嫖_14
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_44
+      - 10193 @WangCai_1
+      - LV1 香港 - 隧道「1.5x」
+      - 10199 @WangCai_1
+      - 日本大阪北 01
+      - 007
+      - _油管频道：全网最强白嫖_1
+      - 加拿大多倫多 01
+      - 台湾_0528015
+      - _561_14.62Mb+|11.76Mb
       - YouTube梦歌|Netflix_104
-      - _NL_荷兰_35
-      - _NL_荷兰_66
-      - _NL_荷兰_37
-      - _NL_荷兰_25
-      - _NL_荷兰_26
-      - 新加坡07白嫖机场群:@BPJC_Group
-      - 美国2：darrenliuwei.com
-      - _NL_荷兰_32
-      - 日本IDC宽频|NF解锁|SS|A01
-      - 台湾家庭宽频|NF解锁|SS|A01
-      - 台湾家庭宽频|NF解锁|SS|B01
-      - gz.bgp.rx.naiun.pw:45394
-      - hz.bgp.rx.naiun.pw:45250
-      - 日本02
-      - hz.bgp.rx.naiun.pw:45149
-      - US_777
-      - 香港08@BPJC_Group
-      - 香港IDC宽频|NF解锁|SS|B01
-      - 新加坡IDC宽频|NF解锁|SS|B01
-      - 香港06@BPJC_Group
-      - _油管：全网最强白嫖_1 8
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_15
+      - 台灣桃園 02 B
+      - JP01
+      - +(Youtube技术分享室)🇨🇳中国+11
+      - CN_06
+      - _油管：全网最强白嫖 2
+      - 香港_3
+      - Oracle1-TCP-电信
+      - 日本👇[建议每3天更新一次订阅]_2
+      - 英國倫敦 01
       - "_油管频道：全网最强白嫖+60\r"
-      - 香港05@BPJC_Group
-      - hz.bgp.rx.naiun.pw:45194
-      - "_油管频道：全网最强白嫖+62\r"
-      - 美国IDC宽频|NF解锁|SS|B01
-      - 一起翻墙_10
+      - _339_22.30Mb+|+7.90Mb
+      - 中国_0529416
+      - CN_https://1808.ga++Node_113
+      - 欢迎订阅钱科技0528_🇨🇳_CN_中国_299
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_89
+      - 香港  | C |  1.5x | 钻石 | 原生IP |
+      - _油管：全网最强白嫖 3
+      - 台湾2-三网优化-强加密_1
+      - 韩国_0529018
+      - 日本 05
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_50
+      - _油管：全网最强白嫖 4
+      - 香港_6
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_6
+      - _油管：全网最强白嫖 5
+      - _US_美国
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_83
+      - 10219 @WangCai_1
+      - 香港_5
+      - 欢迎订阅钱科技0529_🇺🇸_US_美国_117
+      - US02
+      - 日本_0529046
+      - 189-imLam.com-HK
+      - 香港_7
+      - 台湾-
+      - 日本大阪南 02
+      - 香港10
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_61
+      - _油管：全网最强白嫖 6
+      - _US_美国 2
+      - 欢迎订阅钱科技0529_🇺🇸_US_美国_119
+      - 亚马逊3
+      - _US_美国 3
+      - 香港-tg频道:@ripaojiedian
+      - Incheon,+Tj+-+B+Group
+      - 美国(TG频道:@kxswa)
+      - 10223 @WangCai_1
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_144
+      - 欢迎订阅钱科技0529_🇺🇸_US_美国_115
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_19
+      - CN-高速节点推荐：v2cross.com_1
+      - 欢迎订阅钱科技0528_🇨🇳_CN_中国_259
+      - 欧洲(欢迎订阅Youtube破解资源君)
+      - "_油管频道：全网最强白嫖+55\r"
+      - 10369 @WangCai_1
+      - 日本-4.27MB/s(Youtube:不良林)
+      - 香港V2ray(05)-3
+      - CN_04
+      - 香港_0528101
+      - 欢迎订阅钱科技0528_🇨🇳_CN_中国_328
+      - _油管：全网最强白嫖 7
+      - "[VMess] 🇬🇧 GB-高速节点推荐：v1.mk/vip"
+      - "[免流]香港A"
+      - 美国_0528609
+      - _油管频道：全网最强白嫖_8
+      - 欢迎订阅钱科技0529_🇭🇰_HK_香港_166
+      - 稳定⑥关注公众号：ios黑科技
       - "_油管频道：全网最强白嫖+65\r"
-      - 日本05
-      - _油管：全网最强白嫖_26
-      - _油管：全网最强白嫖_31
-      - 香港10@BPJC_Group
-      - _油管：全网最强白嫖_32
-      - 香港04@BPJC_Group
-      - _油管：全网最强白嫖_28
-      - "美国(TG频道:@KXSWA)\r 2"
-      - 香港03
-      - 新加坡09白嫖机场群:@BPJC_Group
-      - 香港07@BPJC_Group
-      - hz.bgp.rx.naiun.pw:45184
-      - _油管：全网最强白嫖_35
-      - 日本01
-      - 香港01电报群@BPJC_Group
-      - 美国_0528237
-      - 香港03@BPJC_Group
-      - _油管：全网最强白嫖_33
-      - 香港09@BPJC_Group
-      - 香港05
-      - _油管：全网最强白嫖_5 2
-      - _油管：全网最强白嫖_30
-      - hz.bgp.rx.naiun.pw:45239
-      - _油管：全网最强白嫖_36
-      - 英国(TG频道:@KXSWA)
-      - 美国(TG频道:@KXSWA) 5
-      - 一起翻墙_7
-      - 香港02有问题请加群
-      - "美国(TG频道:@KXSWA)\r 3"
-      - hz.bgp.rx.naiun.pw:45394
-      - "韩国(TG频道:@KXSWA)\r"
-      - _油管：全网最强白嫖_20
-      - 香港IDC宽频|NF解锁|SS|A01
-      - JP_2386_19.50Mb|66.09Mb
-      - 美国(TG频道:@KXSWA) 6
-      - 英国(TG频道:@KXSWA) 2
-      - US_1222 |62.01Mb
+      - 美国A | 公益 | 0.2x
+      - 美國洛杉磯 01
+      - "_油管频道：全网最强白嫖+56\r"
+      - V321-0.2x-LasVegas
+      - 欢迎订阅钱科技0529_🇺🇸_US_美国_106
+      - _US_美国->🇫🇷_FR_法国
+      - _油管频道：全网最强白嫖_10
+      - 香港 | 公益 | 0.2x
+      - 日本08IIJ
+      - 日本 | 公益 | 0.2x
+      - 新加坡 | 公益 | 0.2x
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_84
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_40
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_87
+      - 俄罗斯4：darrenliuwei.com
+      - 美国(绿头外网集团)(Public)
+      - default_name+16
+      - _CH_瑞士
+      - "[VMess] 🇦🇺 澳大利亚(TG频道:@kxswa)"
+      - _油管：全网最强白嫖 8
+      - 稳定③关注公众号：ios黑科技
+      - MCI🇮🇱@AzadNet
+      - +(Youtube技术分享室)🇨🇳中国+7
+      - 2
+      - 亚马逊ec2
+      - VMESS
+      - TW_https://1808.gaNode_18
+      - 流媒体解锁SG
+      - 香港_0529307
+      - 190-imLam.com-HK
+      - Istanbul-Turkey|Media|1.5x
+      - 香港02
+      - 美国_0528005
+      - 香港_2
+      - 美國舊金山 02
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_85
+      - 高速节点推荐：v1.mk/vip
+      - 俄罗斯04CN2IPv6（2.75x）
+      - _油管：全网最强白嫖 9
+      - _AU_澳大利亚_3
+      - 亚马逊ec2 2
+      - US-高速节点购买：v1.mk/vip_1 2
+      - 美国3：darrenliuwei.com
+      - _油管：全网最强白嫖 10
+      - 法国_0528015
+      - 香港节点更新bit.ly/36b6iJh
+      - Relay_🇺🇸US-🇺🇸US_79
+      - 香港_1
+      - 韩国OracleBBR|No.1-500Mbps
+      - _KR_韩国 23
+      - 000-imLam.com-CN
+      - "[VMess] 🇸🇬 新加坡(TG频道:@kxswa) 2"
+      - _油管：全网最强白嫖 11
+      - _油管频道：全网最强白嫖_4
+      - "[VMess] 🇸🇬 新加坡(TG频道:@kxswa) 32"
+      - 日本东京 |AS|1G|J1
+      - LV1移动优化节点「1x」
+      - 美国 079
+      - 美国(欢迎订阅Youtube破解资源君)
+      - 高速节点推荐：v1.mk/vip 2
+      - 新加坡 007
+      - "_油管频道：全网最强白嫖+64\r"
+      - 欢迎订阅钱科技0528_🇺🇸_US_美国_451
+      - CN-高速节点推荐：v1.mk/vip
+      - SG_49_1
+      - 香港原生
+      - SG_1706
+      - 日本2-tg频道:@ripaojiedian
+      - 193-imLam.com-CN
+      - _油管：全网最强白嫖 12
+      - github.com/freefq-新加坡腾讯云9
+      - 日本10IIJ
+      - "[VMess] 🇺🇸 US-高速节点推荐：v1.mk/vip 7"
+      - 一起翻墙_10
+      - 美国(绿头外网集团)(Public) 2
+      - "[VMess] 🇸🇬 新加坡(:) 27"
+      - 美国-213.0KB/s(Youtube:不良林)
+      - 194-imLam.com-CN
+      - 187-imLam.com-HK
+      - "[VMess] 🇯🇵 Tokyo-M247-nf"
+      - 香港_4
+      - YouTube梦歌|Netflix_115
+      - github.com/freefq - 新加坡腾讯云 17
+      - 欢迎订阅钱科技0529_🇸🇬_SG_新加坡_270
+      - 新加坡(TG频道:@KXSWA) 47
+      - 亚马逊2
+      - "[VMess] 🇯🇵 Tokyo-M247-nf 3 2"
+      - 191-imLam.com-CN
+      - 195-imLam.com-CN
+      - Sydney-Oracle
+      - "[VMess] 🇨🇦 Montreal-RicaWeb-dip"
+      - US-高速节点推荐：v1.mk/vip
+      - "[VMess] 🇯🇵 Tokyo-M247-nf 2"
+      - Singapore-Tencent
+      - 印度(TG频道:@kxswa)
+      - 美国(nodefree.org免费分享)_1
+      - SG_90
+      - SG_1687
+      - 新加坡(欢迎订阅Youtube破解资源君)
+      - 油管：全网最强白嫖
+      - Mumbai-Linode
+      - 印度(TG频道:@kxswa) 2
+      - 美国_0528003
+      - https://github.com/Alvin9999/new-pac/wiki洛杉矶1SSR
+      - v2cross.com - 美国  73
+      - 油管：全网最强白嫖 2
+      - github.com/freefq - 新加坡腾讯云 61
+      - "[VMess] 🇩🇪 德国 002"
+      - 131-imLam.com-SG
+      - YouTube频道阿伟科技5.29
+      - "[VMess] 🇯🇵 Tokyo-M247-nf 3"
+      - "[VMess] 🇨🇦 加拿大 001 2"
+      - US-高速节点推荐：v1.mk/vip_18
+      - 094-imLam.com-SG
+      - 巴西_0528003
+      - 日本16IIJ
+      - "[VMess] 🇨🇦 加拿大 003"
+      - "[VMess] _1485_ 3.69Mb  5.42Mb"
+      - 113-imLam.com-SG
+      - 英国_0528001
+      - "[VMess] 🇧🇷 巴西(TG频道:@kxswa)"
+      - 香港Scloud-dip
+      - 新加坡_0529110
+      - 美国(欢迎订阅Youtube破解资源君) 2
+      - 新加坡(TG频道:@KXSWA) 22
+      - "[VMess] _1438_ 4.80Mb | 5.47Mb 2"
+      - github.com/v2rayfree-新加坡腾讯云25
+      - 巴西_0528004
+      - 新加坡_0529402
+      - "[VMess] 🇸🇬 SG-高速节点推荐：v1.mk/vip 49"
+      - 英国_0528044
+      - "[VMess] _1438_ 4.80Mb | 5.47Mb"
+      - 新加坡_0528104
+      - 白嫖分享 网站2220.it
+      - FR-高速节点购买：v1.mk/vip
+      - v2cross.com - 新加坡腾讯云 49
+      - _US_美国_6 11
+      - "[VMess] 🇧🇷 巴西 001"
+      - 澳大利亚01NTTIPv6
+      - 美国05GIACN2（1.3x）
+      - "[VMess] SG_37"
+      - "github.com/freefq - 新加坡腾讯云\n42"
+      - 099-imLam.com-SG
+      - 新加坡_0528048
+      - 美国_0528803
+      - SG_67
+      - US_53
+      - "[VMess] SG_1703 2"
+      - github.com/v2rayfree - 新加坡腾讯云 50
+      - "[VMess] SG_69"
+      - _油管：全网最强白嫖 13
+      - "[VMess] _：_2 2"
+      - 台湾1-tg频道:@ripaojiedian
+      - 法国(TG频道:@KXSWA) 2
+      - 新加坡_0528073
+      - SG_1696
+      - 新加坡_0528054
+      - 日本18IIJ
+      - SG-高速节点推荐：v1.mk/vip_3 2
+      - SG_648
+      - "[VMess] 🇸🇬 SG-高速节点推荐：v1.mk/vip 13"
+      - _油管：全网最强白嫖 14
+      - 新加坡(nodefree.org免费分享)_4
+      - +新加坡0777
+      - 英国_0528010
+      - "[VMess] 油管：全网最强白嫖_7 2"
+      - "[VMess] 油管：全网最强白嫖_7"
+      - "[VMess] BR中速0524"
+      - _1441_3.38Mb|3.62Mb
+      - SG-高速节点推荐：v1.mk/vip
+      - 003-imLam.com-HK
+      - "[VMess] _1459_ 4.93Mb | 2.08Mb"
+      - "[VMess] 🇮🇳 Mumbai-"
+      - "[VMess] 🇺🇸 Relay🇺🇸US中速0524"
+      - 巴西_0529006
+      - 巴西_0529001
+      - 新加坡_0528057
+      - 032-imLam.com-SG
+      - 加拿大_0528041
+      - 英国_0528044 2
+      - "[VMess] Gravelines-OVH-torrent"
+      - "[VMess] Gravelines-OVH"
+      - 日本22NTT
+      - _NL_荷兰_2
+      - 香港04电信/深港专线（2.5x）
+      - v2cross.com - 亚太地区  75
+      - SG-高速节点推荐：v1.mk/vip_25
+      - SG-高速节点推荐：v2cross.com_3
+      - "[SS]+_13.61Mb+|65.15Mb\r"
+      - _US_美国 24
+      - CN_266 【tg@freevpn8】10.25Mb
+      - SG_682
+      - 新加坡(欢迎订阅Youtube破解资源君) 2
+      - "[VMess] 🇸🇬 SG-高速节点推荐：v1.mk/vip 21 2"
+      - Relay_CN-HK_198
+      - CN_340|4.36Mb
+      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_278
+      - 日本20IIJ
+      - _1397_2.59Mb|2.39Mb
+      - 134-imLam.com-SG
+      - 法国_0528010
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
