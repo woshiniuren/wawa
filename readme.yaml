@@ -5,595 +5,675 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: "[CT/CM] HKBN E", server: shcris02stand.proconcn.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 33526:11223344abc, obfs-param: "", udp: true}
-  - {name: Oracle1-TCP-电信, server: mic.vxtrans.com, port: 4683, type: vmess, uuid: ed15ba6e-81f8-4ab3-a575-b9ba4340ef49, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 油管：全网最强白嫖, server: 14.29.124.168, port: 25245, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: _油管频道：全网最强白嫖_10, server: 14.29.124.168, port: 25279, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: +(Youtube技术分享室)🇨🇳中国+5, server: 14.29.124.168, port: 25289, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 油管：全网最强白嫖 2, server: 116.129.253.130, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
-  - {name: "[CT/CM] HKT N", server: shcris02stand.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 33526:11223344abc, obfs-param: "", udp: true}
-  - {name: CN_04, server: 14.29.124.168, port: 25218, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: "[CT/CM] HKT I", server: cusouthcmhk.procncon.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 33526:11223344abc, obfs-param: "", udp: true}
-  - {name: 台湾tj-tg频道:@ripaojiedian, server: 0319tw05.fans8.xyz, port: 443, type: trojan, password: c6799a1d-4a74-4683-919f-98b0a5046591, sni: 0319tw05.fans8.xyz, skip-cert-verify: true, udp: true}
-  - {name: CN_197 |47.58Mb, server: 14.29.124.168, port: 25270, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 香港 - HKG - 1x, server: jm.b.speedabc.xyz, port: 42011, type: trojan, password: af630252-aecc-45cf-b174-5e0782396874, sni: hk-hkg.speedaccelerate.com, skip-cert-verify: true, udp: true}
-  - {name: "[CT/CM]香港 14", server: shusacu.proconcn.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 33526:11223344abc, obfs-param: "", udp: true}
-  - {name: "_油管频道：全网最强白嫖+60\r", server: 14.29.124.168, port: 25233, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: "[CT/CM]香港 08", server: cnrelaycm.procncon.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 33526:11223344abc, obfs-param: "", udp: true}
-  - {name: _油管频道：全网最强白嫖_4, server: 14.29.124.168, port: 25268, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_181 | 8.73Mb, server: 14.29.124.168, port: 25230, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 日本 - NTR - 1x, server: cn.speedabc.xyz, port: 42003, type: trojan, password: af630252-aecc-45cf-b174-5e0782396874, sni: jp1.speedaccelerate.com, skip-cert-verify: true, udp: true}
-  - {name: "[CT/CM] HKBN A", server: shonlinesandcu02.proconcn.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 33526:11223344abc, obfs-param: "", udp: true}
-  - {name: "[CT/CM] HKBN B", server: shonlinesandcu02.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 33526:11223344abc, obfs-param: "", udp: true}
-  - {name: Oracle1-TCP-联通, server: mis.vxtrans.com, port: 30503, type: vmess, uuid: ed15ba6e-81f8-4ab3-a575-b9ba4340ef49, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 备-香港 - BGP - 1x, server: ah.b.speedabc.xyz, port: 42002, type: trojan, password: af630252-aecc-45cf-b174-5e0782396874, sni: hkbone.speedaccelerate.com, skip-cert-verify: true, udp: true}
-  - {name: "[CT/CM] HKT L", server: shonlinesandcu03.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 33526:11223344abc, obfs-param: "", udp: true}
-  - {name: "[CT/CM] HKT E", server: cncusouth.procncon.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 33526:11223344abc, obfs-param: "", udp: true}
-  - {name: "[CT/CM] HKT K", server: shonlinesandcu03.proconcn.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 33526:11223344abc, obfs-param: "", udp: true}
-  - {name: 韩国 - Ceph BGP - 2x, server: cn.speedabc.xyz, port: 42005, type: trojan, password: af630252-aecc-45cf-b174-5e0782396874, sni: kr.speedaccelerate.com, skip-cert-verify: true, udp: true}
-  - {name: 美国 优化 D 3.5, server: usastandard.proconcn.xyz, port: 563, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 33526:11223344abc, obfs-param: "", udp: true}
-  - {name: _CN_中国->🇸🇬_SG_新加坡, server: 116.129.254.47, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: _561_14.62Mb+|11.76Mb, server: 14.29.124.168, port: 25286, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: www.speedaccelerate.com 台湾 - 1x, server: jm.b.speedabc.xyz, port: 42008, type: trojan, password: af630252-aecc-45cf-b174-5e0782396874, sni: twy.speedaccelerate.com, skip-cert-verify: true, udp: true}
-  - {name: 备-台湾 - Hinet - 1x, server: ah.b.speedabc.xyz, port: 42008, type: trojan, password: af630252-aecc-45cf-b174-5e0782396874, sni: twy.speedaccelerate.com, skip-cert-verify: true, udp: true}
-  - {name: "[CT/CM]香港 17", server: shcu002online.proconcn.xyz, port: 563, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 33526:11223344abc, obfs-param: "", udp: true}
-  - {name: 美国 优化 G 3.5, server: usastandard2.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 33526:11223344abc, obfs-param: "", udp: true}
-  - {name: "[CT/CM]香港 05", server: shusacu.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 33526:11223344abc, obfs-param: "", udp: true}
-  - {name: "[CT/CM]香港 01", server: hzrelaycu.procncon.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 33526:11223344abc, obfs-param: "", udp: true}
-  - {name: _油管频道：全网最强白嫖_1, server: 14.29.124.168, port: 25266, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: 备-香港 - HKG - 1x, server: ah.b.speedabc.xyz, port: 42011, type: trojan, password: af630252-aecc-45cf-b174-5e0782396874, sni: hk-hkg.speedaccelerate.com, skip-cert-verify: true, udp: true}
-  - {name: "[CT/CM] HKT B", server: cncusouth.procncon.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 33526:11223344abc, obfs-param: "", udp: true}
-  - {name: 美国 优化 H 3.5, server: usastandard2.proconcn.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 33526:11223344abc, obfs-param: "", udp: true}
+  - {name: 日本 - NTR - 1x, server: cn.speedabc.xyz, port: 42003, type: trojan, password: af630252-aecc-45cf-b174-5e0782396874, sni: jp1.speedaccelerate.com, skip-cert-verify: true, udp: true}
   - {name: 香港V2ray(05)-3, server: hk-5.netflixssr.com, port: 644, type: vmess, uuid: 3107fc75-f61d-30aa-85b0-2b9861cfd485, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v1/stream, headers: {Host: hk-5.netflixssr.com}}, udp: true}
-  - {name: "[CT/CM]香港 13", server: shcu002online.proconcn.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 33526:11223344abc, obfs-param: "", udp: true}
-  - {name: "[CT/CM]香港 11", server: shusacu.proconcn.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 33526:11223344abc, obfs-param: "", udp: true}
-  - {name: 美国 优化 C 3.5, server: usastandard.proconcn.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 33526:11223344abc, obfs-param: "", udp: true}
-  - {name: "[CT/CM]香港 04", server: shcu001online.proconcn.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 33526:11223344abc, obfs-param: "", udp: true}
-  - {name: 欢迎订阅钱科技0529_🇨🇳_CN_中国_19, server: yza2.hkbgp.wiki, port: 10345, type: vmess, uuid: 929b1c1e-268b-4993-a83c-56782598a223, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /onefall, headers: {Host: yza2.hkbgp.wiki}}, udp: true}
-  - {name: 美国 优化-2, server: shusa.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 33526:11223344abc, obfs-param: "", udp: true}
-  - {name: 美国 优化-3, server: shusa.proconcn.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 33526:11223344abc, obfs-param: "", udp: true}
-  - {name: 新加坡 - SIN - 1x, server: cn.speedabc.xyz, port: 42004, type: trojan, password: af630252-aecc-45cf-b174-5e0782396874, sni: sg1.speedaccelerate.com, skip-cert-verify: true, udp: true}
-  - {name: 日本 Azure A 2.5x, server: shallaz.proconcn.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 33526:11223344abc, obfs-param: "", udp: true}
-  - {name: "[CT/CM] HKT H", server: shonlinecu.proconcn.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 33526:11223344abc, obfs-param: "", udp: true}
-  - {name: "[CT/CM]香港 15", server: shsuconpro.procncon.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 33526:11223344abc, obfs-param: "", udp: true}
-  - {name: ZZ_517 TG@peekfun |33.97Mb, server: 169.197.142.39, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_5000 @WangCai_1, server: 167.88.61.15, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _油管频道：全网最强白嫖_8, server: 14.29.124.168, port: 25256, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: 日本 - NTRB - 1x, server: cn.speedabc.xyz, port: 32002, type: trojan, password: af630252-aecc-45cf-b174-5e0782396874, sni: jp-bgp.speedaccelerate.com, skip-cert-verify: true, udp: true}
-  - {name: 香港, server: 20.205.32.135, port: 8313, type: ss, cipher: chacha20-ietf-poly1305, password: ljqdalu13.., udp: true}
-  - {name: t.me/wbnet_🇳🇱_NL_1330, server: 213.183.59.211, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
-  - {name: 欢迎订阅钱科技0529_🇨🇳_CN_中国_44, server: zj.haojiahuo.club, port: 30075, type: vmess, uuid: cf8acaed-8ea7-3caf-b457-3ba13b64d8dd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /videos, headers: {Host: zj.haojiahuo.club}}, udp: true}
-  - {name: US_8118 @WangCai_1, server: 167.88.61.15, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 日本 Azure B 2.5x, server: shallaz.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 33526:11223344abc, obfs-param: "", udp: true}
-  - {name: US_8009 @WangCai_1, server: 167.88.61.15, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: _US_G_459, server: 169.197.142.99, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US_6379 @WangCai_1, server: 167.88.61.15, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: (Youtube技术分享室)🇺🇸美国 81, server: 38.68.135.18, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: TW_https://1808.gaNode_18, server: 330tw.fans8.xyz, port: 443, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 330tw.fans8.xyz}}, udp: true}
-  - {name: 香港 icable 移动01, server: cm2.newhua99.ga, port: 21681, type: ss, cipher: aes-128-gcm, password: b174c63d-0b18-423a-844d-c427ecbc97a3, udp: true}
-  - {name: US_5001 @WangCai_1, server: 167.88.61.15, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_6679 @WangCai_1, server: 167.88.61.50, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: t.me/wbnet_🇳🇱_NL_1332, server: 213.183.59.211, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
-  - {name: 007, server: 13.112.89.177, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 日本3-tg频道:@ripaojiedian, server: 20.243.71.225, port: 80, type: vmess, uuid: 5f405152-88b2-4e5e-9091-b730e65e8983, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 20.243.71.225}}, udp: true}
-  - {name: US_6679 @WangCai_1 2, server: 38.68.135.19, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: US_9102 @WangCai_1, server: 167.88.61.15, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: US_5600 @WangCai_1, server: 167.88.61.50, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 油管：全网最强白嫖 3, server: 14.29.124.168, port: 25220, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 美国 优化-4, server: shusa.proconcn.xyz, port: 563, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 33526:11223344abc, obfs-param: "", udp: true}
-  - {name: US_9102 @WangCai_1 2, server: 167.88.61.50, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: _GB_G_708, server: 54.36.174.181, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: t.me/wbnet_🇳🇱_NL_1327, server: 213.183.59.211, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
-  - {name: ZZ_532 TG@peekfun |33.78Mb, server: 169.197.142.39, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 韩国, server: 20.249.59.141, port: 8313, type: ss, cipher: chacha20-ietf-poly1305, password: ljqdalu13.., udp: true}
-  - {name: US_3389 @WangCai_1, server: 167.88.61.15, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_5004 @WangCai_1, server: 167.88.61.15, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: ZZ_524 TG@peekfun |34.99Mb, server: 169.197.142.39, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: _US_G_460, server: 38.143.66.20, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: default_name 38, server: trojan3.bonds.id, port: 443, type: trojan, password: e0dce060-e033-11ec-9a2e-1239d0255272, skip-cert-verify: true, udp: true}
-  - {name: US_418 TG@peekfun |33.70Mb, server: 167.88.61.50, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _US_G_747, server: 167.88.63.59, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: default_name, server: trojan3.bonds.id, port: 443, type: trojan, password: 1e9b20f0-e080-11ec-8500-1239d0255272, skip-cert-verify: true, udp: true}
+  - {name: CN_115, server: cmrelayhk.dnsflix.com, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 33526:11223344abc, obfs-param: "", udp: true}
+  - {name: univstar-香港HKT-dip 2, server: 58.246.230.202, port: 11421, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: dC5tZS92cG5oYXQ, udp: true}
+  - {name: "[CT/CM]香港 14", server: shusacu.proconcn.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 33526:11223344abc, obfs-param: "", udp: true}
   - {name: 台湾_0529001, server: 331tw.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 331tw.fans8.xyz}}, udp: true}
-  - {name: ZZ_510 TG@peekfun |33.23Mb, server: 169.197.142.99, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: CN_205, server: 14.29.124.168, port: 25293, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: TG频道|https://t.me/getv2ray|1号, server: v2.godlight.xyz, port: 250, type: vmess, uuid: 1a059eff-ad8a-42ad-921c-465c5b31f183, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dajdklw231f, headers: {Host: v2.godlight.xyz}}, udp: true}
-  - {name: US_8080 @WangCai_1, server: 38.75.136.161, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US_438 TG@peekfun |33.61Mb, server: 167.88.61.50, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US_8000 @WangCai_1, server: 167.88.61.15, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US_449 TG@peekfun | 7.39Mb, server: 38.114.114.69, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: US_7002 @WangCai_1, server: 167.88.61.15, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: US_450 TG@peekfun |28.90Mb, server: 38.114.114.69, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: "[CT/CM]香港 05", server: shusacu.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 33526:11223344abc, obfs-param: "", udp: true}
+  - {name: 新加坡 - SIN - 1x, server: cn.speedabc.xyz, port: 42004, type: trojan, password: af630252-aecc-45cf-b174-5e0782396874, sni: sg1.speedaccelerate.com, skip-cert-verify: true, udp: true}
+  - {name: _339_22.30Mb+|+7.90Mb, server: 14.29.124.168, port: 25222, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_181 | 8.73Mb, server: 14.29.124.168, port: 25230, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_187 |30.33Mb, server: 14.29.124.168, port: 25210, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: Oracle1-TCP-电信, server: mic.vxtrans.com, port: 4683, type: vmess, uuid: ed15ba6e-81f8-4ab3-a575-b9ba4340ef49, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: www.speedaccelerate.com 台湾 - 1x, server: jm.b.speedabc.xyz, port: 42008, type: trojan, password: af630252-aecc-45cf-b174-5e0782396874, sni: twy.speedaccelerate.com, skip-cert-verify: true, udp: true}
+  - {name: "[CT/CM]香港 15", server: shsuconpro.procncon.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 33526:11223344abc, obfs-param: "", udp: true}
+  - {name: "|65.86Mb\r", server: 14.29.124.168, port: 25297, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _油管：全网最强白嫖, server: bgp.keaiyun.top, port: 47519, type: vmess, uuid: 2b41ef2c-a339-3142-ae7b-9f5f6b531e16, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_437 TG@peekfun |28.58Mb, server: 38.68.134.71, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 稳定⑥关注公众号：ios黑科技, server: 173.82.219.96, port: 50000, type: ssr, cipher: dummy, password: IOSwgAUHYTiq'&%12afSSR, protocol: auth_chain_a, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: "_油管频道：全网最强白嫖+61\r", server: 14.29.124.168, port: 25231, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: "[CT/CM]香港 04", server: shcu001online.proconcn.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 33526:11223344abc, obfs-param: "", udp: true}
+  - {name: _油管：全网最强白嫖 2, server: 169.197.142.99, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: US_418 TG@peekfun |33.70Mb, server: 167.88.61.50, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: ZZ_524 TG@peekfun |34.99Mb, server: 169.197.142.39, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 油管：最网最强白嫖_8, server: cn.zzv02.infonode.xyz, port: 17013, type: vmess, uuid: edac1153-eff4-3719-92a3-c7620ea00bd7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: cn.zzv02.infonode.xyz}}, udp: true}
+  - {name: univstar-香港HKT-dip, server: 23.98.35.135, port: 11421, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: dC5tZS92cG5oYXQ, udp: true}
+  - {name: "_油管频道：全网最强白嫖+55\r", server: 14.29.124.168, port: 25238, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: US_2375 @WangCai_1, server: 38.68.134.71, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_435 TG@peekfun |27.00Mb, server: 167.88.61.50, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: univstar-SG-Nerocloud-nf_4, server: 120.232.190.86, port: 11807, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: dC5tZS92cG5oYXQ, udp: true}
+  - {name: _CA_G_190, server: 198.57.27.225, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: univstar-LAX-DMIT-nf_3, server: 120.232.190.86, port: 11805, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: dC5tZS92cG5oYXQ, udp: true}
+  - {name: US_2375 @WangCai_1 2, server: 167.88.63.60, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: univstar-SG-Nerocloud-nf_1, server: 23.98.35.135, port: 11429, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: dC5tZS92cG5oYXQ, udp: true}
+  - {name: univstar-LAX-DMIT-nf, server: 23.98.35.135, port: 11423, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: dC5tZS92cG5oYXQ, udp: true}
+  - {name: univstar-香港HGC-dip, server: 120.232.190.86, port: 11845, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: dC5tZS92cG5oYXQ, udp: true}
+  - {name: github.com/freefq - 北美地区  77, server: 198.57.27.225, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: HINET/AZHK, server: az.gunangzhui.cloud, port: 41534, type: trojan, password: 9e496875-e09c-451b-a99c-fe2f57e221c2, sni: hinet.ddag.xyz, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 3, server: 38.68.135.18, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: FR_493, server: 149.202.82.172, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _US_美国 187, server: 38.114.114.69, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: US_5000 @WangCai_1, server: 142.202.48.74, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 美国 优化 D 3.5, server: usastandard.proconcn.xyz, port: 563, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 33526:11223344abc, obfs-param: "", udp: true}
+  - {name: US_456 TG@peekfun |28.81Mb, server: 38.114.114.69, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
   - {name: ZZ_525 TG@peekfun |12.35Mb, server: 169.197.142.39, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US_8118 @WangCai_1 2, server: 38.75.136.161, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: t.me/wbnet_🇳🇱_NL_1411, server: 213.183.59.177, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, udp: true}
-  - {name: US_8009 @WangCai_1 2, server: 38.75.136.161, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: github.com/freefq - 香港阿里云 1, server: s69.s2022.xyz, port: 30661, type: trojan, password: 993408c4-cb5a-3fe4-9736-0dc66af26306, skip-cert-verify: true, udp: true}
-  - {name: 欢迎订阅钱科技0530_🇺🇸_US_美国_610, server: 64.64.231.238, port: 11863, type: vmess, uuid: f31c3d6c-b84d-4e8f-858a-6e5af8c02438, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_8009 @WangCai_1 3, server: 167.88.61.50, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: US_5000 @WangCai_1 2, server: 38.75.136.161, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_8119 @WangCai_1, server: 38.68.134.71, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: t.me/wbnet_🇳🇱_NL_1393, server: 213.183.59.177, port: 9006, type: ss, cipher: aes-256-cfb, password: FAdUvMJUq5vDgKEq, udp: true}
-  - {name: US_455 TG@peekfun |32.47Mb, server: 38.114.114.69, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US_0443 @WangCai_1, server: 167.88.61.15, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: US_8888 @WangCai_1, server: 167.88.61.15, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_8008 @WangCai_1, server: 167.88.61.15, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: _US_美国 197, server: 38.68.134.71, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: US_5001 @WangCai_1 2, server: 38.68.134.71, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_5003 @WangCai_1, server: 38.143.66.64, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US_7001 @WangCai_1, server: 38.143.66.64, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: t.me/wbnet_🇵🇱_PL_821, server: 217.30.10.67, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
-  - {name: 欢迎订阅钱科技0528_🇨🇳_CN_中国_328, server: d1.haojiahuo.cf, port: 60047, type: vmess, uuid: cf8acaed-8ea7-3caf-b457-3ba13b64d8dd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /videos, headers: {Host: d1.haojiahuo.cf}}, udp: true}
-  - {name: US_5004 @WangCai_1 2, server: 38.75.136.161, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 美国 优化 I 3.5, server: usastandard2.proconcn.xyz, port: 563, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 33526:11223344abc, obfs-param: "", udp: true}
-  - {name: 美国 优化 F 3.5, server: usastandard2.proconcn.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 33526:11223344abc, obfs-param: "", udp: true}
-  - {name: 美国DO 01 | 解锁流媒体, server: cm.newhua99.ga, port: 21690, type: ss, cipher: aes-128-gcm, password: b174c63d-0b18-423a-844d-c427ecbc97a3, udp: true}
-  - {name: US_429 TG@peekfun |32.44Mb, server: 38.114.114.67, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: US_8000 @WangCai_1 2, server: 167.88.61.50, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US_6679 @WangCai_1 3, server: 38.143.66.64, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: US_5601 @WangCai_1, server: 167.88.61.15, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_6697 @WangCai_1, server: 38.75.136.161, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: US美国(Youtube技术分享室) 62, server: 38.68.134.71, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: univstar-香港HKT-dip_2, server: 120.233.185.189, port: 11802, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: dC5tZS92cG5oYXQ, udp: true}
+  - {name: _US_G_459, server: 169.197.142.99, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: univstar-LAX-DMIT-nf_2, server: 120.232.190.86, port: 35247, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: dC5tZS92cG5oYXQ, udp: true}
+  - {name: US_434 TG@peekfun |29.26Mb, server: 38.68.135.19, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _油管：全网最强白嫖 4, server: 212.81.47.11, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, sni: t.me.vpnhat, skip-cert-verify: true, udp: true}
+  - {name: US_8080 @WangCai_1, server: 167.88.63.60, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US_5003 @WangCai_1, server: 167.88.63.60, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 香港 - HKG - 1x, server: jm.b.speedabc.xyz, port: 42011, type: trojan, password: af630252-aecc-45cf-b174-5e0782396874, sni: hk-hkg.speedaccelerate.com, skip-cert-verify: true, udp: true}
+  - {name: univstar-London-Misaka-dip, server: 23.98.35.135, port: 11501, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: dC5tZS92cG5oYXQ, udp: true}
+  - {name: US_5001 @WangCai_1, server: 38.68.134.71, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: ‌‌🇨🇦CA_5600 @WangCai_1, server: 134.195.196.231, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_416 TG@peekfun | 5.65Mb, server: 167.88.63.60, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: CN_205, server: 14.29.124.168, port: 25293, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _US_美国 178, server: 38.114.114.69, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US_8118 @WangCai_1, server: 38.114.114.69, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: t.me/wbnet_🇳🇱_NL_1423, server: 213.183.59.177, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
+  - {name: FR_424, server: 149.202.82.172, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: univstar-SG-Nerocloud-nf_2 2, server: 120.232.190.86, port: 11851, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: dC5tZS92cG5oYXQ, udp: true}
+  - {name: ‌‌🇨🇦CA_5601 @WangCai_1, server: 134.195.196.231, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: t.me/wbnet_🇳🇱_NL_1432, server: 213.183.59.177, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
+  - {name: 油管：最网最强白嫖_140, server: 213.183.59.218, port: 9070, type: ss, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH, udp: true}
+  - {name: FR_451, server: 149.202.82.172, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: US_8881 @WangCai_1, server: 38.68.134.71, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: US_423 TG@peekfun | 8.33Mb, server: 167.88.61.50, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US_5500 @WangCai_1, server: 167.88.61.50, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: univstar-SG-Nerocloud-nf_2, server: 23.98.35.135, port: 11422, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: dC5tZS92cG5oYXQ, udp: true}
+  - {name: (Youtube技术分享室)🇺🇸美国 30, server: 38.68.134.71, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 稳定③关注公众号：ios黑科技, server: 173.82.186.25, port: 50000, type: ssr, cipher: dummy, password: IOSwgAUHYTiq'&%12afSSR, protocol: auth_chain_a, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: FR_477, server: 149.202.82.172, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _油管：全网最强白嫖 5, server: 38.68.134.71, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_7002 @WangCai_1, server: 167.88.63.60, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: "E|V1[移动]美国01", server: cm01.db-link.in, port: 13302, type: vmess, uuid: c02104d3-87a9-319c-92a4-42efe1f07752, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /db, headers: {Host: us2.db-link.in}}, udp: true}
+  - {name: _油管：全网最强白嫖 6, server: 38.68.135.19, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 美国 优化 C 3.5, server: usastandard.proconcn.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 33526:11223344abc, obfs-param: "", udp: true}
+  - {name: US_8090 @WangCai_1, server: 38.68.134.71, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US_7001 @WangCai_1, server: 38.68.135.19, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: "[05-30]|oslook|美国(US)USA/Los+Angeles_31", server: 169.197.142.99, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: US_9102 @WangCai_1, server: 167.88.63.60, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: univstar-SanJose-Misaka-dip 2, server: 58.246.230.202, port: 11427, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: dC5tZS92cG5oYXQ, udp: true}
+  - {name: _油管：全网最强白嫖 7, server: 38.68.135.18, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US_8080 @WangCai_1 2, server: 167.88.61.50, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 189-imLam.com-HK, server: 527hk3.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 527hk3.fans8.xyz}}, udp: true}
+  - {name: "[CT/CM] HKT A", server: shonlinecu.proconcn.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 33526:11223344abc, obfs-param: "", udp: true}
+  - {name: 美国 优化-4, server: shusa.proconcn.xyz, port: 563, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 33526:11223344abc, obfs-param: "", udp: true}
   - {name: ZZ_519 TG@peekfun |31.16Mb, server: 169.197.142.39, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US_426 TG@peekfun | 9.56Mb, server: 167.88.61.50, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: US_7306 @WangCai_1, server: 38.143.66.64, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: US_5600 @WangCai_1 2, server: 167.88.61.15, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _GB_G_699, server: 54.36.174.181, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _US_G_427, server: 38.143.66.20, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国 192, server: 38.114.114.69, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: US_5004 @WangCai_1, server: 167.88.63.60, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
   - {name: US_7002 @WangCai_1 2, server: 38.68.134.71, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: t.me/wbnet_🇳🇱_NL_1402, server: 213.183.59.177, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
-  - {name: github.com/freefq - 美国Microsoft数据中心 10, server: 20.222.106.239, port: 80, type: vmess, uuid: 5f405152-88b2-4e5e-9091-b730e65e8983, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
-  - {name: US_7001 @WangCai_1 2, server: 38.75.136.161, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: ZZ_528 TG@peekfun | 6.63Mb, server: 169.197.142.39, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: US_7306 @WangCai_1 2, server: 167.88.61.15, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 油管：全网最强白嫖 4, server: 169.197.142.99, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: US_5601 @WangCai_1 2, server: 167.88.61.50, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_7001 @WangCai_1 3, server: 167.88.61.50, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: US_5601 @WangCai_1 3, server: 38.75.136.161, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA_G_91, server: 198.57.27.225, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _油管：全网最强白嫖 8, server: 212.81.47.18, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, sni: t.me.vpnhat, skip-cert-verify: true, udp: true}
+  - {name: US_8882 @WangCai_1, server: 167.88.63.60, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _油管频道：全网最强白嫖_8, server: 14.29.124.168, port: 25256, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: "_油管频道：全网最强白嫖+62\r", server: 14.29.124.168, port: 25267, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 油管：全网最强白嫖, server: 167.88.63.60, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: ‌‌🇨🇦CA_6679 @WangCai_1, server: 134.195.196.231, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: ‌‌🇨🇦CA_7002 @WangCai_1, server: 134.195.196.231, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: ZZ_527 TG@peekfun |23.29Mb, server: 169.197.142.39, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _CA_G_430, server: 198.57.27.225, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 美国(TG频道:@kxswa), server: 38.68.134.71, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: ZZ_530 TG@peekfun |32.89Mb, server: 169.197.142.39, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _561_14.62Mb+|11.76Mb, server: 14.29.124.168, port: 25286, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: US_8118 @WangCai_1 2, server: 167.88.61.50, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _PL_波兰_27, server: 217.30.10.64, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga, udp: true}
+  - {name: ‌‌🇨🇦CA_8888 @WangCai_1, server: 134.195.196.231, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: univstar-SG-Tencent-nf_2, server: 120.232.190.86, port: 11806, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: dC5tZS92cG5oYXQ, udp: true}
+  - {name: ZZ_515 TG@peekfun |12.45Mb, server: 169.197.142.39, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_431 TG@peekfun |26.83Mb, server: 38.68.135.19, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 美国 优化 F 3.5, server: usastandard2.proconcn.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 33526:11223344abc, obfs-param: "", udp: true}
+  - {name: "_油管频道：全网最强白嫖+60\r", server: 14.29.124.168, port: 25233, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 油管：最网最强白嫖_77, server: 14.29.124.168, port: 25241, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: US_426 TG@peekfun | 9.56Mb, server: 167.88.61.50, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: t.me/wbnet_🇳🇱_NL_1405, server: 213.183.59.177, port: 9026, type: ss, cipher: aes-256-cfb, password: QWDDvVE9npNurQfA, udp: true}
+  - {name: 美国(TG频道:@kxswa) 2, server: 167.88.61.50, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _RU_俄罗斯联邦_2 4, server: 213.183.53.221, port: 9041, type: ss, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn, udp: true}
+  - {name: _US_美国_72, server: 172.99.188.71, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _US美国_68, server: 172.99.188.71, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _NL_荷兰_10, server: 213.183.51.172, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
+  - {name: CA加拿大(Youtube技术分享室) 19, server: 134.195.196.128, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: (Youtube技术分享室)🇨🇦加拿大 44, server: 134.195.196.227, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: _PL_波兰_8 7, server: 217.30.10.68, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt, udp: true}
+  - {name: _NL_荷兰_22 2, server: 213.183.59.218, port: 9053, type: ss, cipher: aes-256-cfb, password: SBM7R883jBmnqe6C, udp: true}
+  - {name: RU_1436, server: 217.30.10.63, port: 9025, type: ss, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c, udp: true}
+  - {name: mattkaydiary.com|美国(US)USA/San Jose, server: 155.248.202.203, port: 14564, type: vmess, uuid: 4a0da379-a7cc-4389-88d7-45514b896883, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 油管：全网最强白嫖 2, server: 38.68.135.19, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: t.me/wbnet_🇳🇱_NL_1420, server: 213.183.59.177, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
+  - {name: 美国_0528738, server: 50.114.56.20, port: 4440, type: vmess, uuid: 8d13dc0f-c4c9-3f66-b8de-d9a5d432842a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray}, udp: true}
+  - {name: 日本3-tg频道:@ripaojiedian, server: 20.243.71.225, port: 80, type: vmess, uuid: 5f405152-88b2-4e5e-9091-b730e65e8983, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 20.243.71.225}}, udp: true}
+  - {name: US_5001 @WangCai_1 2, server: 142.202.48.74, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_8009 @WangCai_1, server: 142.202.48.74, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: ‌‌🇨🇦CA_5000 @WangCai_1, server: 134.195.196.231, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: LT_735, server: 213.183.63.221, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
+  - {name: _BG_保加利亚_5 5, server: 213.183.63.221, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
+  - {name: _BG_保加利亚_12 5, server: 213.183.63.221, port: 9046, type: ss, cipher: aes-256-cfb, password: NvS8N4Vf8qAGPSCL, udp: true}
+  - {name: _US_美国_4 43, server: 172.99.188.71, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: DE_245, server: 5.183.179.139, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm, udp: true}
+  - {name: "_PL_wmt(5.31a)_81\r", server: 217.30.10.64, port: 9041, type: ss, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn, udp: true}
+  - {name: RU_1435, server: 217.30.10.63, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
+  - {name: DE_306, server: 5.183.179.146, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
+  - {name: US_8091 @WangCai_1, server: 38.68.134.71, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: github.com/freefq - 美国华盛顿Cogent通信公司 52, server: 38.68.135.18, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: t.me/wbnet_🇳🇱_NL_1390, server: 213.183.59.177, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
+  - {name: t.me/wbnet_🇳🇱_NL_1422, server: 213.183.59.177, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, udp: true}
+  - {name: US_5004 @WangCai_1 2, server: 38.75.136.135, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US_6697 @WangCai_1, server: 167.88.61.50, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: LT_833, server: 213.183.53.221, port: 9058, type: ss, cipher: aes-256-cfb, password: dML2sfhbVwvtfNPe, udp: true}
+  - {name: LT_783, server: 213.183.53.221, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
+  - {name: _BG_保加利亚_21, server: 213.183.63.221, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX, udp: true}
+  - {name: _CA_加拿大_8 4, server: 134.195.196.231, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_5004@WangCai_1_1, server: 38.143.66.64, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _US_美国_7 2, server: 20.243.69.62, port: 80, type: vmess, uuid: 5f405152-88b2-4e5e-9091-b730e65e8983, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 美国 优化 H 3.5, server: usastandard2.proconcn.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 33526:11223344abc, obfs-param: "", udp: true}
+  - {name: 香港_2, server: f8ae1437-05f3-40f1-9c09-c9a4149848b5.0afc1309-6c6f-4620-8105-7f8f2befe3ce.xn--9kq12xdq7a.com, port: 10003, type: ss, cipher: aes-256-gcm, password: 75c21921-619c-4f86-acd0-fe4c2ae6a737, udp: true}
+  - {name: US_5001 @WangCai_1 3, server: 167.88.63.60, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 欢迎订阅钱科技0530_🇯🇵_JP_日本_412, server: hk.zzk8.me, port: 51005, type: trojan, password: 9a88a570-39f7-4db3-8277-0e4097587895, sni: jpli.zzk8.me, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "[CT/CM] HKBN E"
-      - Oracle1-TCP-电信
-      - 油管：全网最强白嫖
-      - _油管频道：全网最强白嫖_10
-      - +(Youtube技术分享室)🇨🇳中国+5
-      - 油管：全网最强白嫖 2
-      - "[CT/CM] HKT N"
-      - CN_04
-      - "[CT/CM] HKT I"
-      - 台湾tj-tg频道:@ripaojiedian
-      - CN_197 |47.58Mb
-      - 香港 - HKG - 1x
-      - "[CT/CM]香港 14"
-      - "_油管频道：全网最强白嫖+60\r"
-      - "[CT/CM]香港 08"
-      - _油管频道：全网最强白嫖_4
-      - CN_181 | 8.73Mb
-      - 日本 - NTR - 1x
-      - "[CT/CM] HKBN A"
-      - "[CT/CM] HKBN B"
-      - Oracle1-TCP-联通
       - 备-香港 - BGP - 1x
-      - "[CT/CM] HKT L"
-      - "[CT/CM] HKT E"
-      - "[CT/CM] HKT K"
-      - 韩国 - Ceph BGP - 2x
-      - 美国 优化 D 3.5
-      - _CN_中国->🇸🇬_SG_新加坡
-      - _561_14.62Mb+|11.76Mb
-      - www.speedaccelerate.com 台湾 - 1x
-      - 备-台湾 - Hinet - 1x
-      - "[CT/CM]香港 17"
-      - 美国 优化 G 3.5
-      - "[CT/CM]香港 05"
-      - "[CT/CM]香港 01"
-      - _油管频道：全网最强白嫖_1
       - 备-香港 - HKG - 1x
-      - "[CT/CM] HKT B"
-      - 美国 优化 H 3.5
+      - 日本 - NTR - 1x
       - 香港V2ray(05)-3
-      - "[CT/CM]香港 13"
-      - "[CT/CM]香港 11"
-      - 美国 优化 C 3.5
-      - "[CT/CM]香港 04"
-      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_19
-      - 美国 优化-2
-      - 美国 优化-3
-      - 新加坡 - SIN - 1x
-      - 日本 Azure A 2.5x
-      - "[CT/CM] HKT H"
-      - "[CT/CM]香港 15"
-      - ZZ_517 TG@peekfun |33.97Mb
-      - US_5000 @WangCai_1
-      - _油管频道：全网最强白嫖_8
       - 日本 - NTRB - 1x
-      - 香港
-      - t.me/wbnet_🇳🇱_NL_1330
-      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_44
-      - US_8118 @WangCai_1
-      - 日本 Azure B 2.5x
-      - US_8009 @WangCai_1
-      - _US_G_459
-      - US_6379 @WangCai_1
-      - (Youtube技术分享室)🇺🇸美国 81
-      - TW_https://1808.gaNode_18
-      - 香港 icable 移动01
-      - US_5001 @WangCai_1
-      - US_6679 @WangCai_1
-      - t.me/wbnet_🇳🇱_NL_1332
-      - 007
-      - 日本3-tg频道:@ripaojiedian
-      - US_6679 @WangCai_1 2
-      - US_9102 @WangCai_1
-      - US_5600 @WangCai_1
-      - 油管：全网最强白嫖 3
-      - 美国 优化-4
-      - US_9102 @WangCai_1 2
-      - _GB_G_708
-      - t.me/wbnet_🇳🇱_NL_1327
-      - ZZ_532 TG@peekfun |33.78Mb
-      - 韩国
-      - US_3389 @WangCai_1
-      - US_5004 @WangCai_1
-      - ZZ_524 TG@peekfun |34.99Mb
-      - _US_G_460
-      - default_name 38
-      - US_418 TG@peekfun |33.70Mb
-      - _US_G_747
+      - default_name
+      - CN_115
+      - univstar-香港HKT-dip 2
+      - "[CT/CM]香港 14"
       - 台湾_0529001
-      - ZZ_510 TG@peekfun |33.23Mb
-      - CN_205
-      - TG频道|https://t.me/getv2ray|1号
-      - US_8080 @WangCai_1
-      - US_438 TG@peekfun |33.61Mb
-      - US_8000 @WangCai_1
-      - US_449 TG@peekfun | 7.39Mb
-      - US_7002 @WangCai_1
-      - US_450 TG@peekfun |28.90Mb
+      - "[CT/CM]香港 05"
+      - 新加坡 - SIN - 1x
+      - _339_22.30Mb+|+7.90Mb
+      - CN_181 | 8.73Mb
+      - CN_187 |30.33Mb
+      - Oracle1-TCP-电信
+      - www.speedaccelerate.com 台湾 - 1x
+      - "[CT/CM]香港 15"
+      - "|65.86Mb\r"
+      - _油管：全网最强白嫖
+      - US_437 TG@peekfun |28.58Mb
+      - 稳定⑥关注公众号：ios黑科技
+      - "_油管频道：全网最强白嫖+61\r"
+      - "[CT/CM]香港 04"
+      - _油管：全网最强白嫖 2
+      - US_418 TG@peekfun |33.70Mb
+      - ZZ_524 TG@peekfun |34.99Mb
+      - 油管：最网最强白嫖_8
+      - univstar-香港HKT-dip
+      - "_油管频道：全网最强白嫖+55\r"
+      - US_2375 @WangCai_1
+      - US_435 TG@peekfun |27.00Mb
+      - univstar-SG-Nerocloud-nf_4
+      - _CA_G_190
+      - univstar-LAX-DMIT-nf_3
+      - US_2375 @WangCai_1 2
+      - univstar-SG-Nerocloud-nf_1
+      - univstar-LAX-DMIT-nf
+      - univstar-香港HGC-dip
+      - github.com/freefq - 北美地区  77
+      - HINET/AZHK
+      - _油管：全网最强白嫖 3
+      - FR_493
+      - _US_美国 187
+      - US_5000 @WangCai_1
+      - 美国 优化 D 3.5
+      - US_456 TG@peekfun |28.81Mb
       - ZZ_525 TG@peekfun |12.35Mb
-      - US_8118 @WangCai_1 2
-      - t.me/wbnet_🇳🇱_NL_1411
-      - US_8009 @WangCai_1 2
-      - github.com/freefq - 香港阿里云 1
-      - 欢迎订阅钱科技0530_🇺🇸_US_美国_610
-      - US_8009 @WangCai_1 3
-      - US_5000 @WangCai_1 2
-      - US_8119 @WangCai_1
-      - t.me/wbnet_🇳🇱_NL_1393
-      - US_455 TG@peekfun |32.47Mb
-      - US_0443 @WangCai_1
-      - US_8888 @WangCai_1
-      - US_8008 @WangCai_1
-      - _US_美国 197
-      - US_5001 @WangCai_1 2
+      - US美国(Youtube技术分享室) 62
+      - univstar-香港HKT-dip_2
+      - _US_G_459
+      - univstar-LAX-DMIT-nf_2
+      - US_434 TG@peekfun |29.26Mb
+      - _油管：全网最强白嫖 4
+      - US_8080 @WangCai_1
       - US_5003 @WangCai_1
+      - 香港 - HKG - 1x
+      - univstar-London-Misaka-dip
+      - US_5001 @WangCai_1
+      - ‌‌🇨🇦CA_5600 @WangCai_1
+      - US_416 TG@peekfun | 5.65Mb
+      - CN_205
+      - _US_美国 178
+      - US_8118 @WangCai_1
+      - t.me/wbnet_🇳🇱_NL_1423
+      - FR_424
+      - univstar-SG-Nerocloud-nf_2 2
+      - ‌‌🇨🇦CA_5601 @WangCai_1
+      - t.me/wbnet_🇳🇱_NL_1432
+      - 油管：最网最强白嫖_140
+      - FR_451
+      - US_8881 @WangCai_1
+      - US_423 TG@peekfun | 8.33Mb
+      - US_5500 @WangCai_1
+      - univstar-SG-Nerocloud-nf_2
+      - (Youtube技术分享室)🇺🇸美国 30
+      - 稳定③关注公众号：ios黑科技
+      - FR_477
+      - _油管：全网最强白嫖 5
+      - US_7002 @WangCai_1
+      - E|V1[移动]美国01
+      - _油管：全网最强白嫖 6
+      - 美国 优化 C 3.5
+      - US_8090 @WangCai_1
       - US_7001 @WangCai_1
-      - t.me/wbnet_🇵🇱_PL_821
-      - 欢迎订阅钱科技0528_🇨🇳_CN_中国_328
-      - US_5004 @WangCai_1 2
-      - 美国 优化 I 3.5
-      - 美国 优化 F 3.5
-      - 美国DO 01 | 解锁流媒体
-      - US_429 TG@peekfun |32.44Mb
-      - US_8000 @WangCai_1 2
-      - US_6679 @WangCai_1 3
-      - US_5601 @WangCai_1
-      - US_6697 @WangCai_1
+      - "[05-30]|oslook|美国(US)USA/Los+Angeles_31"
+      - US_9102 @WangCai_1
+      - univstar-SanJose-Misaka-dip 2
+      - _油管：全网最强白嫖 7
+      - US_8080 @WangCai_1 2
+      - 189-imLam.com-HK
+      - "[CT/CM] HKT A"
+      - 美国 优化-4
       - ZZ_519 TG@peekfun |31.16Mb
-      - US_426 TG@peekfun | 9.56Mb
-      - US_7306 @WangCai_1
-      - US_5600 @WangCai_1 2
-      - _GB_G_699
-      - _US_G_427
+      - _US_美国 192
+      - US_5004 @WangCai_1
       - US_7002 @WangCai_1 2
-      - t.me/wbnet_🇳🇱_NL_1402
-      - github.com/freefq - 美国Microsoft数据中心 10
-      - US_7001 @WangCai_1 2
-      - ZZ_528 TG@peekfun | 6.63Mb
-      - US_7306 @WangCai_1 2
-      - 油管：全网最强白嫖 4
-      - US_5601 @WangCai_1 2
-      - US_7001 @WangCai_1 3
-      - US_5601 @WangCai_1 3
+      - _CA_G_91
+      - _油管：全网最强白嫖 8
+      - US_8882 @WangCai_1
+      - _油管频道：全网最强白嫖_8
+      - "_油管频道：全网最强白嫖+62\r"
+      - 油管：全网最强白嫖
+      - ‌‌🇨🇦CA_6679 @WangCai_1
+      - ‌‌🇨🇦CA_7002 @WangCai_1
+      - ZZ_527 TG@peekfun |23.29Mb
+      - _CA_G_430
+      - 美国(TG频道:@kxswa)
+      - ZZ_530 TG@peekfun |32.89Mb
+      - _561_14.62Mb+|11.76Mb
+      - US_8118 @WangCai_1 2
+      - _PL_波兰_27
+      - ‌‌🇨🇦CA_8888 @WangCai_1
+      - univstar-SG-Tencent-nf_2
+      - ZZ_515 TG@peekfun |12.45Mb
+      - US_431 TG@peekfun |26.83Mb
+      - 美国 优化 F 3.5
+      - "_油管频道：全网最强白嫖+60\r"
+      - 油管：最网最强白嫖_77
+      - US_426 TG@peekfun | 9.56Mb
+      - t.me/wbnet_🇳🇱_NL_1405
+      - 美国(TG频道:@kxswa) 2
+      - _RU_俄罗斯联邦_2 4
+      - _US_美国_72
+      - _US美国_68
+      - _NL_荷兰_10
+      - CA加拿大(Youtube技术分享室) 19
+      - (Youtube技术分享室)🇨🇦加拿大 44
+      - _PL_波兰_8 7
+      - _NL_荷兰_22 2
+      - RU_1436
+      - mattkaydiary.com|美国(US)USA/San Jose
+      - 油管：全网最强白嫖 2
+      - t.me/wbnet_🇳🇱_NL_1420
+      - 美国_0528738
+      - 日本3-tg频道:@ripaojiedian
+      - US_5001 @WangCai_1 2
+      - US_8009 @WangCai_1
+      - ‌‌🇨🇦CA_5000 @WangCai_1
+      - LT_735
+      - _BG_保加利亚_5 5
+      - _BG_保加利亚_12 5
+      - _US_美国_4 43
+      - DE_245
+      - "_PL_wmt(5.31a)_81\r"
+      - RU_1435
+      - DE_306
+      - US_8091 @WangCai_1
+      - github.com/freefq - 美国华盛顿Cogent通信公司 52
+      - t.me/wbnet_🇳🇱_NL_1390
+      - t.me/wbnet_🇳🇱_NL_1422
+      - US_5004 @WangCai_1 2
+      - US_6697 @WangCai_1
+      - LT_833
+      - LT_783
+      - _BG_保加利亚_21
+      - _CA_加拿大_8 4
+      - US_5004@WangCai_1_1
+      - _US_美国_7 2
+      - 美国 优化 H 3.5
+      - 香港_2
+      - US_5001 @WangCai_1 3
+      - 欢迎订阅钱科技0530_🇯🇵_JP_日本_412
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "[CT/CM] HKBN E"
-      - Oracle1-TCP-电信
-      - 油管：全网最强白嫖
-      - _油管频道：全网最强白嫖_10
-      - +(Youtube技术分享室)🇨🇳中国+5
-      - 油管：全网最强白嫖 2
-      - "[CT/CM] HKT N"
-      - CN_04
-      - "[CT/CM] HKT I"
-      - 台湾tj-tg频道:@ripaojiedian
-      - CN_197 |47.58Mb
-      - 香港 - HKG - 1x
-      - "[CT/CM]香港 14"
-      - "_油管频道：全网最强白嫖+60\r"
-      - "[CT/CM]香港 08"
-      - _油管频道：全网最强白嫖_4
-      - CN_181 | 8.73Mb
-      - 日本 - NTR - 1x
-      - "[CT/CM] HKBN A"
-      - "[CT/CM] HKBN B"
-      - Oracle1-TCP-联通
       - 备-香港 - BGP - 1x
-      - "[CT/CM] HKT L"
-      - "[CT/CM] HKT E"
-      - "[CT/CM] HKT K"
-      - 韩国 - Ceph BGP - 2x
-      - 美国 优化 D 3.5
-      - _CN_中国->🇸🇬_SG_新加坡
-      - _561_14.62Mb+|11.76Mb
-      - www.speedaccelerate.com 台湾 - 1x
-      - 备-台湾 - Hinet - 1x
-      - "[CT/CM]香港 17"
-      - 美国 优化 G 3.5
-      - "[CT/CM]香港 05"
-      - "[CT/CM]香港 01"
-      - _油管频道：全网最强白嫖_1
       - 备-香港 - HKG - 1x
-      - "[CT/CM] HKT B"
-      - 美国 优化 H 3.5
+      - 日本 - NTR - 1x
       - 香港V2ray(05)-3
-      - "[CT/CM]香港 13"
-      - "[CT/CM]香港 11"
-      - 美国 优化 C 3.5
-      - "[CT/CM]香港 04"
-      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_19
-      - 美国 优化-2
-      - 美国 优化-3
-      - 新加坡 - SIN - 1x
-      - 日本 Azure A 2.5x
-      - "[CT/CM] HKT H"
-      - "[CT/CM]香港 15"
-      - ZZ_517 TG@peekfun |33.97Mb
-      - US_5000 @WangCai_1
-      - _油管频道：全网最强白嫖_8
       - 日本 - NTRB - 1x
-      - 香港
-      - t.me/wbnet_🇳🇱_NL_1330
-      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_44
-      - US_8118 @WangCai_1
-      - 日本 Azure B 2.5x
-      - US_8009 @WangCai_1
-      - _US_G_459
-      - US_6379 @WangCai_1
-      - (Youtube技术分享室)🇺🇸美国 81
-      - TW_https://1808.gaNode_18
-      - 香港 icable 移动01
-      - US_5001 @WangCai_1
-      - US_6679 @WangCai_1
-      - t.me/wbnet_🇳🇱_NL_1332
-      - 007
-      - 日本3-tg频道:@ripaojiedian
-      - US_6679 @WangCai_1 2
-      - US_9102 @WangCai_1
-      - US_5600 @WangCai_1
-      - 油管：全网最强白嫖 3
-      - 美国 优化-4
-      - US_9102 @WangCai_1 2
-      - _GB_G_708
-      - t.me/wbnet_🇳🇱_NL_1327
-      - ZZ_532 TG@peekfun |33.78Mb
-      - 韩国
-      - US_3389 @WangCai_1
-      - US_5004 @WangCai_1
-      - ZZ_524 TG@peekfun |34.99Mb
-      - _US_G_460
-      - default_name 38
-      - US_418 TG@peekfun |33.70Mb
-      - _US_G_747
+      - default_name
+      - CN_115
+      - univstar-香港HKT-dip 2
+      - "[CT/CM]香港 14"
       - 台湾_0529001
-      - ZZ_510 TG@peekfun |33.23Mb
-      - CN_205
-      - TG频道|https://t.me/getv2ray|1号
-      - US_8080 @WangCai_1
-      - US_438 TG@peekfun |33.61Mb
-      - US_8000 @WangCai_1
-      - US_449 TG@peekfun | 7.39Mb
-      - US_7002 @WangCai_1
-      - US_450 TG@peekfun |28.90Mb
+      - "[CT/CM]香港 05"
+      - 新加坡 - SIN - 1x
+      - _339_22.30Mb+|+7.90Mb
+      - CN_181 | 8.73Mb
+      - CN_187 |30.33Mb
+      - Oracle1-TCP-电信
+      - www.speedaccelerate.com 台湾 - 1x
+      - "[CT/CM]香港 15"
+      - "|65.86Mb\r"
+      - _油管：全网最强白嫖
+      - US_437 TG@peekfun |28.58Mb
+      - 稳定⑥关注公众号：ios黑科技
+      - "_油管频道：全网最强白嫖+61\r"
+      - "[CT/CM]香港 04"
+      - _油管：全网最强白嫖 2
+      - US_418 TG@peekfun |33.70Mb
+      - ZZ_524 TG@peekfun |34.99Mb
+      - 油管：最网最强白嫖_8
+      - univstar-香港HKT-dip
+      - "_油管频道：全网最强白嫖+55\r"
+      - US_2375 @WangCai_1
+      - US_435 TG@peekfun |27.00Mb
+      - univstar-SG-Nerocloud-nf_4
+      - _CA_G_190
+      - univstar-LAX-DMIT-nf_3
+      - US_2375 @WangCai_1 2
+      - univstar-SG-Nerocloud-nf_1
+      - univstar-LAX-DMIT-nf
+      - univstar-香港HGC-dip
+      - github.com/freefq - 北美地区  77
+      - HINET/AZHK
+      - _油管：全网最强白嫖 3
+      - FR_493
+      - _US_美国 187
+      - US_5000 @WangCai_1
+      - 美国 优化 D 3.5
+      - US_456 TG@peekfun |28.81Mb
       - ZZ_525 TG@peekfun |12.35Mb
-      - US_8118 @WangCai_1 2
-      - t.me/wbnet_🇳🇱_NL_1411
-      - US_8009 @WangCai_1 2
-      - github.com/freefq - 香港阿里云 1
-      - 欢迎订阅钱科技0530_🇺🇸_US_美国_610
-      - US_8009 @WangCai_1 3
-      - US_5000 @WangCai_1 2
-      - US_8119 @WangCai_1
-      - t.me/wbnet_🇳🇱_NL_1393
-      - US_455 TG@peekfun |32.47Mb
-      - US_0443 @WangCai_1
-      - US_8888 @WangCai_1
-      - US_8008 @WangCai_1
-      - _US_美国 197
-      - US_5001 @WangCai_1 2
+      - US美国(Youtube技术分享室) 62
+      - univstar-香港HKT-dip_2
+      - _US_G_459
+      - univstar-LAX-DMIT-nf_2
+      - US_434 TG@peekfun |29.26Mb
+      - _油管：全网最强白嫖 4
+      - US_8080 @WangCai_1
       - US_5003 @WangCai_1
+      - 香港 - HKG - 1x
+      - univstar-London-Misaka-dip
+      - US_5001 @WangCai_1
+      - ‌‌🇨🇦CA_5600 @WangCai_1
+      - US_416 TG@peekfun | 5.65Mb
+      - CN_205
+      - _US_美国 178
+      - US_8118 @WangCai_1
+      - t.me/wbnet_🇳🇱_NL_1423
+      - FR_424
+      - univstar-SG-Nerocloud-nf_2 2
+      - ‌‌🇨🇦CA_5601 @WangCai_1
+      - t.me/wbnet_🇳🇱_NL_1432
+      - 油管：最网最强白嫖_140
+      - FR_451
+      - US_8881 @WangCai_1
+      - US_423 TG@peekfun | 8.33Mb
+      - US_5500 @WangCai_1
+      - univstar-SG-Nerocloud-nf_2
+      - (Youtube技术分享室)🇺🇸美国 30
+      - 稳定③关注公众号：ios黑科技
+      - FR_477
+      - _油管：全网最强白嫖 5
+      - US_7002 @WangCai_1
+      - E|V1[移动]美国01
+      - _油管：全网最强白嫖 6
+      - 美国 优化 C 3.5
+      - US_8090 @WangCai_1
       - US_7001 @WangCai_1
-      - t.me/wbnet_🇵🇱_PL_821
-      - 欢迎订阅钱科技0528_🇨🇳_CN_中国_328
-      - US_5004 @WangCai_1 2
-      - 美国 优化 I 3.5
-      - 美国 优化 F 3.5
-      - 美国DO 01 | 解锁流媒体
-      - US_429 TG@peekfun |32.44Mb
-      - US_8000 @WangCai_1 2
-      - US_6679 @WangCai_1 3
-      - US_5601 @WangCai_1
-      - US_6697 @WangCai_1
+      - "[05-30]|oslook|美国(US)USA/Los+Angeles_31"
+      - US_9102 @WangCai_1
+      - univstar-SanJose-Misaka-dip 2
+      - _油管：全网最强白嫖 7
+      - US_8080 @WangCai_1 2
+      - 189-imLam.com-HK
+      - "[CT/CM] HKT A"
+      - 美国 优化-4
       - ZZ_519 TG@peekfun |31.16Mb
-      - US_426 TG@peekfun | 9.56Mb
-      - US_7306 @WangCai_1
-      - US_5600 @WangCai_1 2
-      - _GB_G_699
-      - _US_G_427
+      - _US_美国 192
+      - US_5004 @WangCai_1
       - US_7002 @WangCai_1 2
-      - t.me/wbnet_🇳🇱_NL_1402
-      - github.com/freefq - 美国Microsoft数据中心 10
-      - US_7001 @WangCai_1 2
-      - ZZ_528 TG@peekfun | 6.63Mb
-      - US_7306 @WangCai_1 2
-      - 油管：全网最强白嫖 4
-      - US_5601 @WangCai_1 2
-      - US_7001 @WangCai_1 3
-      - US_5601 @WangCai_1 3
+      - _CA_G_91
+      - _油管：全网最强白嫖 8
+      - US_8882 @WangCai_1
+      - _油管频道：全网最强白嫖_8
+      - "_油管频道：全网最强白嫖+62\r"
+      - 油管：全网最强白嫖
+      - ‌‌🇨🇦CA_6679 @WangCai_1
+      - ‌‌🇨🇦CA_7002 @WangCai_1
+      - ZZ_527 TG@peekfun |23.29Mb
+      - _CA_G_430
+      - 美国(TG频道:@kxswa)
+      - ZZ_530 TG@peekfun |32.89Mb
+      - _561_14.62Mb+|11.76Mb
+      - US_8118 @WangCai_1 2
+      - _PL_波兰_27
+      - ‌‌🇨🇦CA_8888 @WangCai_1
+      - univstar-SG-Tencent-nf_2
+      - ZZ_515 TG@peekfun |12.45Mb
+      - US_431 TG@peekfun |26.83Mb
+      - 美国 优化 F 3.5
+      - "_油管频道：全网最强白嫖+60\r"
+      - 油管：最网最强白嫖_77
+      - US_426 TG@peekfun | 9.56Mb
+      - t.me/wbnet_🇳🇱_NL_1405
+      - 美国(TG频道:@kxswa) 2
+      - _RU_俄罗斯联邦_2 4
+      - _US_美国_72
+      - _US美国_68
+      - _NL_荷兰_10
+      - CA加拿大(Youtube技术分享室) 19
+      - (Youtube技术分享室)🇨🇦加拿大 44
+      - _PL_波兰_8 7
+      - _NL_荷兰_22 2
+      - RU_1436
+      - mattkaydiary.com|美国(US)USA/San Jose
+      - 油管：全网最强白嫖 2
+      - t.me/wbnet_🇳🇱_NL_1420
+      - 美国_0528738
+      - 日本3-tg频道:@ripaojiedian
+      - US_5001 @WangCai_1 2
+      - US_8009 @WangCai_1
+      - ‌‌🇨🇦CA_5000 @WangCai_1
+      - LT_735
+      - _BG_保加利亚_5 5
+      - _BG_保加利亚_12 5
+      - _US_美国_4 43
+      - DE_245
+      - "_PL_wmt(5.31a)_81\r"
+      - RU_1435
+      - DE_306
+      - US_8091 @WangCai_1
+      - github.com/freefq - 美国华盛顿Cogent通信公司 52
+      - t.me/wbnet_🇳🇱_NL_1390
+      - t.me/wbnet_🇳🇱_NL_1422
+      - US_5004 @WangCai_1 2
+      - US_6697 @WangCai_1
+      - LT_833
+      - LT_783
+      - _BG_保加利亚_21
+      - _CA_加拿大_8 4
+      - US_5004@WangCai_1_1
+      - _US_美国_7 2
+      - 美国 优化 H 3.5
+      - 香港_2
+      - US_5001 @WangCai_1 3
+      - 欢迎订阅钱科技0530_🇯🇵_JP_日本_412
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "[CT/CM] HKBN E"
-      - Oracle1-TCP-电信
-      - 油管：全网最强白嫖
-      - _油管频道：全网最强白嫖_10
-      - +(Youtube技术分享室)🇨🇳中国+5
-      - 油管：全网最强白嫖 2
-      - "[CT/CM] HKT N"
-      - CN_04
-      - "[CT/CM] HKT I"
-      - 台湾tj-tg频道:@ripaojiedian
-      - CN_197 |47.58Mb
-      - 香港 - HKG - 1x
-      - "[CT/CM]香港 14"
-      - "_油管频道：全网最强白嫖+60\r"
-      - "[CT/CM]香港 08"
-      - _油管频道：全网最强白嫖_4
-      - CN_181 | 8.73Mb
-      - 日本 - NTR - 1x
-      - "[CT/CM] HKBN A"
-      - "[CT/CM] HKBN B"
-      - Oracle1-TCP-联通
       - 备-香港 - BGP - 1x
-      - "[CT/CM] HKT L"
-      - "[CT/CM] HKT E"
-      - "[CT/CM] HKT K"
-      - 韩国 - Ceph BGP - 2x
-      - 美国 优化 D 3.5
-      - _CN_中国->🇸🇬_SG_新加坡
-      - _561_14.62Mb+|11.76Mb
-      - www.speedaccelerate.com 台湾 - 1x
-      - 备-台湾 - Hinet - 1x
-      - "[CT/CM]香港 17"
-      - 美国 优化 G 3.5
-      - "[CT/CM]香港 05"
-      - "[CT/CM]香港 01"
-      - _油管频道：全网最强白嫖_1
       - 备-香港 - HKG - 1x
-      - "[CT/CM] HKT B"
-      - 美国 优化 H 3.5
+      - 日本 - NTR - 1x
       - 香港V2ray(05)-3
-      - "[CT/CM]香港 13"
-      - "[CT/CM]香港 11"
-      - 美国 优化 C 3.5
-      - "[CT/CM]香港 04"
-      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_19
-      - 美国 优化-2
-      - 美国 优化-3
-      - 新加坡 - SIN - 1x
-      - 日本 Azure A 2.5x
-      - "[CT/CM] HKT H"
-      - "[CT/CM]香港 15"
-      - ZZ_517 TG@peekfun |33.97Mb
-      - US_5000 @WangCai_1
-      - _油管频道：全网最强白嫖_8
       - 日本 - NTRB - 1x
-      - 香港
-      - t.me/wbnet_🇳🇱_NL_1330
-      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_44
-      - US_8118 @WangCai_1
-      - 日本 Azure B 2.5x
-      - US_8009 @WangCai_1
-      - _US_G_459
-      - US_6379 @WangCai_1
-      - (Youtube技术分享室)🇺🇸美国 81
-      - TW_https://1808.gaNode_18
-      - 香港 icable 移动01
-      - US_5001 @WangCai_1
-      - US_6679 @WangCai_1
-      - t.me/wbnet_🇳🇱_NL_1332
-      - 007
-      - 日本3-tg频道:@ripaojiedian
-      - US_6679 @WangCai_1 2
-      - US_9102 @WangCai_1
-      - US_5600 @WangCai_1
-      - 油管：全网最强白嫖 3
-      - 美国 优化-4
-      - US_9102 @WangCai_1 2
-      - _GB_G_708
-      - t.me/wbnet_🇳🇱_NL_1327
-      - ZZ_532 TG@peekfun |33.78Mb
-      - 韩国
-      - US_3389 @WangCai_1
-      - US_5004 @WangCai_1
-      - ZZ_524 TG@peekfun |34.99Mb
-      - _US_G_460
-      - default_name 38
-      - US_418 TG@peekfun |33.70Mb
-      - _US_G_747
+      - default_name
+      - CN_115
+      - univstar-香港HKT-dip 2
+      - "[CT/CM]香港 14"
       - 台湾_0529001
-      - ZZ_510 TG@peekfun |33.23Mb
-      - CN_205
-      - TG频道|https://t.me/getv2ray|1号
-      - US_8080 @WangCai_1
-      - US_438 TG@peekfun |33.61Mb
-      - US_8000 @WangCai_1
-      - US_449 TG@peekfun | 7.39Mb
-      - US_7002 @WangCai_1
-      - US_450 TG@peekfun |28.90Mb
+      - "[CT/CM]香港 05"
+      - 新加坡 - SIN - 1x
+      - _339_22.30Mb+|+7.90Mb
+      - CN_181 | 8.73Mb
+      - CN_187 |30.33Mb
+      - Oracle1-TCP-电信
+      - www.speedaccelerate.com 台湾 - 1x
+      - "[CT/CM]香港 15"
+      - "|65.86Mb\r"
+      - _油管：全网最强白嫖
+      - US_437 TG@peekfun |28.58Mb
+      - 稳定⑥关注公众号：ios黑科技
+      - "_油管频道：全网最强白嫖+61\r"
+      - "[CT/CM]香港 04"
+      - _油管：全网最强白嫖 2
+      - US_418 TG@peekfun |33.70Mb
+      - ZZ_524 TG@peekfun |34.99Mb
+      - 油管：最网最强白嫖_8
+      - univstar-香港HKT-dip
+      - "_油管频道：全网最强白嫖+55\r"
+      - US_2375 @WangCai_1
+      - US_435 TG@peekfun |27.00Mb
+      - univstar-SG-Nerocloud-nf_4
+      - _CA_G_190
+      - univstar-LAX-DMIT-nf_3
+      - US_2375 @WangCai_1 2
+      - univstar-SG-Nerocloud-nf_1
+      - univstar-LAX-DMIT-nf
+      - univstar-香港HGC-dip
+      - github.com/freefq - 北美地区  77
+      - HINET/AZHK
+      - _油管：全网最强白嫖 3
+      - FR_493
+      - _US_美国 187
+      - US_5000 @WangCai_1
+      - 美国 优化 D 3.5
+      - US_456 TG@peekfun |28.81Mb
       - ZZ_525 TG@peekfun |12.35Mb
-      - US_8118 @WangCai_1 2
-      - t.me/wbnet_🇳🇱_NL_1411
-      - US_8009 @WangCai_1 2
-      - github.com/freefq - 香港阿里云 1
-      - 欢迎订阅钱科技0530_🇺🇸_US_美国_610
-      - US_8009 @WangCai_1 3
-      - US_5000 @WangCai_1 2
-      - US_8119 @WangCai_1
-      - t.me/wbnet_🇳🇱_NL_1393
-      - US_455 TG@peekfun |32.47Mb
-      - US_0443 @WangCai_1
-      - US_8888 @WangCai_1
-      - US_8008 @WangCai_1
-      - _US_美国 197
-      - US_5001 @WangCai_1 2
+      - US美国(Youtube技术分享室) 62
+      - univstar-香港HKT-dip_2
+      - _US_G_459
+      - univstar-LAX-DMIT-nf_2
+      - US_434 TG@peekfun |29.26Mb
+      - _油管：全网最强白嫖 4
+      - US_8080 @WangCai_1
       - US_5003 @WangCai_1
+      - 香港 - HKG - 1x
+      - univstar-London-Misaka-dip
+      - US_5001 @WangCai_1
+      - ‌‌🇨🇦CA_5600 @WangCai_1
+      - US_416 TG@peekfun | 5.65Mb
+      - CN_205
+      - _US_美国 178
+      - US_8118 @WangCai_1
+      - t.me/wbnet_🇳🇱_NL_1423
+      - FR_424
+      - univstar-SG-Nerocloud-nf_2 2
+      - ‌‌🇨🇦CA_5601 @WangCai_1
+      - t.me/wbnet_🇳🇱_NL_1432
+      - 油管：最网最强白嫖_140
+      - FR_451
+      - US_8881 @WangCai_1
+      - US_423 TG@peekfun | 8.33Mb
+      - US_5500 @WangCai_1
+      - univstar-SG-Nerocloud-nf_2
+      - (Youtube技术分享室)🇺🇸美国 30
+      - 稳定③关注公众号：ios黑科技
+      - FR_477
+      - _油管：全网最强白嫖 5
+      - US_7002 @WangCai_1
+      - E|V1[移动]美国01
+      - _油管：全网最强白嫖 6
+      - 美国 优化 C 3.5
+      - US_8090 @WangCai_1
       - US_7001 @WangCai_1
-      - t.me/wbnet_🇵🇱_PL_821
-      - 欢迎订阅钱科技0528_🇨🇳_CN_中国_328
-      - US_5004 @WangCai_1 2
-      - 美国 优化 I 3.5
-      - 美国 优化 F 3.5
-      - 美国DO 01 | 解锁流媒体
-      - US_429 TG@peekfun |32.44Mb
-      - US_8000 @WangCai_1 2
-      - US_6679 @WangCai_1 3
-      - US_5601 @WangCai_1
-      - US_6697 @WangCai_1
+      - "[05-30]|oslook|美国(US)USA/Los+Angeles_31"
+      - US_9102 @WangCai_1
+      - univstar-SanJose-Misaka-dip 2
+      - _油管：全网最强白嫖 7
+      - US_8080 @WangCai_1 2
+      - 189-imLam.com-HK
+      - "[CT/CM] HKT A"
+      - 美国 优化-4
       - ZZ_519 TG@peekfun |31.16Mb
-      - US_426 TG@peekfun | 9.56Mb
-      - US_7306 @WangCai_1
-      - US_5600 @WangCai_1 2
-      - _GB_G_699
-      - _US_G_427
+      - _US_美国 192
+      - US_5004 @WangCai_1
       - US_7002 @WangCai_1 2
-      - t.me/wbnet_🇳🇱_NL_1402
-      - github.com/freefq - 美国Microsoft数据中心 10
-      - US_7001 @WangCai_1 2
-      - ZZ_528 TG@peekfun | 6.63Mb
-      - US_7306 @WangCai_1 2
-      - 油管：全网最强白嫖 4
-      - US_5601 @WangCai_1 2
-      - US_7001 @WangCai_1 3
-      - US_5601 @WangCai_1 3
+      - _CA_G_91
+      - _油管：全网最强白嫖 8
+      - US_8882 @WangCai_1
+      - _油管频道：全网最强白嫖_8
+      - "_油管频道：全网最强白嫖+62\r"
+      - 油管：全网最强白嫖
+      - ‌‌🇨🇦CA_6679 @WangCai_1
+      - ‌‌🇨🇦CA_7002 @WangCai_1
+      - ZZ_527 TG@peekfun |23.29Mb
+      - _CA_G_430
+      - 美国(TG频道:@kxswa)
+      - ZZ_530 TG@peekfun |32.89Mb
+      - _561_14.62Mb+|11.76Mb
+      - US_8118 @WangCai_1 2
+      - _PL_波兰_27
+      - ‌‌🇨🇦CA_8888 @WangCai_1
+      - univstar-SG-Tencent-nf_2
+      - ZZ_515 TG@peekfun |12.45Mb
+      - US_431 TG@peekfun |26.83Mb
+      - 美国 优化 F 3.5
+      - "_油管频道：全网最强白嫖+60\r"
+      - 油管：最网最强白嫖_77
+      - US_426 TG@peekfun | 9.56Mb
+      - t.me/wbnet_🇳🇱_NL_1405
+      - 美国(TG频道:@kxswa) 2
+      - _RU_俄罗斯联邦_2 4
+      - _US_美国_72
+      - _US美国_68
+      - _NL_荷兰_10
+      - CA加拿大(Youtube技术分享室) 19
+      - (Youtube技术分享室)🇨🇦加拿大 44
+      - _PL_波兰_8 7
+      - _NL_荷兰_22 2
+      - RU_1436
+      - mattkaydiary.com|美国(US)USA/San Jose
+      - 油管：全网最强白嫖 2
+      - t.me/wbnet_🇳🇱_NL_1420
+      - 美国_0528738
+      - 日本3-tg频道:@ripaojiedian
+      - US_5001 @WangCai_1 2
+      - US_8009 @WangCai_1
+      - ‌‌🇨🇦CA_5000 @WangCai_1
+      - LT_735
+      - _BG_保加利亚_5 5
+      - _BG_保加利亚_12 5
+      - _US_美国_4 43
+      - DE_245
+      - "_PL_wmt(5.31a)_81\r"
+      - RU_1435
+      - DE_306
+      - US_8091 @WangCai_1
+      - github.com/freefq - 美国华盛顿Cogent通信公司 52
+      - t.me/wbnet_🇳🇱_NL_1390
+      - t.me/wbnet_🇳🇱_NL_1422
+      - US_5004 @WangCai_1 2
+      - US_6697 @WangCai_1
+      - LT_833
+      - LT_783
+      - _BG_保加利亚_21
+      - _CA_加拿大_8 4
+      - US_5004@WangCai_1_1
+      - _US_美国_7 2
+      - 美国 优化 H 3.5
+      - 香港_2
+      - US_5001 @WangCai_1 3
+      - 欢迎订阅钱科技0530_🇯🇵_JP_日本_412
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -612,629 +692,695 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "[CT/CM] HKBN E"
-      - Oracle1-TCP-电信
-      - 油管：全网最强白嫖
-      - _油管频道：全网最强白嫖_10
-      - +(Youtube技术分享室)🇨🇳中国+5
-      - 油管：全网最强白嫖 2
-      - "[CT/CM] HKT N"
-      - CN_04
-      - "[CT/CM] HKT I"
-      - 台湾tj-tg频道:@ripaojiedian
-      - CN_197 |47.58Mb
-      - 香港 - HKG - 1x
-      - "[CT/CM]香港 14"
-      - "_油管频道：全网最强白嫖+60\r"
-      - "[CT/CM]香港 08"
-      - _油管频道：全网最强白嫖_4
-      - CN_181 | 8.73Mb
-      - 日本 - NTR - 1x
-      - "[CT/CM] HKBN A"
-      - "[CT/CM] HKBN B"
-      - Oracle1-TCP-联通
       - 备-香港 - BGP - 1x
-      - "[CT/CM] HKT L"
-      - "[CT/CM] HKT E"
-      - "[CT/CM] HKT K"
-      - 韩国 - Ceph BGP - 2x
-      - 美国 优化 D 3.5
-      - _CN_中国->🇸🇬_SG_新加坡
-      - _561_14.62Mb+|11.76Mb
-      - www.speedaccelerate.com 台湾 - 1x
-      - 备-台湾 - Hinet - 1x
-      - "[CT/CM]香港 17"
-      - 美国 优化 G 3.5
-      - "[CT/CM]香港 05"
-      - "[CT/CM]香港 01"
-      - _油管频道：全网最强白嫖_1
       - 备-香港 - HKG - 1x
-      - "[CT/CM] HKT B"
-      - 美国 优化 H 3.5
+      - 日本 - NTR - 1x
       - 香港V2ray(05)-3
-      - "[CT/CM]香港 13"
-      - "[CT/CM]香港 11"
-      - 美国 优化 C 3.5
-      - "[CT/CM]香港 04"
-      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_19
-      - 美国 优化-2
-      - 美国 优化-3
-      - 新加坡 - SIN - 1x
-      - 日本 Azure A 2.5x
-      - "[CT/CM] HKT H"
-      - "[CT/CM]香港 15"
-      - ZZ_517 TG@peekfun |33.97Mb
-      - US_5000 @WangCai_1
-      - _油管频道：全网最强白嫖_8
       - 日本 - NTRB - 1x
-      - 香港
-      - t.me/wbnet_🇳🇱_NL_1330
-      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_44
-      - US_8118 @WangCai_1
-      - 日本 Azure B 2.5x
-      - US_8009 @WangCai_1
-      - _US_G_459
-      - US_6379 @WangCai_1
-      - (Youtube技术分享室)🇺🇸美国 81
-      - TW_https://1808.gaNode_18
-      - 香港 icable 移动01
-      - US_5001 @WangCai_1
-      - US_6679 @WangCai_1
-      - t.me/wbnet_🇳🇱_NL_1332
-      - 007
-      - 日本3-tg频道:@ripaojiedian
-      - US_6679 @WangCai_1 2
-      - US_9102 @WangCai_1
-      - US_5600 @WangCai_1
-      - 油管：全网最强白嫖 3
-      - 美国 优化-4
-      - US_9102 @WangCai_1 2
-      - _GB_G_708
-      - t.me/wbnet_🇳🇱_NL_1327
-      - ZZ_532 TG@peekfun |33.78Mb
-      - 韩国
-      - US_3389 @WangCai_1
-      - US_5004 @WangCai_1
-      - ZZ_524 TG@peekfun |34.99Mb
-      - _US_G_460
-      - default_name 38
-      - US_418 TG@peekfun |33.70Mb
-      - _US_G_747
+      - default_name
+      - CN_115
+      - univstar-香港HKT-dip 2
+      - "[CT/CM]香港 14"
       - 台湾_0529001
-      - ZZ_510 TG@peekfun |33.23Mb
-      - CN_205
-      - TG频道|https://t.me/getv2ray|1号
-      - US_8080 @WangCai_1
-      - US_438 TG@peekfun |33.61Mb
-      - US_8000 @WangCai_1
-      - US_449 TG@peekfun | 7.39Mb
-      - US_7002 @WangCai_1
-      - US_450 TG@peekfun |28.90Mb
+      - "[CT/CM]香港 05"
+      - 新加坡 - SIN - 1x
+      - _339_22.30Mb+|+7.90Mb
+      - CN_181 | 8.73Mb
+      - CN_187 |30.33Mb
+      - Oracle1-TCP-电信
+      - www.speedaccelerate.com 台湾 - 1x
+      - "[CT/CM]香港 15"
+      - "|65.86Mb\r"
+      - _油管：全网最强白嫖
+      - US_437 TG@peekfun |28.58Mb
+      - 稳定⑥关注公众号：ios黑科技
+      - "_油管频道：全网最强白嫖+61\r"
+      - "[CT/CM]香港 04"
+      - _油管：全网最强白嫖 2
+      - US_418 TG@peekfun |33.70Mb
+      - ZZ_524 TG@peekfun |34.99Mb
+      - 油管：最网最强白嫖_8
+      - univstar-香港HKT-dip
+      - "_油管频道：全网最强白嫖+55\r"
+      - US_2375 @WangCai_1
+      - US_435 TG@peekfun |27.00Mb
+      - univstar-SG-Nerocloud-nf_4
+      - _CA_G_190
+      - univstar-LAX-DMIT-nf_3
+      - US_2375 @WangCai_1 2
+      - univstar-SG-Nerocloud-nf_1
+      - univstar-LAX-DMIT-nf
+      - univstar-香港HGC-dip
+      - github.com/freefq - 北美地区  77
+      - HINET/AZHK
+      - _油管：全网最强白嫖 3
+      - FR_493
+      - _US_美国 187
+      - US_5000 @WangCai_1
+      - 美国 优化 D 3.5
+      - US_456 TG@peekfun |28.81Mb
       - ZZ_525 TG@peekfun |12.35Mb
-      - US_8118 @WangCai_1 2
-      - t.me/wbnet_🇳🇱_NL_1411
-      - US_8009 @WangCai_1 2
-      - github.com/freefq - 香港阿里云 1
-      - 欢迎订阅钱科技0530_🇺🇸_US_美国_610
-      - US_8009 @WangCai_1 3
-      - US_5000 @WangCai_1 2
-      - US_8119 @WangCai_1
-      - t.me/wbnet_🇳🇱_NL_1393
-      - US_455 TG@peekfun |32.47Mb
-      - US_0443 @WangCai_1
-      - US_8888 @WangCai_1
-      - US_8008 @WangCai_1
-      - _US_美国 197
-      - US_5001 @WangCai_1 2
+      - US美国(Youtube技术分享室) 62
+      - univstar-香港HKT-dip_2
+      - _US_G_459
+      - univstar-LAX-DMIT-nf_2
+      - US_434 TG@peekfun |29.26Mb
+      - _油管：全网最强白嫖 4
+      - US_8080 @WangCai_1
       - US_5003 @WangCai_1
+      - 香港 - HKG - 1x
+      - univstar-London-Misaka-dip
+      - US_5001 @WangCai_1
+      - ‌‌🇨🇦CA_5600 @WangCai_1
+      - US_416 TG@peekfun | 5.65Mb
+      - CN_205
+      - _US_美国 178
+      - US_8118 @WangCai_1
+      - t.me/wbnet_🇳🇱_NL_1423
+      - FR_424
+      - univstar-SG-Nerocloud-nf_2 2
+      - ‌‌🇨🇦CA_5601 @WangCai_1
+      - t.me/wbnet_🇳🇱_NL_1432
+      - 油管：最网最强白嫖_140
+      - FR_451
+      - US_8881 @WangCai_1
+      - US_423 TG@peekfun | 8.33Mb
+      - US_5500 @WangCai_1
+      - univstar-SG-Nerocloud-nf_2
+      - (Youtube技术分享室)🇺🇸美国 30
+      - 稳定③关注公众号：ios黑科技
+      - FR_477
+      - _油管：全网最强白嫖 5
+      - US_7002 @WangCai_1
+      - E|V1[移动]美国01
+      - _油管：全网最强白嫖 6
+      - 美国 优化 C 3.5
+      - US_8090 @WangCai_1
       - US_7001 @WangCai_1
-      - t.me/wbnet_🇵🇱_PL_821
-      - 欢迎订阅钱科技0528_🇨🇳_CN_中国_328
-      - US_5004 @WangCai_1 2
-      - 美国 优化 I 3.5
-      - 美国 优化 F 3.5
-      - 美国DO 01 | 解锁流媒体
-      - US_429 TG@peekfun |32.44Mb
-      - US_8000 @WangCai_1 2
-      - US_6679 @WangCai_1 3
-      - US_5601 @WangCai_1
-      - US_6697 @WangCai_1
+      - "[05-30]|oslook|美国(US)USA/Los+Angeles_31"
+      - US_9102 @WangCai_1
+      - univstar-SanJose-Misaka-dip 2
+      - _油管：全网最强白嫖 7
+      - US_8080 @WangCai_1 2
+      - 189-imLam.com-HK
+      - "[CT/CM] HKT A"
+      - 美国 优化-4
       - ZZ_519 TG@peekfun |31.16Mb
-      - US_426 TG@peekfun | 9.56Mb
-      - US_7306 @WangCai_1
-      - US_5600 @WangCai_1 2
-      - _GB_G_699
-      - _US_G_427
+      - _US_美国 192
+      - US_5004 @WangCai_1
       - US_7002 @WangCai_1 2
-      - t.me/wbnet_🇳🇱_NL_1402
-      - github.com/freefq - 美国Microsoft数据中心 10
-      - US_7001 @WangCai_1 2
-      - ZZ_528 TG@peekfun | 6.63Mb
-      - US_7306 @WangCai_1 2
-      - 油管：全网最强白嫖 4
-      - US_5601 @WangCai_1 2
-      - US_7001 @WangCai_1 3
-      - US_5601 @WangCai_1 3
+      - _CA_G_91
+      - _油管：全网最强白嫖 8
+      - US_8882 @WangCai_1
+      - _油管频道：全网最强白嫖_8
+      - "_油管频道：全网最强白嫖+62\r"
+      - 油管：全网最强白嫖
+      - ‌‌🇨🇦CA_6679 @WangCai_1
+      - ‌‌🇨🇦CA_7002 @WangCai_1
+      - ZZ_527 TG@peekfun |23.29Mb
+      - _CA_G_430
+      - 美国(TG频道:@kxswa)
+      - ZZ_530 TG@peekfun |32.89Mb
+      - _561_14.62Mb+|11.76Mb
+      - US_8118 @WangCai_1 2
+      - _PL_波兰_27
+      - ‌‌🇨🇦CA_8888 @WangCai_1
+      - univstar-SG-Tencent-nf_2
+      - ZZ_515 TG@peekfun |12.45Mb
+      - US_431 TG@peekfun |26.83Mb
+      - 美国 优化 F 3.5
+      - "_油管频道：全网最强白嫖+60\r"
+      - 油管：最网最强白嫖_77
+      - US_426 TG@peekfun | 9.56Mb
+      - t.me/wbnet_🇳🇱_NL_1405
+      - 美国(TG频道:@kxswa) 2
+      - _RU_俄罗斯联邦_2 4
+      - _US_美国_72
+      - _US美国_68
+      - _NL_荷兰_10
+      - CA加拿大(Youtube技术分享室) 19
+      - (Youtube技术分享室)🇨🇦加拿大 44
+      - _PL_波兰_8 7
+      - _NL_荷兰_22 2
+      - RU_1436
+      - mattkaydiary.com|美国(US)USA/San Jose
+      - 油管：全网最强白嫖 2
+      - t.me/wbnet_🇳🇱_NL_1420
+      - 美国_0528738
+      - 日本3-tg频道:@ripaojiedian
+      - US_5001 @WangCai_1 2
+      - US_8009 @WangCai_1
+      - ‌‌🇨🇦CA_5000 @WangCai_1
+      - LT_735
+      - _BG_保加利亚_5 5
+      - _BG_保加利亚_12 5
+      - _US_美国_4 43
+      - DE_245
+      - "_PL_wmt(5.31a)_81\r"
+      - RU_1435
+      - DE_306
+      - US_8091 @WangCai_1
+      - github.com/freefq - 美国华盛顿Cogent通信公司 52
+      - t.me/wbnet_🇳🇱_NL_1390
+      - t.me/wbnet_🇳🇱_NL_1422
+      - US_5004 @WangCai_1 2
+      - US_6697 @WangCai_1
+      - LT_833
+      - LT_783
+      - _BG_保加利亚_21
+      - _CA_加拿大_8 4
+      - US_5004@WangCai_1_1
+      - _US_美国_7 2
+      - 美国 优化 H 3.5
+      - 香港_2
+      - US_5001 @WangCai_1 3
+      - 欢迎订阅钱科技0530_🇯🇵_JP_日本_412
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - "[CT/CM] HKBN E"
-      - "[CT/CM] HKT N"
-      - "[CT/CM] HKT I"
-      - 台湾tj-tg频道:@ripaojiedian
-      - 香港 - HKG - 1x
-      - "[CT/CM]香港 14"
-      - "[CT/CM]香港 08"
-      - "[CT/CM] HKBN A"
-      - "[CT/CM] HKBN B"
       - 备-香港 - BGP - 1x
-      - "[CT/CM] HKT L"
-      - "[CT/CM] HKT E"
-      - "[CT/CM] HKT K"
-      - www.speedaccelerate.com 台湾 - 1x
-      - 备-台湾 - Hinet - 1x
-      - "[CT/CM]香港 17"
-      - "[CT/CM]香港 05"
-      - "[CT/CM]香港 01"
       - 备-香港 - HKG - 1x
-      - "[CT/CM] HKT B"
       - 香港V2ray(05)-3
-      - "[CT/CM]香港 13"
-      - "[CT/CM]香港 11"
-      - "[CT/CM]香港 04"
-      - "[CT/CM] HKT H"
-      - "[CT/CM]香港 15"
-      - 香港
-      - 香港 icable 移动01
+      - univstar-香港HKT-dip 2
+      - "[CT/CM]香港 14"
       - 台湾_0529001
-      - github.com/freefq - 香港阿里云 1
+      - "[CT/CM]香港 05"
+      - www.speedaccelerate.com 台湾 - 1x
+      - "[CT/CM]香港 15"
+      - "[CT/CM]香港 04"
+      - univstar-香港HKT-dip
+      - univstar-香港HGC-dip
+      - univstar-香港HKT-dip_2
+      - 香港 - HKG - 1x
+      - "[CT/CM] HKT A"
+      - 香港_2
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - "[CT/CM] HKBN E"
-      - Oracle1-TCP-电信
-      - 油管：全网最强白嫖
-      - _油管频道：全网最强白嫖_10
-      - +(Youtube技术分享室)🇨🇳中国+5
-      - 油管：全网最强白嫖 2
-      - "[CT/CM] HKT N"
-      - CN_04
-      - "[CT/CM] HKT I"
-      - 台湾tj-tg频道:@ripaojiedian
-      - CN_197 |47.58Mb
-      - 香港 - HKG - 1x
-      - "[CT/CM]香港 14"
-      - "_油管频道：全网最强白嫖+60\r"
-      - "[CT/CM]香港 08"
-      - _油管频道：全网最强白嫖_4
-      - CN_181 | 8.73Mb
-      - 日本 - NTR - 1x
-      - "[CT/CM] HKBN A"
-      - "[CT/CM] HKBN B"
-      - Oracle1-TCP-联通
       - 备-香港 - BGP - 1x
-      - "[CT/CM] HKT L"
-      - "[CT/CM] HKT E"
-      - "[CT/CM] HKT K"
-      - 韩国 - Ceph BGP - 2x
-      - 美国 优化 D 3.5
-      - _CN_中国->🇸🇬_SG_新加坡
-      - _561_14.62Mb+|11.76Mb
-      - www.speedaccelerate.com 台湾 - 1x
-      - 备-台湾 - Hinet - 1x
-      - "[CT/CM]香港 17"
-      - 美国 优化 G 3.5
-      - "[CT/CM]香港 05"
-      - "[CT/CM]香港 01"
-      - _油管频道：全网最强白嫖_1
       - 备-香港 - HKG - 1x
-      - "[CT/CM] HKT B"
-      - 美国 优化 H 3.5
+      - 日本 - NTR - 1x
       - 香港V2ray(05)-3
-      - "[CT/CM]香港 13"
-      - "[CT/CM]香港 11"
-      - 美国 优化 C 3.5
-      - "[CT/CM]香港 04"
-      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_19
-      - 美国 优化-2
-      - 美国 优化-3
-      - 新加坡 - SIN - 1x
-      - 日本 Azure A 2.5x
-      - "[CT/CM] HKT H"
-      - "[CT/CM]香港 15"
-      - ZZ_517 TG@peekfun |33.97Mb
-      - US_5000 @WangCai_1
-      - _油管频道：全网最强白嫖_8
       - 日本 - NTRB - 1x
-      - 香港
-      - t.me/wbnet_🇳🇱_NL_1330
-      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_44
-      - US_8118 @WangCai_1
-      - 日本 Azure B 2.5x
-      - US_8009 @WangCai_1
-      - _US_G_459
-      - US_6379 @WangCai_1
-      - (Youtube技术分享室)🇺🇸美国 81
-      - TW_https://1808.gaNode_18
-      - 香港 icable 移动01
-      - US_5001 @WangCai_1
-      - US_6679 @WangCai_1
-      - t.me/wbnet_🇳🇱_NL_1332
-      - 007
-      - 日本3-tg频道:@ripaojiedian
-      - US_6679 @WangCai_1 2
-      - US_9102 @WangCai_1
-      - US_5600 @WangCai_1
-      - 油管：全网最强白嫖 3
-      - 美国 优化-4
-      - US_9102 @WangCai_1 2
-      - _GB_G_708
-      - t.me/wbnet_🇳🇱_NL_1327
-      - ZZ_532 TG@peekfun |33.78Mb
-      - 韩国
-      - US_3389 @WangCai_1
-      - US_5004 @WangCai_1
-      - ZZ_524 TG@peekfun |34.99Mb
-      - _US_G_460
-      - default_name 38
-      - US_418 TG@peekfun |33.70Mb
-      - _US_G_747
+      - default_name
+      - CN_115
+      - univstar-香港HKT-dip 2
+      - "[CT/CM]香港 14"
       - 台湾_0529001
-      - ZZ_510 TG@peekfun |33.23Mb
-      - CN_205
-      - TG频道|https://t.me/getv2ray|1号
-      - US_8080 @WangCai_1
-      - US_438 TG@peekfun |33.61Mb
-      - US_8000 @WangCai_1
-      - US_449 TG@peekfun | 7.39Mb
-      - US_7002 @WangCai_1
-      - US_450 TG@peekfun |28.90Mb
+      - "[CT/CM]香港 05"
+      - 新加坡 - SIN - 1x
+      - _339_22.30Mb+|+7.90Mb
+      - CN_181 | 8.73Mb
+      - CN_187 |30.33Mb
+      - Oracle1-TCP-电信
+      - www.speedaccelerate.com 台湾 - 1x
+      - "[CT/CM]香港 15"
+      - "|65.86Mb\r"
+      - _油管：全网最强白嫖
+      - US_437 TG@peekfun |28.58Mb
+      - 稳定⑥关注公众号：ios黑科技
+      - "_油管频道：全网最强白嫖+61\r"
+      - "[CT/CM]香港 04"
+      - _油管：全网最强白嫖 2
+      - US_418 TG@peekfun |33.70Mb
+      - ZZ_524 TG@peekfun |34.99Mb
+      - 油管：最网最强白嫖_8
+      - univstar-香港HKT-dip
+      - "_油管频道：全网最强白嫖+55\r"
+      - US_2375 @WangCai_1
+      - US_435 TG@peekfun |27.00Mb
+      - univstar-SG-Nerocloud-nf_4
+      - _CA_G_190
+      - univstar-LAX-DMIT-nf_3
+      - US_2375 @WangCai_1 2
+      - univstar-SG-Nerocloud-nf_1
+      - univstar-LAX-DMIT-nf
+      - univstar-香港HGC-dip
+      - github.com/freefq - 北美地区  77
+      - HINET/AZHK
+      - _油管：全网最强白嫖 3
+      - FR_493
+      - _US_美国 187
+      - US_5000 @WangCai_1
+      - 美国 优化 D 3.5
+      - US_456 TG@peekfun |28.81Mb
       - ZZ_525 TG@peekfun |12.35Mb
-      - US_8118 @WangCai_1 2
-      - t.me/wbnet_🇳🇱_NL_1411
-      - US_8009 @WangCai_1 2
-      - github.com/freefq - 香港阿里云 1
-      - 欢迎订阅钱科技0530_🇺🇸_US_美国_610
-      - US_8009 @WangCai_1 3
-      - US_5000 @WangCai_1 2
-      - US_8119 @WangCai_1
-      - t.me/wbnet_🇳🇱_NL_1393
-      - US_455 TG@peekfun |32.47Mb
-      - US_0443 @WangCai_1
-      - US_8888 @WangCai_1
-      - US_8008 @WangCai_1
-      - _US_美国 197
-      - US_5001 @WangCai_1 2
+      - US美国(Youtube技术分享室) 62
+      - univstar-香港HKT-dip_2
+      - _US_G_459
+      - univstar-LAX-DMIT-nf_2
+      - US_434 TG@peekfun |29.26Mb
+      - _油管：全网最强白嫖 4
+      - US_8080 @WangCai_1
       - US_5003 @WangCai_1
+      - 香港 - HKG - 1x
+      - univstar-London-Misaka-dip
+      - US_5001 @WangCai_1
+      - ‌‌🇨🇦CA_5600 @WangCai_1
+      - US_416 TG@peekfun | 5.65Mb
+      - CN_205
+      - _US_美国 178
+      - US_8118 @WangCai_1
+      - t.me/wbnet_🇳🇱_NL_1423
+      - FR_424
+      - univstar-SG-Nerocloud-nf_2 2
+      - ‌‌🇨🇦CA_5601 @WangCai_1
+      - t.me/wbnet_🇳🇱_NL_1432
+      - 油管：最网最强白嫖_140
+      - FR_451
+      - US_8881 @WangCai_1
+      - US_423 TG@peekfun | 8.33Mb
+      - US_5500 @WangCai_1
+      - univstar-SG-Nerocloud-nf_2
+      - (Youtube技术分享室)🇺🇸美国 30
+      - 稳定③关注公众号：ios黑科技
+      - FR_477
+      - _油管：全网最强白嫖 5
+      - US_7002 @WangCai_1
+      - E|V1[移动]美国01
+      - _油管：全网最强白嫖 6
+      - 美国 优化 C 3.5
+      - US_8090 @WangCai_1
       - US_7001 @WangCai_1
-      - t.me/wbnet_🇵🇱_PL_821
-      - 欢迎订阅钱科技0528_🇨🇳_CN_中国_328
-      - US_5004 @WangCai_1 2
-      - 美国 优化 I 3.5
-      - 美国 优化 F 3.5
-      - 美国DO 01 | 解锁流媒体
-      - US_429 TG@peekfun |32.44Mb
-      - US_8000 @WangCai_1 2
-      - US_6679 @WangCai_1 3
-      - US_5601 @WangCai_1
-      - US_6697 @WangCai_1
+      - "[05-30]|oslook|美国(US)USA/Los+Angeles_31"
+      - US_9102 @WangCai_1
+      - univstar-SanJose-Misaka-dip 2
+      - _油管：全网最强白嫖 7
+      - US_8080 @WangCai_1 2
+      - 189-imLam.com-HK
+      - "[CT/CM] HKT A"
+      - 美国 优化-4
       - ZZ_519 TG@peekfun |31.16Mb
-      - US_426 TG@peekfun | 9.56Mb
-      - US_7306 @WangCai_1
-      - US_5600 @WangCai_1 2
-      - _GB_G_699
-      - _US_G_427
+      - _US_美国 192
+      - US_5004 @WangCai_1
       - US_7002 @WangCai_1 2
-      - t.me/wbnet_🇳🇱_NL_1402
-      - github.com/freefq - 美国Microsoft数据中心 10
-      - US_7001 @WangCai_1 2
-      - ZZ_528 TG@peekfun | 6.63Mb
-      - US_7306 @WangCai_1 2
-      - 油管：全网最强白嫖 4
-      - US_5601 @WangCai_1 2
-      - US_7001 @WangCai_1 3
-      - US_5601 @WangCai_1 3
+      - _CA_G_91
+      - _油管：全网最强白嫖 8
+      - US_8882 @WangCai_1
+      - _油管频道：全网最强白嫖_8
+      - "_油管频道：全网最强白嫖+62\r"
+      - 油管：全网最强白嫖
+      - ‌‌🇨🇦CA_6679 @WangCai_1
+      - ‌‌🇨🇦CA_7002 @WangCai_1
+      - ZZ_527 TG@peekfun |23.29Mb
+      - _CA_G_430
+      - 美国(TG频道:@kxswa)
+      - ZZ_530 TG@peekfun |32.89Mb
+      - _561_14.62Mb+|11.76Mb
+      - US_8118 @WangCai_1 2
+      - _PL_波兰_27
+      - ‌‌🇨🇦CA_8888 @WangCai_1
+      - univstar-SG-Tencent-nf_2
+      - ZZ_515 TG@peekfun |12.45Mb
+      - US_431 TG@peekfun |26.83Mb
+      - 美国 优化 F 3.5
+      - "_油管频道：全网最强白嫖+60\r"
+      - 油管：最网最强白嫖_77
+      - US_426 TG@peekfun | 9.56Mb
+      - t.me/wbnet_🇳🇱_NL_1405
+      - 美国(TG频道:@kxswa) 2
+      - _RU_俄罗斯联邦_2 4
+      - _US_美国_72
+      - _US美国_68
+      - _NL_荷兰_10
+      - CA加拿大(Youtube技术分享室) 19
+      - (Youtube技术分享室)🇨🇦加拿大 44
+      - _PL_波兰_8 7
+      - _NL_荷兰_22 2
+      - RU_1436
+      - mattkaydiary.com|美国(US)USA/San Jose
+      - 油管：全网最强白嫖 2
+      - t.me/wbnet_🇳🇱_NL_1420
+      - 美国_0528738
+      - 日本3-tg频道:@ripaojiedian
+      - US_5001 @WangCai_1 2
+      - US_8009 @WangCai_1
+      - ‌‌🇨🇦CA_5000 @WangCai_1
+      - LT_735
+      - _BG_保加利亚_5 5
+      - _BG_保加利亚_12 5
+      - _US_美国_4 43
+      - DE_245
+      - "_PL_wmt(5.31a)_81\r"
+      - RU_1435
+      - DE_306
+      - US_8091 @WangCai_1
+      - github.com/freefq - 美国华盛顿Cogent通信公司 52
+      - t.me/wbnet_🇳🇱_NL_1390
+      - t.me/wbnet_🇳🇱_NL_1422
+      - US_5004 @WangCai_1 2
+      - US_6697 @WangCai_1
+      - LT_833
+      - LT_783
+      - _BG_保加利亚_21
+      - _CA_加拿大_8 4
+      - US_5004@WangCai_1_1
+      - _US_美国_7 2
+      - 美国 优化 H 3.5
+      - 香港_2
+      - US_5001 @WangCai_1 3
+      - 欢迎订阅钱科技0530_🇯🇵_JP_日本_412
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - "[CT/CM] HKBN E"
-      - Oracle1-TCP-电信
-      - 油管：全网最强白嫖
-      - _油管频道：全网最强白嫖_10
-      - +(Youtube技术分享室)🇨🇳中国+5
-      - 油管：全网最强白嫖 2
-      - "[CT/CM] HKT N"
-      - CN_04
-      - "[CT/CM] HKT I"
-      - 台湾tj-tg频道:@ripaojiedian
-      - CN_197 |47.58Mb
-      - 香港 - HKG - 1x
-      - "[CT/CM]香港 14"
-      - "_油管频道：全网最强白嫖+60\r"
-      - "[CT/CM]香港 08"
-      - _油管频道：全网最强白嫖_4
-      - CN_181 | 8.73Mb
-      - 日本 - NTR - 1x
-      - "[CT/CM] HKBN A"
-      - "[CT/CM] HKBN B"
-      - Oracle1-TCP-联通
       - 备-香港 - BGP - 1x
-      - "[CT/CM] HKT L"
-      - "[CT/CM] HKT E"
-      - "[CT/CM] HKT K"
-      - 韩国 - Ceph BGP - 2x
-      - 美国 优化 D 3.5
-      - _CN_中国->🇸🇬_SG_新加坡
-      - _561_14.62Mb+|11.76Mb
-      - www.speedaccelerate.com 台湾 - 1x
-      - 备-台湾 - Hinet - 1x
-      - "[CT/CM]香港 17"
-      - 美国 优化 G 3.5
-      - "[CT/CM]香港 05"
-      - "[CT/CM]香港 01"
-      - _油管频道：全网最强白嫖_1
       - 备-香港 - HKG - 1x
-      - "[CT/CM] HKT B"
-      - 美国 优化 H 3.5
+      - 日本 - NTR - 1x
       - 香港V2ray(05)-3
-      - "[CT/CM]香港 13"
-      - "[CT/CM]香港 11"
-      - 美国 优化 C 3.5
-      - "[CT/CM]香港 04"
-      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_19
-      - 美国 优化-2
-      - 美国 优化-3
-      - 新加坡 - SIN - 1x
-      - 日本 Azure A 2.5x
-      - "[CT/CM] HKT H"
-      - "[CT/CM]香港 15"
-      - ZZ_517 TG@peekfun |33.97Mb
-      - US_5000 @WangCai_1
-      - _油管频道：全网最强白嫖_8
       - 日本 - NTRB - 1x
-      - 香港
-      - t.me/wbnet_🇳🇱_NL_1330
-      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_44
-      - US_8118 @WangCai_1
-      - 日本 Azure B 2.5x
-      - US_8009 @WangCai_1
-      - _US_G_459
-      - US_6379 @WangCai_1
-      - (Youtube技术分享室)🇺🇸美国 81
-      - TW_https://1808.gaNode_18
-      - 香港 icable 移动01
-      - US_5001 @WangCai_1
-      - US_6679 @WangCai_1
-      - t.me/wbnet_🇳🇱_NL_1332
-      - 007
-      - 日本3-tg频道:@ripaojiedian
-      - US_6679 @WangCai_1 2
-      - US_9102 @WangCai_1
-      - US_5600 @WangCai_1
-      - 油管：全网最强白嫖 3
-      - 美国 优化-4
-      - US_9102 @WangCai_1 2
-      - _GB_G_708
-      - t.me/wbnet_🇳🇱_NL_1327
-      - ZZ_532 TG@peekfun |33.78Mb
-      - 韩国
-      - US_3389 @WangCai_1
-      - US_5004 @WangCai_1
-      - ZZ_524 TG@peekfun |34.99Mb
-      - _US_G_460
-      - default_name 38
-      - US_418 TG@peekfun |33.70Mb
-      - _US_G_747
+      - default_name
+      - CN_115
+      - univstar-香港HKT-dip 2
+      - "[CT/CM]香港 14"
       - 台湾_0529001
-      - ZZ_510 TG@peekfun |33.23Mb
-      - CN_205
-      - TG频道|https://t.me/getv2ray|1号
-      - US_8080 @WangCai_1
-      - US_438 TG@peekfun |33.61Mb
-      - US_8000 @WangCai_1
-      - US_449 TG@peekfun | 7.39Mb
-      - US_7002 @WangCai_1
-      - US_450 TG@peekfun |28.90Mb
+      - "[CT/CM]香港 05"
+      - 新加坡 - SIN - 1x
+      - _339_22.30Mb+|+7.90Mb
+      - CN_181 | 8.73Mb
+      - CN_187 |30.33Mb
+      - Oracle1-TCP-电信
+      - www.speedaccelerate.com 台湾 - 1x
+      - "[CT/CM]香港 15"
+      - "|65.86Mb\r"
+      - _油管：全网最强白嫖
+      - US_437 TG@peekfun |28.58Mb
+      - 稳定⑥关注公众号：ios黑科技
+      - "_油管频道：全网最强白嫖+61\r"
+      - "[CT/CM]香港 04"
+      - _油管：全网最强白嫖 2
+      - US_418 TG@peekfun |33.70Mb
+      - ZZ_524 TG@peekfun |34.99Mb
+      - 油管：最网最强白嫖_8
+      - univstar-香港HKT-dip
+      - "_油管频道：全网最强白嫖+55\r"
+      - US_2375 @WangCai_1
+      - US_435 TG@peekfun |27.00Mb
+      - univstar-SG-Nerocloud-nf_4
+      - _CA_G_190
+      - univstar-LAX-DMIT-nf_3
+      - US_2375 @WangCai_1 2
+      - univstar-SG-Nerocloud-nf_1
+      - univstar-LAX-DMIT-nf
+      - univstar-香港HGC-dip
+      - github.com/freefq - 北美地区  77
+      - HINET/AZHK
+      - _油管：全网最强白嫖 3
+      - FR_493
+      - _US_美国 187
+      - US_5000 @WangCai_1
+      - 美国 优化 D 3.5
+      - US_456 TG@peekfun |28.81Mb
       - ZZ_525 TG@peekfun |12.35Mb
-      - US_8118 @WangCai_1 2
-      - t.me/wbnet_🇳🇱_NL_1411
-      - US_8009 @WangCai_1 2
-      - github.com/freefq - 香港阿里云 1
-      - 欢迎订阅钱科技0530_🇺🇸_US_美国_610
-      - US_8009 @WangCai_1 3
-      - US_5000 @WangCai_1 2
-      - US_8119 @WangCai_1
-      - t.me/wbnet_🇳🇱_NL_1393
-      - US_455 TG@peekfun |32.47Mb
-      - US_0443 @WangCai_1
-      - US_8888 @WangCai_1
-      - US_8008 @WangCai_1
-      - _US_美国 197
-      - US_5001 @WangCai_1 2
+      - US美国(Youtube技术分享室) 62
+      - univstar-香港HKT-dip_2
+      - _US_G_459
+      - univstar-LAX-DMIT-nf_2
+      - US_434 TG@peekfun |29.26Mb
+      - _油管：全网最强白嫖 4
+      - US_8080 @WangCai_1
       - US_5003 @WangCai_1
+      - 香港 - HKG - 1x
+      - univstar-London-Misaka-dip
+      - US_5001 @WangCai_1
+      - ‌‌🇨🇦CA_5600 @WangCai_1
+      - US_416 TG@peekfun | 5.65Mb
+      - CN_205
+      - _US_美国 178
+      - US_8118 @WangCai_1
+      - t.me/wbnet_🇳🇱_NL_1423
+      - FR_424
+      - univstar-SG-Nerocloud-nf_2 2
+      - ‌‌🇨🇦CA_5601 @WangCai_1
+      - t.me/wbnet_🇳🇱_NL_1432
+      - 油管：最网最强白嫖_140
+      - FR_451
+      - US_8881 @WangCai_1
+      - US_423 TG@peekfun | 8.33Mb
+      - US_5500 @WangCai_1
+      - univstar-SG-Nerocloud-nf_2
+      - (Youtube技术分享室)🇺🇸美国 30
+      - 稳定③关注公众号：ios黑科技
+      - FR_477
+      - _油管：全网最强白嫖 5
+      - US_7002 @WangCai_1
+      - E|V1[移动]美国01
+      - _油管：全网最强白嫖 6
+      - 美国 优化 C 3.5
+      - US_8090 @WangCai_1
       - US_7001 @WangCai_1
-      - t.me/wbnet_🇵🇱_PL_821
-      - 欢迎订阅钱科技0528_🇨🇳_CN_中国_328
-      - US_5004 @WangCai_1 2
-      - 美国 优化 I 3.5
-      - 美国 优化 F 3.5
-      - 美国DO 01 | 解锁流媒体
-      - US_429 TG@peekfun |32.44Mb
-      - US_8000 @WangCai_1 2
-      - US_6679 @WangCai_1 3
-      - US_5601 @WangCai_1
-      - US_6697 @WangCai_1
+      - "[05-30]|oslook|美国(US)USA/Los+Angeles_31"
+      - US_9102 @WangCai_1
+      - univstar-SanJose-Misaka-dip 2
+      - _油管：全网最强白嫖 7
+      - US_8080 @WangCai_1 2
+      - 189-imLam.com-HK
+      - "[CT/CM] HKT A"
+      - 美国 优化-4
       - ZZ_519 TG@peekfun |31.16Mb
-      - US_426 TG@peekfun | 9.56Mb
-      - US_7306 @WangCai_1
-      - US_5600 @WangCai_1 2
-      - _GB_G_699
-      - _US_G_427
+      - _US_美国 192
+      - US_5004 @WangCai_1
       - US_7002 @WangCai_1 2
-      - t.me/wbnet_🇳🇱_NL_1402
-      - github.com/freefq - 美国Microsoft数据中心 10
-      - US_7001 @WangCai_1 2
-      - ZZ_528 TG@peekfun | 6.63Mb
-      - US_7306 @WangCai_1 2
-      - 油管：全网最强白嫖 4
-      - US_5601 @WangCai_1 2
-      - US_7001 @WangCai_1 3
-      - US_5601 @WangCai_1 3
+      - _CA_G_91
+      - _油管：全网最强白嫖 8
+      - US_8882 @WangCai_1
+      - _油管频道：全网最强白嫖_8
+      - "_油管频道：全网最强白嫖+62\r"
+      - 油管：全网最强白嫖
+      - ‌‌🇨🇦CA_6679 @WangCai_1
+      - ‌‌🇨🇦CA_7002 @WangCai_1
+      - ZZ_527 TG@peekfun |23.29Mb
+      - _CA_G_430
+      - 美国(TG频道:@kxswa)
+      - ZZ_530 TG@peekfun |32.89Mb
+      - _561_14.62Mb+|11.76Mb
+      - US_8118 @WangCai_1 2
+      - _PL_波兰_27
+      - ‌‌🇨🇦CA_8888 @WangCai_1
+      - univstar-SG-Tencent-nf_2
+      - ZZ_515 TG@peekfun |12.45Mb
+      - US_431 TG@peekfun |26.83Mb
+      - 美国 优化 F 3.5
+      - "_油管频道：全网最强白嫖+60\r"
+      - 油管：最网最强白嫖_77
+      - US_426 TG@peekfun | 9.56Mb
+      - t.me/wbnet_🇳🇱_NL_1405
+      - 美国(TG频道:@kxswa) 2
+      - _RU_俄罗斯联邦_2 4
+      - _US_美国_72
+      - _US美国_68
+      - _NL_荷兰_10
+      - CA加拿大(Youtube技术分享室) 19
+      - (Youtube技术分享室)🇨🇦加拿大 44
+      - _PL_波兰_8 7
+      - _NL_荷兰_22 2
+      - RU_1436
+      - mattkaydiary.com|美国(US)USA/San Jose
+      - 油管：全网最强白嫖 2
+      - t.me/wbnet_🇳🇱_NL_1420
+      - 美国_0528738
+      - 日本3-tg频道:@ripaojiedian
+      - US_5001 @WangCai_1 2
+      - US_8009 @WangCai_1
+      - ‌‌🇨🇦CA_5000 @WangCai_1
+      - LT_735
+      - _BG_保加利亚_5 5
+      - _BG_保加利亚_12 5
+      - _US_美国_4 43
+      - DE_245
+      - "_PL_wmt(5.31a)_81\r"
+      - RU_1435
+      - DE_306
+      - US_8091 @WangCai_1
+      - github.com/freefq - 美国华盛顿Cogent通信公司 52
+      - t.me/wbnet_🇳🇱_NL_1390
+      - t.me/wbnet_🇳🇱_NL_1422
+      - US_5004 @WangCai_1 2
+      - US_6697 @WangCai_1
+      - LT_833
+      - LT_783
+      - _BG_保加利亚_21
+      - _CA_加拿大_8 4
+      - US_5004@WangCai_1_1
+      - _US_美国_7 2
+      - 美国 优化 H 3.5
+      - 香港_2
+      - US_5001 @WangCai_1 3
+      - 欢迎订阅钱科技0530_🇯🇵_JP_日本_412
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "[CT/CM] HKBN E"
-      - Oracle1-TCP-电信
-      - 油管：全网最强白嫖
-      - _油管频道：全网最强白嫖_10
-      - +(Youtube技术分享室)🇨🇳中国+5
-      - 油管：全网最强白嫖 2
-      - "[CT/CM] HKT N"
-      - CN_04
-      - "[CT/CM] HKT I"
-      - 台湾tj-tg频道:@ripaojiedian
-      - CN_197 |47.58Mb
-      - 香港 - HKG - 1x
-      - "[CT/CM]香港 14"
-      - "_油管频道：全网最强白嫖+60\r"
-      - "[CT/CM]香港 08"
-      - _油管频道：全网最强白嫖_4
-      - CN_181 | 8.73Mb
-      - 日本 - NTR - 1x
-      - "[CT/CM] HKBN A"
-      - "[CT/CM] HKBN B"
-      - Oracle1-TCP-联通
       - 备-香港 - BGP - 1x
-      - "[CT/CM] HKT L"
-      - "[CT/CM] HKT E"
-      - "[CT/CM] HKT K"
-      - 韩国 - Ceph BGP - 2x
-      - 美国 优化 D 3.5
-      - _CN_中国->🇸🇬_SG_新加坡
-      - _561_14.62Mb+|11.76Mb
-      - www.speedaccelerate.com 台湾 - 1x
-      - 备-台湾 - Hinet - 1x
-      - "[CT/CM]香港 17"
-      - 美国 优化 G 3.5
-      - "[CT/CM]香港 05"
-      - "[CT/CM]香港 01"
-      - _油管频道：全网最强白嫖_1
       - 备-香港 - HKG - 1x
-      - "[CT/CM] HKT B"
-      - 美国 优化 H 3.5
+      - 日本 - NTR - 1x
       - 香港V2ray(05)-3
-      - "[CT/CM]香港 13"
-      - "[CT/CM]香港 11"
-      - 美国 优化 C 3.5
-      - "[CT/CM]香港 04"
-      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_19
-      - 美国 优化-2
-      - 美国 优化-3
-      - 新加坡 - SIN - 1x
-      - 日本 Azure A 2.5x
-      - "[CT/CM] HKT H"
-      - "[CT/CM]香港 15"
-      - ZZ_517 TG@peekfun |33.97Mb
-      - US_5000 @WangCai_1
-      - _油管频道：全网最强白嫖_8
       - 日本 - NTRB - 1x
-      - 香港
-      - t.me/wbnet_🇳🇱_NL_1330
-      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_44
-      - US_8118 @WangCai_1
-      - 日本 Azure B 2.5x
-      - US_8009 @WangCai_1
-      - _US_G_459
-      - US_6379 @WangCai_1
-      - (Youtube技术分享室)🇺🇸美国 81
-      - TW_https://1808.gaNode_18
-      - 香港 icable 移动01
-      - US_5001 @WangCai_1
-      - US_6679 @WangCai_1
-      - t.me/wbnet_🇳🇱_NL_1332
-      - 007
-      - 日本3-tg频道:@ripaojiedian
-      - US_6679 @WangCai_1 2
-      - US_9102 @WangCai_1
-      - US_5600 @WangCai_1
-      - 油管：全网最强白嫖 3
-      - 美国 优化-4
-      - US_9102 @WangCai_1 2
-      - _GB_G_708
-      - t.me/wbnet_🇳🇱_NL_1327
-      - ZZ_532 TG@peekfun |33.78Mb
-      - 韩国
-      - US_3389 @WangCai_1
-      - US_5004 @WangCai_1
-      - ZZ_524 TG@peekfun |34.99Mb
-      - _US_G_460
-      - default_name 38
-      - US_418 TG@peekfun |33.70Mb
-      - _US_G_747
+      - default_name
+      - CN_115
+      - univstar-香港HKT-dip 2
+      - "[CT/CM]香港 14"
       - 台湾_0529001
-      - ZZ_510 TG@peekfun |33.23Mb
-      - CN_205
-      - TG频道|https://t.me/getv2ray|1号
-      - US_8080 @WangCai_1
-      - US_438 TG@peekfun |33.61Mb
-      - US_8000 @WangCai_1
-      - US_449 TG@peekfun | 7.39Mb
-      - US_7002 @WangCai_1
-      - US_450 TG@peekfun |28.90Mb
+      - "[CT/CM]香港 05"
+      - 新加坡 - SIN - 1x
+      - _339_22.30Mb+|+7.90Mb
+      - CN_181 | 8.73Mb
+      - CN_187 |30.33Mb
+      - Oracle1-TCP-电信
+      - www.speedaccelerate.com 台湾 - 1x
+      - "[CT/CM]香港 15"
+      - "|65.86Mb\r"
+      - _油管：全网最强白嫖
+      - US_437 TG@peekfun |28.58Mb
+      - 稳定⑥关注公众号：ios黑科技
+      - "_油管频道：全网最强白嫖+61\r"
+      - "[CT/CM]香港 04"
+      - _油管：全网最强白嫖 2
+      - US_418 TG@peekfun |33.70Mb
+      - ZZ_524 TG@peekfun |34.99Mb
+      - 油管：最网最强白嫖_8
+      - univstar-香港HKT-dip
+      - "_油管频道：全网最强白嫖+55\r"
+      - US_2375 @WangCai_1
+      - US_435 TG@peekfun |27.00Mb
+      - univstar-SG-Nerocloud-nf_4
+      - _CA_G_190
+      - univstar-LAX-DMIT-nf_3
+      - US_2375 @WangCai_1 2
+      - univstar-SG-Nerocloud-nf_1
+      - univstar-LAX-DMIT-nf
+      - univstar-香港HGC-dip
+      - github.com/freefq - 北美地区  77
+      - HINET/AZHK
+      - _油管：全网最强白嫖 3
+      - FR_493
+      - _US_美国 187
+      - US_5000 @WangCai_1
+      - 美国 优化 D 3.5
+      - US_456 TG@peekfun |28.81Mb
       - ZZ_525 TG@peekfun |12.35Mb
-      - US_8118 @WangCai_1 2
-      - t.me/wbnet_🇳🇱_NL_1411
-      - US_8009 @WangCai_1 2
-      - github.com/freefq - 香港阿里云 1
-      - 欢迎订阅钱科技0530_🇺🇸_US_美国_610
-      - US_8009 @WangCai_1 3
-      - US_5000 @WangCai_1 2
-      - US_8119 @WangCai_1
-      - t.me/wbnet_🇳🇱_NL_1393
-      - US_455 TG@peekfun |32.47Mb
-      - US_0443 @WangCai_1
-      - US_8888 @WangCai_1
-      - US_8008 @WangCai_1
-      - _US_美国 197
-      - US_5001 @WangCai_1 2
+      - US美国(Youtube技术分享室) 62
+      - univstar-香港HKT-dip_2
+      - _US_G_459
+      - univstar-LAX-DMIT-nf_2
+      - US_434 TG@peekfun |29.26Mb
+      - _油管：全网最强白嫖 4
+      - US_8080 @WangCai_1
       - US_5003 @WangCai_1
+      - 香港 - HKG - 1x
+      - univstar-London-Misaka-dip
+      - US_5001 @WangCai_1
+      - ‌‌🇨🇦CA_5600 @WangCai_1
+      - US_416 TG@peekfun | 5.65Mb
+      - CN_205
+      - _US_美国 178
+      - US_8118 @WangCai_1
+      - t.me/wbnet_🇳🇱_NL_1423
+      - FR_424
+      - univstar-SG-Nerocloud-nf_2 2
+      - ‌‌🇨🇦CA_5601 @WangCai_1
+      - t.me/wbnet_🇳🇱_NL_1432
+      - 油管：最网最强白嫖_140
+      - FR_451
+      - US_8881 @WangCai_1
+      - US_423 TG@peekfun | 8.33Mb
+      - US_5500 @WangCai_1
+      - univstar-SG-Nerocloud-nf_2
+      - (Youtube技术分享室)🇺🇸美国 30
+      - 稳定③关注公众号：ios黑科技
+      - FR_477
+      - _油管：全网最强白嫖 5
+      - US_7002 @WangCai_1
+      - E|V1[移动]美国01
+      - _油管：全网最强白嫖 6
+      - 美国 优化 C 3.5
+      - US_8090 @WangCai_1
       - US_7001 @WangCai_1
-      - t.me/wbnet_🇵🇱_PL_821
-      - 欢迎订阅钱科技0528_🇨🇳_CN_中国_328
-      - US_5004 @WangCai_1 2
-      - 美国 优化 I 3.5
-      - 美国 优化 F 3.5
-      - 美国DO 01 | 解锁流媒体
-      - US_429 TG@peekfun |32.44Mb
-      - US_8000 @WangCai_1 2
-      - US_6679 @WangCai_1 3
-      - US_5601 @WangCai_1
-      - US_6697 @WangCai_1
+      - "[05-30]|oslook|美国(US)USA/Los+Angeles_31"
+      - US_9102 @WangCai_1
+      - univstar-SanJose-Misaka-dip 2
+      - _油管：全网最强白嫖 7
+      - US_8080 @WangCai_1 2
+      - 189-imLam.com-HK
+      - "[CT/CM] HKT A"
+      - 美国 优化-4
       - ZZ_519 TG@peekfun |31.16Mb
-      - US_426 TG@peekfun | 9.56Mb
-      - US_7306 @WangCai_1
-      - US_5600 @WangCai_1 2
-      - _GB_G_699
-      - _US_G_427
+      - _US_美国 192
+      - US_5004 @WangCai_1
       - US_7002 @WangCai_1 2
-      - t.me/wbnet_🇳🇱_NL_1402
-      - github.com/freefq - 美国Microsoft数据中心 10
-      - US_7001 @WangCai_1 2
-      - ZZ_528 TG@peekfun | 6.63Mb
-      - US_7306 @WangCai_1 2
-      - 油管：全网最强白嫖 4
-      - US_5601 @WangCai_1 2
-      - US_7001 @WangCai_1 3
-      - US_5601 @WangCai_1 3
+      - _CA_G_91
+      - _油管：全网最强白嫖 8
+      - US_8882 @WangCai_1
+      - _油管频道：全网最强白嫖_8
+      - "_油管频道：全网最强白嫖+62\r"
+      - 油管：全网最强白嫖
+      - ‌‌🇨🇦CA_6679 @WangCai_1
+      - ‌‌🇨🇦CA_7002 @WangCai_1
+      - ZZ_527 TG@peekfun |23.29Mb
+      - _CA_G_430
+      - 美国(TG频道:@kxswa)
+      - ZZ_530 TG@peekfun |32.89Mb
+      - _561_14.62Mb+|11.76Mb
+      - US_8118 @WangCai_1 2
+      - _PL_波兰_27
+      - ‌‌🇨🇦CA_8888 @WangCai_1
+      - univstar-SG-Tencent-nf_2
+      - ZZ_515 TG@peekfun |12.45Mb
+      - US_431 TG@peekfun |26.83Mb
+      - 美国 优化 F 3.5
+      - "_油管频道：全网最强白嫖+60\r"
+      - 油管：最网最强白嫖_77
+      - US_426 TG@peekfun | 9.56Mb
+      - t.me/wbnet_🇳🇱_NL_1405
+      - 美国(TG频道:@kxswa) 2
+      - _RU_俄罗斯联邦_2 4
+      - _US_美国_72
+      - _US美国_68
+      - _NL_荷兰_10
+      - CA加拿大(Youtube技术分享室) 19
+      - (Youtube技术分享室)🇨🇦加拿大 44
+      - _PL_波兰_8 7
+      - _NL_荷兰_22 2
+      - RU_1436
+      - mattkaydiary.com|美国(US)USA/San Jose
+      - 油管：全网最强白嫖 2
+      - t.me/wbnet_🇳🇱_NL_1420
+      - 美国_0528738
+      - 日本3-tg频道:@ripaojiedian
+      - US_5001 @WangCai_1 2
+      - US_8009 @WangCai_1
+      - ‌‌🇨🇦CA_5000 @WangCai_1
+      - LT_735
+      - _BG_保加利亚_5 5
+      - _BG_保加利亚_12 5
+      - _US_美国_4 43
+      - DE_245
+      - "_PL_wmt(5.31a)_81\r"
+      - RU_1435
+      - DE_306
+      - US_8091 @WangCai_1
+      - github.com/freefq - 美国华盛顿Cogent通信公司 52
+      - t.me/wbnet_🇳🇱_NL_1390
+      - t.me/wbnet_🇳🇱_NL_1422
+      - US_5004 @WangCai_1 2
+      - US_6697 @WangCai_1
+      - LT_833
+      - LT_783
+      - _BG_保加利亚_21
+      - _CA_加拿大_8 4
+      - US_5004@WangCai_1_1
+      - _US_美国_7 2
+      - 美国 优化 H 3.5
+      - 香港_2
+      - US_5001 @WangCai_1 3
+      - 欢迎订阅钱科技0530_🇯🇵_JP_日本_412
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1250,149 +1396,169 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "[CT/CM] HKBN E"
-      - Oracle1-TCP-电信
-      - 油管：全网最强白嫖
-      - _油管频道：全网最强白嫖_10
-      - +(Youtube技术分享室)🇨🇳中国+5
-      - 油管：全网最强白嫖 2
-      - "[CT/CM] HKT N"
-      - CN_04
-      - "[CT/CM] HKT I"
-      - 台湾tj-tg频道:@ripaojiedian
-      - CN_197 |47.58Mb
-      - 香港 - HKG - 1x
-      - "[CT/CM]香港 14"
-      - "_油管频道：全网最强白嫖+60\r"
-      - "[CT/CM]香港 08"
-      - _油管频道：全网最强白嫖_4
-      - CN_181 | 8.73Mb
-      - 日本 - NTR - 1x
-      - "[CT/CM] HKBN A"
-      - "[CT/CM] HKBN B"
-      - Oracle1-TCP-联通
       - 备-香港 - BGP - 1x
-      - "[CT/CM] HKT L"
-      - "[CT/CM] HKT E"
-      - "[CT/CM] HKT K"
-      - 韩国 - Ceph BGP - 2x
-      - 美国 优化 D 3.5
-      - _CN_中国->🇸🇬_SG_新加坡
-      - _561_14.62Mb+|11.76Mb
-      - www.speedaccelerate.com 台湾 - 1x
-      - 备-台湾 - Hinet - 1x
-      - "[CT/CM]香港 17"
-      - 美国 优化 G 3.5
-      - "[CT/CM]香港 05"
-      - "[CT/CM]香港 01"
-      - _油管频道：全网最强白嫖_1
       - 备-香港 - HKG - 1x
-      - "[CT/CM] HKT B"
-      - 美国 优化 H 3.5
+      - 日本 - NTR - 1x
       - 香港V2ray(05)-3
-      - "[CT/CM]香港 13"
-      - "[CT/CM]香港 11"
-      - 美国 优化 C 3.5
-      - "[CT/CM]香港 04"
-      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_19
-      - 美国 优化-2
-      - 美国 优化-3
-      - 新加坡 - SIN - 1x
-      - 日本 Azure A 2.5x
-      - "[CT/CM] HKT H"
-      - "[CT/CM]香港 15"
-      - ZZ_517 TG@peekfun |33.97Mb
-      - US_5000 @WangCai_1
-      - _油管频道：全网最强白嫖_8
       - 日本 - NTRB - 1x
-      - 香港
-      - t.me/wbnet_🇳🇱_NL_1330
-      - 欢迎订阅钱科技0529_🇨🇳_CN_中国_44
-      - US_8118 @WangCai_1
-      - 日本 Azure B 2.5x
-      - US_8009 @WangCai_1
-      - _US_G_459
-      - US_6379 @WangCai_1
-      - (Youtube技术分享室)🇺🇸美国 81
-      - TW_https://1808.gaNode_18
-      - 香港 icable 移动01
-      - US_5001 @WangCai_1
-      - US_6679 @WangCai_1
-      - t.me/wbnet_🇳🇱_NL_1332
-      - 007
-      - 日本3-tg频道:@ripaojiedian
-      - US_6679 @WangCai_1 2
-      - US_9102 @WangCai_1
-      - US_5600 @WangCai_1
-      - 油管：全网最强白嫖 3
-      - 美国 优化-4
-      - US_9102 @WangCai_1 2
-      - _GB_G_708
-      - t.me/wbnet_🇳🇱_NL_1327
-      - ZZ_532 TG@peekfun |33.78Mb
-      - 韩国
-      - US_3389 @WangCai_1
-      - US_5004 @WangCai_1
-      - ZZ_524 TG@peekfun |34.99Mb
-      - _US_G_460
-      - default_name 38
-      - US_418 TG@peekfun |33.70Mb
-      - _US_G_747
+      - default_name
+      - CN_115
+      - univstar-香港HKT-dip 2
+      - "[CT/CM]香港 14"
       - 台湾_0529001
-      - ZZ_510 TG@peekfun |33.23Mb
-      - CN_205
-      - TG频道|https://t.me/getv2ray|1号
-      - US_8080 @WangCai_1
-      - US_438 TG@peekfun |33.61Mb
-      - US_8000 @WangCai_1
-      - US_449 TG@peekfun | 7.39Mb
-      - US_7002 @WangCai_1
-      - US_450 TG@peekfun |28.90Mb
+      - "[CT/CM]香港 05"
+      - 新加坡 - SIN - 1x
+      - _339_22.30Mb+|+7.90Mb
+      - CN_181 | 8.73Mb
+      - CN_187 |30.33Mb
+      - Oracle1-TCP-电信
+      - www.speedaccelerate.com 台湾 - 1x
+      - "[CT/CM]香港 15"
+      - "|65.86Mb\r"
+      - _油管：全网最强白嫖
+      - US_437 TG@peekfun |28.58Mb
+      - 稳定⑥关注公众号：ios黑科技
+      - "_油管频道：全网最强白嫖+61\r"
+      - "[CT/CM]香港 04"
+      - _油管：全网最强白嫖 2
+      - US_418 TG@peekfun |33.70Mb
+      - ZZ_524 TG@peekfun |34.99Mb
+      - 油管：最网最强白嫖_8
+      - univstar-香港HKT-dip
+      - "_油管频道：全网最强白嫖+55\r"
+      - US_2375 @WangCai_1
+      - US_435 TG@peekfun |27.00Mb
+      - univstar-SG-Nerocloud-nf_4
+      - _CA_G_190
+      - univstar-LAX-DMIT-nf_3
+      - US_2375 @WangCai_1 2
+      - univstar-SG-Nerocloud-nf_1
+      - univstar-LAX-DMIT-nf
+      - univstar-香港HGC-dip
+      - github.com/freefq - 北美地区  77
+      - HINET/AZHK
+      - _油管：全网最强白嫖 3
+      - FR_493
+      - _US_美国 187
+      - US_5000 @WangCai_1
+      - 美国 优化 D 3.5
+      - US_456 TG@peekfun |28.81Mb
       - ZZ_525 TG@peekfun |12.35Mb
-      - US_8118 @WangCai_1 2
-      - t.me/wbnet_🇳🇱_NL_1411
-      - US_8009 @WangCai_1 2
-      - github.com/freefq - 香港阿里云 1
-      - 欢迎订阅钱科技0530_🇺🇸_US_美国_610
-      - US_8009 @WangCai_1 3
-      - US_5000 @WangCai_1 2
-      - US_8119 @WangCai_1
-      - t.me/wbnet_🇳🇱_NL_1393
-      - US_455 TG@peekfun |32.47Mb
-      - US_0443 @WangCai_1
-      - US_8888 @WangCai_1
-      - US_8008 @WangCai_1
-      - _US_美国 197
-      - US_5001 @WangCai_1 2
+      - US美国(Youtube技术分享室) 62
+      - univstar-香港HKT-dip_2
+      - _US_G_459
+      - univstar-LAX-DMIT-nf_2
+      - US_434 TG@peekfun |29.26Mb
+      - _油管：全网最强白嫖 4
+      - US_8080 @WangCai_1
       - US_5003 @WangCai_1
+      - 香港 - HKG - 1x
+      - univstar-London-Misaka-dip
+      - US_5001 @WangCai_1
+      - ‌‌🇨🇦CA_5600 @WangCai_1
+      - US_416 TG@peekfun | 5.65Mb
+      - CN_205
+      - _US_美国 178
+      - US_8118 @WangCai_1
+      - t.me/wbnet_🇳🇱_NL_1423
+      - FR_424
+      - univstar-SG-Nerocloud-nf_2 2
+      - ‌‌🇨🇦CA_5601 @WangCai_1
+      - t.me/wbnet_🇳🇱_NL_1432
+      - 油管：最网最强白嫖_140
+      - FR_451
+      - US_8881 @WangCai_1
+      - US_423 TG@peekfun | 8.33Mb
+      - US_5500 @WangCai_1
+      - univstar-SG-Nerocloud-nf_2
+      - (Youtube技术分享室)🇺🇸美国 30
+      - 稳定③关注公众号：ios黑科技
+      - FR_477
+      - _油管：全网最强白嫖 5
+      - US_7002 @WangCai_1
+      - E|V1[移动]美国01
+      - _油管：全网最强白嫖 6
+      - 美国 优化 C 3.5
+      - US_8090 @WangCai_1
       - US_7001 @WangCai_1
-      - t.me/wbnet_🇵🇱_PL_821
-      - 欢迎订阅钱科技0528_🇨🇳_CN_中国_328
-      - US_5004 @WangCai_1 2
-      - 美国 优化 I 3.5
-      - 美国 优化 F 3.5
-      - 美国DO 01 | 解锁流媒体
-      - US_429 TG@peekfun |32.44Mb
-      - US_8000 @WangCai_1 2
-      - US_6679 @WangCai_1 3
-      - US_5601 @WangCai_1
-      - US_6697 @WangCai_1
+      - "[05-30]|oslook|美国(US)USA/Los+Angeles_31"
+      - US_9102 @WangCai_1
+      - univstar-SanJose-Misaka-dip 2
+      - _油管：全网最强白嫖 7
+      - US_8080 @WangCai_1 2
+      - 189-imLam.com-HK
+      - "[CT/CM] HKT A"
+      - 美国 优化-4
       - ZZ_519 TG@peekfun |31.16Mb
-      - US_426 TG@peekfun | 9.56Mb
-      - US_7306 @WangCai_1
-      - US_5600 @WangCai_1 2
-      - _GB_G_699
-      - _US_G_427
+      - _US_美国 192
+      - US_5004 @WangCai_1
       - US_7002 @WangCai_1 2
-      - t.me/wbnet_🇳🇱_NL_1402
-      - github.com/freefq - 美国Microsoft数据中心 10
-      - US_7001 @WangCai_1 2
-      - ZZ_528 TG@peekfun | 6.63Mb
-      - US_7306 @WangCai_1 2
-      - 油管：全网最强白嫖 4
-      - US_5601 @WangCai_1 2
-      - US_7001 @WangCai_1 3
-      - US_5601 @WangCai_1 3
+      - _CA_G_91
+      - _油管：全网最强白嫖 8
+      - US_8882 @WangCai_1
+      - _油管频道：全网最强白嫖_8
+      - "_油管频道：全网最强白嫖+62\r"
+      - 油管：全网最强白嫖
+      - ‌‌🇨🇦CA_6679 @WangCai_1
+      - ‌‌🇨🇦CA_7002 @WangCai_1
+      - ZZ_527 TG@peekfun |23.29Mb
+      - _CA_G_430
+      - 美国(TG频道:@kxswa)
+      - ZZ_530 TG@peekfun |32.89Mb
+      - _561_14.62Mb+|11.76Mb
+      - US_8118 @WangCai_1 2
+      - _PL_波兰_27
+      - ‌‌🇨🇦CA_8888 @WangCai_1
+      - univstar-SG-Tencent-nf_2
+      - ZZ_515 TG@peekfun |12.45Mb
+      - US_431 TG@peekfun |26.83Mb
+      - 美国 优化 F 3.5
+      - "_油管频道：全网最强白嫖+60\r"
+      - 油管：最网最强白嫖_77
+      - US_426 TG@peekfun | 9.56Mb
+      - t.me/wbnet_🇳🇱_NL_1405
+      - 美国(TG频道:@kxswa) 2
+      - _RU_俄罗斯联邦_2 4
+      - _US_美国_72
+      - _US美国_68
+      - _NL_荷兰_10
+      - CA加拿大(Youtube技术分享室) 19
+      - (Youtube技术分享室)🇨🇦加拿大 44
+      - _PL_波兰_8 7
+      - _NL_荷兰_22 2
+      - RU_1436
+      - mattkaydiary.com|美国(US)USA/San Jose
+      - 油管：全网最强白嫖 2
+      - t.me/wbnet_🇳🇱_NL_1420
+      - 美国_0528738
+      - 日本3-tg频道:@ripaojiedian
+      - US_5001 @WangCai_1 2
+      - US_8009 @WangCai_1
+      - ‌‌🇨🇦CA_5000 @WangCai_1
+      - LT_735
+      - _BG_保加利亚_5 5
+      - _BG_保加利亚_12 5
+      - _US_美国_4 43
+      - DE_245
+      - "_PL_wmt(5.31a)_81\r"
+      - RU_1435
+      - DE_306
+      - US_8091 @WangCai_1
+      - github.com/freefq - 美国华盛顿Cogent通信公司 52
+      - t.me/wbnet_🇳🇱_NL_1390
+      - t.me/wbnet_🇳🇱_NL_1422
+      - US_5004 @WangCai_1 2
+      - US_6697 @WangCai_1
+      - LT_833
+      - LT_783
+      - _BG_保加利亚_21
+      - _CA_加拿大_8 4
+      - US_5004@WangCai_1_1
+      - _US_美国_7 2
+      - 美国 优化 H 3.5
+      - 香港_2
+      - US_5001 @WangCai_1 3
+      - 欢迎订阅钱科技0530_🇯🇵_JP_日本_412
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
